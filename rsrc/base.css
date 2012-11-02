@@ -1,0 +1,122 @@
+/* UX2012: base.css */
+
+BODY{
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
+	background:#fff;
+	font-size:12pt;
+	padding:0; margin:0; 
+	
+}
+
+.mainhead, ,mainhead2, mainhead3, .mainbody, .mainfoot{
+	overflow:hidden;
+	clear: both; 
+}
+
+.mbody{
+	width:840px;
+	margin:0 auto;
+	position:relative; overflow: hidden; zoom:1;
+/*	float:left;*/
+}
+
+.mainfoot{
+	padding-bottom:40pt;
+}
+
+
+.layoutFull,
+.layoutCenter,
+.layoutContentEtc,
+.layoutEtcContent,
+.layoutMainSide,
+.layoutSideMain {
+	overflow:hidden; zoom:1;
+	}
+
+
+.layoutContentEtc .colContent,
+.layoutEtcContent .colEtc,
+.layoutMainSide .colMain,
+.layoutSideMain .colSide {
+	float:left;
+	width:620px;
+	}
+.layoutContentEtc .colEtc,
+.layoutEtcContent .colContent,
+.layoutMainSide .colSide,
+.layoutSideMain .colMain {
+	float:right;
+	width:180px;
+	}
+	
+
+.accent{ color: #ec1c24; }
+
+
+
+.mainhead{ background: #e6e6e6; padding:10pt 0 8pt; }
+
+.mainhead2{ padding: 0pt 0 6pt; }
+	.mainhead2 P{margin: 2pt 0; }
+
+.mainhead3{ background: #ec1c24; padding: 6pt 0; font-size: 15pt; color:#fff; }
+
+
+.mainhead2 H1{ font-size:116pt; margin:0;  }
+
+
+UL#nav1, UL#nav1 LI{
+	list-style:none; margin:0; padding:0; }
+
+UL#nav1 LI{ display:inline; padding-right:20pt; font-size:14pt; }
+UL#nav1 LI A{ text-decoration:none; color: #000; }
+
+
+
+.mainbody .colContent P,
+.mainbody .colContent LI{
+	line-height:150%;
+}
+
+
+UL.logos, UL.logos UL, UL.logos LI{ list-style:none; margin:0; padding:0; }
+UL.logos UL{ margin-bottom:20pt; }
+
+
+
+.button, .button.big{
+	background: #ec1c24;
+	font-size:16pt; font-weight:bold; color: #fff;
+	padding:6pt 20pt;
+	}
+.button A{
+	color:#fff;
+	text-decoration:none;
+	}
+	
+
+.mainbody H2{
+	font-weight: normal;
+	color: #ec1c24; 
+	font-size:26pt;
+	margin:20pt 0 10pt;
+}
+
+
+TABLE.programa{ width:100%; }
+
+TABLE.programa TH, TABLE.programa TD{
+	text-align:left;
+	font-size:10pt;
+	padding:6pt;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	vertical-align:top;
+	}
+
+
+
+
+
+	
