@@ -119,100 +119,109 @@
 					</li>
 				</ul>
 				
-				
+								
 
-<h2 id="programa">Programa</h2>
+				<h2 id="programa">Programa</h2>
 
-<table class="programa">
+				<table class="programa">
 
-<thead>
-	<tr>
-		<th>
-		</th>
-		<th>Sala C</th>
-		<th>Sala D</th>
-		<th>Aula 1</th>
-		<th>Laboratorio</th>
-	</tr>
-</thead>
+				<thead>
+					<tr>
+						<th>
+						</th>
+						<th>Sala C</th>
+						<th>Sala D</th>
+						<th>Aula 1</th>
+						<th>Aula 2</th>
+						<th>Aula 3</th>
+					</tr>
+				</thead>
 
-<tbody>
-	<tr>
-		<th>9:00</th>
-		<td colspan="4">Acreditación</td>
-	</tr>
+				<tbody>
+					<tr>
+						<th>9:00</th>
+						<td colspan="5">Acreditación</td>
+					</tr>
 
-	<tr>
-		<th>10:00</th>
-		<td><strong>Qué podemos aprender los diseñadores de las metodologías ágiles</strong> Santiago Bustelo</td>
-		<td><strong>Innovar desde el diseño de Experiencia de Usuario</strong> Ivan Wolcan</td>
-		<td><strong>Neuropsicología aplicada a la Experiencia de Usuario</strong> Diego López Castan</td>
-		<td><strong>Casos y Experiencias de un equipo de UX</strong> Emiliano Horcada</td>
-	</tr>
+					<tr>
+						<th>10:00</th>
+						<td><strong>Qué podemos aprender los diseñadores de las metodologías ágiles</strong> Santiago Bustelo</td>
+						<td><strong>Innovar desde el diseño de Experiencia de Usuario</strong> Ivan Wolcan</td>
+						<td><strong>Neuropsicología aplicada a la Experiencia de Usuario</strong> Diego López Castan</td>
+						<td><strong>Casos y Experiencias de un equipo de UX</strong> Emiliano Horcada</td>
+						<td><strong>IxD para equipos de desarrollo</strong> Sebastián Fernandez Quezada</td>
+					</tr>
 
-	<tr>
-		<th>11:00</th>
-		<td colspan="4">Break</td>
-	</tr>
+					<tr>
+						<th>11:00</th>
+						<td colspan="5">Break</td>
+					</tr>
 
-	<tr>
-		<th>11:30</th>
-		<td><strong>Microinteracciones</strong> Rodrigo Galindez</td>
-		<td><strong>Tecnologías para la Salud y la Discapacidad</strong> Rafael Kohanoff</td>
-		<td><strong>Sistemas de producto-servicio, experiencias de valor desde una mirada holística</strong> Yanina Guerzovich</td>
-		<td><strong>Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</strong> Fernando Feller</td>
-	</tr>
+					<tr>
+						<th>11:30</th>
+						<td><strong>Microinteracciones</strong> Rodrigo Galindez</td>
+						<td><strong>Tecnologías para la Salud y la Discapacidad</strong> Rafael Kohanoff</td>
+						<td><strong>Sistemas de producto-servicio, experiencias de valor desde una mirada holística</strong> Yanina Guerzovich</td>
+						<td><strong>Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</strong> Fernando Feller</td>
+						<td>&nbsp;</td>
+					</tr>
 
-	<tr>
-		<th>12:30</th>
-		<td colspan="4">Receso para almuerzo</td>
-	</tr>
+					<tr>
+						<th>12:30</th>
+						<td colspan="5">Receso para almuerzo</td>
+					</tr>
 
-	<tr>
-		<th>14:00</th>
-		<td><strong>Accesibilidad práctica con HTML5 + CSS3 + ARIA</strong> Manuel Razzari - Camilo Kawerin</td>
-		<td><strong>Usabilidad: momento eureka!</strong> Verónica Traynor</td>
-		<td><strong>Sociología de la Usabilidad: ¿Qué le aporta el diseño de interacción a la sociedad?</strong> Lorena Paz</td>
-		<td rowspan="2"><strong>Taller: Modelado ágil en UX</strong> Eduardo Mercovich</td>
-	</tr>
+					<tr>
+						<th>14:00</th>
+						<td><strong>Accesibilidad práctica con HTML5 + CSS3 + ARIA</strong> Manuel Razzari - Camilo Kawerin</td>
+						<td><strong>Usabilidad: momento eureka!</strong> Verónica Traynor</td>
+						<td><strong>Sociología de la Usabilidad: ¿Qué le aporta el diseño de interacción a la sociedad?</strong> Lorena Paz</td>
+						<td rowspan="2"><strong>Taller: Modelado ágil en UX</strong> Eduardo Mercovich</td>
+						<td><strong>Making the Case for Connected Ecosystems</strong> Matt Grieco (en inglés) </td>						
+					</tr>
 
-	<tr>
-		<th>15:00</th>
-		<td colspan="3">Break</td>
-	</tr>
+					<tr>
+						<th>15:00</th>
+						<td colspan="3">Break</td>
+						<td>&nbsp;</td>									
+					</tr>
 
-	<tr>
-		<th>15:30</th>
-		<td><strong>Arquitectura de información cross-channel</strong> Gonzalo Auza</td>
-		<td><strong>El diseñador de UX, un especialista con múltiples personalidades</strong> Michael Dorka</td>
-		<td><strong>Periodismo usable</strong> Emiliano Cosenza</td>
-		<td rowspan="2"><strong>Taller: Modelado ágil en UX (repite)</strong> Eduardo Mercovich</td>
-	</tr>
+					<tr>
+						<th>15:30</th>
+						<td><strong>Arquitectura de información cross-channel</strong> Gonzalo Auza</td>
+						<td><strong>El diseñador de UX, un especialista con múltiples personalidades</strong> Michael Dorka</td>
+						<td><strong>Periodismo usable</strong> Emiliano Cosenza</td>
+						<td rowspan="2"><strong>Taller: Modelado ágil en UX (repite)</strong> Eduardo Mercovich</td>
+						<td>&nbsp;</td>			
+					</tr>
 
-	<tr>
-		<th>16:30</th>
-		<td>Break</td>
-		<td rowspan="2"><strong>Taller de prototipado rápido y testeo de usabilidad con usuarios</strong> Guillermo Ermel</td>
-		<td>Break</td>
-	</tr>
-	
+					<tr>
+						<th>16:30</th>
+						<td>Break</td>
+						<td rowspan="2"><strong>Taller de prototipado rápido y testeo de usabilidad con usuarios</strong> Guillermo Ermel</td>
+						<td>Break</td>
+						<td>&nbsp;</td>					
+					</tr>
+					
 
-	<tr>
-		<th>17:00</th>
-		<td><strong>Lean UX</strong> Juan Manuel Carraro</td>
-		<td><?php /*  <strong>Usabilidad desde el caso de uso</strong> Víctor Pezzeti */ ?></td>
-	</tr>
+					<tr>
+						<th>17:00</th>
+						<td><strong>Lean UX</strong> Juan Manuel Carraro</td>
+						<td><strong>Usabilidad desde el caso de uso</strong> Víctor Pezzeti</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>											
+					</tr>
 
-	<tr>
-		<th>18:00</th>
-		<td colspan="4">Cierre</td>
-	</tr>
+					<tr>
+						<th>18:00</th>
+						<td colspan="5">Cierre</td>
+					</tr>
 
-	
-</tbody>
+					
+				</tbody>
 
 
-</table>
+				</table>
 
 
 

@@ -14,7 +14,7 @@ BODY{
 }
 
 .mbody{
-	width:840px;
+	width:946px;
 	margin:0 auto;
 	position:relative; overflow: hidden; zoom:1;
 /*	float:left;*/
@@ -40,7 +40,7 @@ BODY{
 .layoutMainSide .colMain,
 .layoutSideMain .colSide {
 	float:left;
-	width:620px;
+	width:705px;
 	}
 .layoutContentEtc .colEtc,
 .layoutEtcContent .colContent,
