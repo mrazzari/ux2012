@@ -7,7 +7,7 @@
 	
 	<title>UX2012: Jornada de Experiencia de Usuario</title> 
 	
-	<meta content="" name="keywords">
+	<meta content="Experiencia de Usuario, Usabilidad, Diseño de Interacción, Accesibilidad" name="keywords">
 
 	<meta content="UX2012: Jornada de Experiencia de Usuario" property="og:title">
 	<meta content="http://www.ux2012.com.ar" property="og:url">
@@ -355,6 +355,20 @@
 
 </div><!-- /mainfoot -->
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36065808-1']);
+  _gaq.push(['_setDomainName', 'ux2012.com.ar']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 </html>
