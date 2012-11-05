@@ -133,7 +133,7 @@
 						<th>Sala D</th>
 						<th>Aula 1</th>
 						<th>Aula 2</th>
-						<th>Aula 3</th>
+						<th>Laboratorio</th>
 					</tr>
 				</thead>
 
@@ -149,7 +149,7 @@
 						<td><strong>Innovar desde el diseño de Experiencia de Usuario</strong> Ivan Wolcan</td>
 						<td><strong>Neuropsicología aplicada a la Experiencia de Usuario</strong> Diego López Castan</td>
 						<td><strong>Casos y Experiencias de un equipo de UX</strong> Emiliano Horcada</td>
-						<td><strong>Cocinando experiencias</strong> Sebastián Fernandez Quezada</td>
+						<td>&nbsp;</td>						
 					</tr>
 
 					<tr>
@@ -162,8 +162,8 @@
 						<td><strong>Microinteracciones</strong> Rodrigo Galindez</td>
 						<td><strong>Tecnologías para la Salud y la Discapacidad</strong> Rafael Kohanoff</td>
 						<td><strong>Sistemas de producto-servicio, experiencias de valor desde una mirada holística</strong> Yanina Guerzovich</td>
-						<td><strong>Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</strong> Fernando Feller</td>
-						<td>&nbsp;</td>
+						<td><strong>Cocinando experiencias</strong> Sebastián Fernandez Quezada</td>
+						<td>&nbsp;</td>						
 					</tr>
 
 					<tr>
@@ -176,14 +176,13 @@
 						<td><strong>Accesibilidad práctica con HTML5 + CSS3 + ARIA</strong> Manuel Razzari - Camilo Kawerin</td>
 						<td><strong>Usabilidad: momento eureka!</strong> Verónica Traynor</td>
 						<td><strong>Sociología de la Usabilidad: ¿Qué le aporta el diseño de interacción a la sociedad?</strong> Lorena Paz</td>
-						<td rowspan="2"><strong>Taller: Modelado ágil en UX</strong> Eduardo Mercovich</td>
 						<td><strong>Making the Case for Connected Ecosystems</strong> Matt Grieco (en inglés) </td>						
+						<td rowspan="2"><strong>Taller: Modelado ágil en UX</strong> Eduardo Mercovich</td>						
 					</tr>
 
 					<tr>
 						<th>15:00</th>
-						<td colspan="3">Break</td>
-						<td>&nbsp;</td>									
+						<td colspan="4">Break</td>								
 					</tr>
 
 					<tr>
@@ -191,16 +190,15 @@
 						<td><strong>Arquitectura de información cross-channel</strong> Gonzalo Auza</td>
 						<td><strong>El diseñador de UX, un especialista con múltiples personalidades</strong> Michael Dorka</td>
 						<td><strong>Periodismo usable</strong> Emiliano Cosenza</td>
-						<td rowspan="2"><strong>Taller: Modelado ágil en UX (repite)</strong> Eduardo Mercovich</td>
-						<td>&nbsp;</td>			
+						<td><strong>Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</strong> Fernando Feller</td>			
+						<td rowspan="2"><strong>Taller: Modelado ágil en UX (repite)</strong> Eduardo Mercovich</td>						
 					</tr>
 
 					<tr>
 						<th>16:30</th>
 						<td>Break</td>
 						<td rowspan="2"><strong>Taller de prototipado rápido y testeo de usabilidad con usuarios</strong> Guillermo Ermel</td>
-						<td>Break</td>
-						<td>&nbsp;</td>					
+						<td colspan="2">&nbsp;</td>
 					</tr>
 					
 
