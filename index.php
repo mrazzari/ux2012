@@ -149,7 +149,7 @@
 						<td><strong>Innovar desde el diseño de Experiencia de Usuario</strong> Ivan Wolcan</td>
 						<td><strong>Neuropsicología aplicada a la Experiencia de Usuario</strong> Diego López Castan</td>
 						<td><strong>Casos y Experiencias de un equipo de UX</strong> Emiliano Horcada</td>
-						<td><strong>IxD para equipos de desarrollo</strong> Sebastián Fernandez Quezada</td>
+						<td><strong>Cocinando experiencias</strong> Sebastián Fernandez Quezada</td>
 					</tr>
 
 					<tr>
