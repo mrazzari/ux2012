@@ -8,17 +8,23 @@ BODY{
 	
 }
 
-.mainhead, ,mainhead2, mainhead3, .mainbody, .mainfoot{
+A IMG{ border:none; }
+
+
+.mainhead, .mainhead1, ,mainhead2, mainhead3, .mainbody, .mainfoot{
 	overflow:hidden;
 	clear: both; 
 }
 
 .mbody{
-	width:946px;
+	width:840px;
 	margin:0 auto;
 	position:relative; overflow: hidden; zoom:1;
 /*	float:left;*/
 }
+
+.mainhead2 .mbody { overflow:visible; }
+
 
 .mainfoot{
 	padding-bottom:40pt;
@@ -30,7 +36,9 @@ BODY{
 .layoutContentEtc,
 .layoutEtcContent,
 .layoutMainSide,
-.layoutSideMain {
+.layoutSideMain,
+.layoutBox, 
+.fichaDisertante {
 	overflow:hidden; zoom:1;
 	}
 
@@ -40,30 +48,97 @@ BODY{
 .layoutMainSide .colMain,
 .layoutSideMain .colSide {
 	float:left;
-	width:705px;
+	width:640px;
+/*
+	outline:1px solid red;
+	background:yellow;
+*/
 	}
+.mainhead2 .colContent{ width:660px; } 
+	
 .layoutContentEtc .colEtc,
 .layoutEtcContent .colContent,
 .layoutMainSide .colSide,
 .layoutSideMain .colMain {
 	float:right;
-	width:180px;
+	width:148px;
+/*
+	outline:1px solid blue;
+	background:orange;
+*/
 	}
+
+.fichaDisertante .colFoto{ float: left; width: 120px; }
+.fichaDisertante .colCV{ margin-left:140px; }
+	.fichaDisertante{ padding-top:20pt; margin-top:10pt; }
+	.fichaDisertante H3 { margin:0 0 0pt; }
+
+
+/*.colCtnt, .colEtc{ position: relative; }*/
 	
 
 .accent{ color: #ec1c24; }
 
 
 
-.mainhead{ background: #e6e6e6; padding:10pt 0 8pt; }
+
+/* *** mainheads *** */
+
+.mainhead, .mainhead1{ background: #e6e6e6; padding:10pt 0 8pt; }
 
 .mainhead2{ padding: 0pt 0 6pt; }
 	.mainhead2 P{margin: 2pt 0; }
 
+.single .mainhead2 .boxUXH1{ float:left; width:292px; }
+.single .mainhead2 .boxUXHp { float:left; width:368px; }
+
+.mainhead2 H1{ font-size:60pt; margin:0;  }
+	.mainhead2 H1 A { color: #000; text-decoration: none; }
+	.mainhead2 H1 A:hover {  }
+	
+BODY.home .mainhead2 H1{ font-size:116pt; margin:0;  }
+
+/* .single .mainhead2 Ps */
+	.mainhead2 .p1{ font-size:18pt; margin:12pt 0 0pt; }
+	.mainhead2 .p2{ font-size:12pt; margin:-1pt 0 0; }
+	.mainhead2 .p3{ font-size:12pt; margin:1pt 0 0; }
+	.mainhead2 .p4{ font-size:18pt; margin:-4pt 0 0;}
+
+/* .body .mainhead Ps */
+.home .mainhead2 .p1{ font-size:24pt; margin:-16pt 0 6pt; }
+.home .mainhead2 .p2{ font-size:18pt; }
+.home .mainhead2 .p3{ font-size:16pt; }
+.home .mainhead2 .p4{ font-size:18pt; margin:20pt 0 0; }
+
+.home .mainhead2 .colEtc{ overflow: visible; }
+
+
+
+.topmap{ position:absolute; bottom:4pt; right:0; width:148px; height:148px; z-index:1000; }
+	.home .topmap { position:absolute; bottom:6pt; }
+
+.topmap IMG{ border:1px solid #ccc; height:146px; width:146px; }
+
+.topmap .legend{
+	position: absolute; bottom:0; right: 0; 
+	background:#333; 
+	padding: 2pt 6pt;
+	color:#fff; font-size:10pt;
+	}
+	.topmap .legend A{ color:#fff; text-decoration: none; }	
+
+
+/*
+.home .topmap { position:absolute; bottom:6pt; right:0; width:180px; height:180px; }
+.home .topmap IMG{ border:1px solid #ccc; height:178px; width:178px; }
+*/
+
+
+
 .mainhead3{ background: #ec1c24; padding: 6pt 0; font-size: 15pt; color:#fff; }
 
 
-.mainhead2 H1{ font-size:116pt; margin:0;  }
+
 
 
 UL#nav1, UL#nav1 LI{
@@ -115,8 +190,45 @@ TABLE.programa TH, TABLE.programa TD{
 	vertical-align:top;
 	}
 
+TABLE.programa A{
+	font-weight:bold;
+	text-decoration: underljne;
+	color: 000; /*#ec1c24;*/
+	}
 
 
 
 
-	
+
+
+.navActividades{ background:#ddd; overflow:hidden; width:620px;
+	height:28px; font-size:14pt; 
+	}
+
+.navActividades .nav1{ float:left; width:530px; height:28px; }
+.navActividades .controls{ float:right; width: 80px; text-align:right; }
+
+.navActividades .nav1 A.programa { text-decoration:none; color: #fff; font-weight: bold; background: #000; display:inline-block; height:28px; padding:0 10px; border-right:4px solid #fff; }
+.navActividades .nav1 .aula{ padding-left:4px; font-size:13pt; }
+
+.navActividades .controls A{ 
+	background: #000; display:inline-block; height:23px; padding:5px 5px 0; border-left:4px solid #fff; margin: 0; 
+	}
+
+
+
+
+H2.disertante{ color:#000; font-size:18pt; 
+	/*margin:10pt 0 6pt;*/
+	margin:10pt 0 2pt;
+	}
+H2.disertante STRONG{ font-size:28pt; }
+H2.actividad{ 
+	/*margin:0 0 12pt;*/
+	margin:12pt 0 12pt;
+	font-size: 32pt; line-height: 30pt;
+	}
+
+
+
+
