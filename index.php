@@ -93,10 +93,10 @@
 
 					<tr>
 						<th>10:00</th>
-						<td><a href="actividad.php?s=1#content">Qué podemos aprender los diseñadores de las metodologías ágiles</a> Santiago Bustelo</td>
-						<td><a href="actividad.php?s=2#content">Innovar desde el diseño de Experiencia de Usuario</a> Ivan Wolcan</td>
-						<td><a href="actividad.php?s=3#content">Neuropsicología aplicada a la Experiencia de Usuario</a> Diego López Castan</td>
-						<td><a href="actividad.php?s=4#content">Casos y Experiencias de un equipo de UX</a> Emiliano Horcada</td>
+						<td><a href="actividad.php?s=1">Qué podemos aprender los diseñadores de las metodologías ágiles</a> Santiago Bustelo</td>
+						<td><a href="actividad.php?s=2">Innovar desde el diseño de Experiencia de Usuario</a> Ivan Wolcan</td>
+						<td><a href="actividad.php?s=3">Neuropsicología aplicada a la Experiencia de Usuario</a> Diego López Castan</td>
+						<td><a href="actividad.php?s=4">Casos y Experiencias de un equipo de UX</a> Emiliano Horcada</td>
 						<td>&nbsp;</td>						
 					</tr>
 
@@ -107,10 +107,10 @@
 
 					<tr>
 						<th>11:30</th>
-						<td><a href="actividad.php?s=5#content">Microinteracciones</a> Rodrigo Galindez</td>
-						<td><a href="actividad.php?s=6#content">Tecnologías para la Salud y la Discapacidad</a> Rafael Kohanoff</td>
-						<td><a href="actividad.php?s=7#content">Sistemas de producto-servicio, experiencias de valor desde una mirada holística</a> Yanina Guerzovich</td>
-						<td><a href="actividad.php?s=8#content">Cocinando experiencias</a> Sebastián Fernandez Quezada</td>
+						<td><a href="actividad.php?s=5">Microinteracciones</a> Rodrigo Galindez</td>
+						<td><a href="actividad.php?s=6">Tecnologías para la Salud y la Discapacidad</a> Rafael Kohanoff</td>
+						<td><a href="actividad.php?s=7">Sistemas de producto-servicio, experiencias de valor desde una mirada holística</a> Yanina Guerzovich</td>
+						<td><a href="actividad.php?s=8">Cocinando experiencias</a> Sebastián Fernandez Quezada</td>
 						<td>&nbsp;</td>						
 					</tr>
 
@@ -121,11 +121,11 @@
 
 					<tr>
 						<th>14:00</th>
-						<td><a href="actividad.php?s=9#content">Accesibilidad práctica con HTML5 + CSS3 + ARIA</a> Manuel Razzari - Camilo Kawerin</td>
-						<td><a href="actividad.php?s=10#content">Usabilidad: momento eureka!</a> Verónica Traynor</td>
-						<td><a href="actividad.php?s=11#content">Sociología de la Usabilidad: ¿Qué le aporta el diseño de interacción a la sociedad?</a> Lorena Paz</td>
-						<td><a href="actividad.php?s=12#content">Making the Case for Connected Ecosystems</a> Matt Grieco (en inglés) </td>
-						<td rowspan="2"><a href="actividad.php?s=13#content">Taller: Modelado ágil en UX</a> Eduardo Mercovich</td>
+						<td><a href="actividad.php?s=9">Accesibilidad práctica con HTML5 + CSS3 + ARIA</a> Manuel Razzari - Camilo Kawerin</td>
+						<td><a href="actividad.php?s=10">Usabilidad: momento eureka!</a> Verónica Traynor</td>
+						<td><a href="actividad.php?s=11">Sociología de la Usabilidad: ¿Qué le aporta el diseño de interacción a la sociedad?</a> Lorena Paz</td>
+						<td><a href="actividad.php?s=12">Making the Case for Connected Ecosystems</a> Matt Grieco (en inglés) </td>
+						<td rowspan="2"><a href="actividad.php?s=13">Taller: Modelado ágil en UX</a> Eduardo Mercovich</td>
 					</tr>
 
 					<tr>
@@ -135,25 +135,25 @@
 
 					<tr>
 						<th>15:30</th>
-						<td><a href="actividad.php?s=14#content">Arquitectura de información cross-channel</a> Gonzalo Auza</td>
-						<td><a href="actividad.php?s=15#content">El diseñador de UX, un especialista con múltiples personalidades</a> Michael Dorka</td>
-						<td><a href="actividad.php?s=16#content">Periodismo usable</a> Emiliano Cosenza</td>
-						<td><a href="actividad.php?s=17#content">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>			
-						<td rowspan="2"><a href="actividad.php?s=18#content">Taller: Modelado ágil en UX (repite)</a> Eduardo Mercovich</td>						
+						<td><a href="actividad.php?s=14">Arquitectura de información cross-channel</a> Gonzalo Auza</td>
+						<td><a href="actividad.php?s=15">El diseñador de UX, un especialista con múltiples personalidades</a> Michael Dorka</td>
+						<td><a href="actividad.php?s=16">Periodismo usable</a> Emiliano Cosenza</td>
+						<td><a href="actividad.php?s=17">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>			
+						<td rowspan="2"><a href="actividad.php?s=18">Taller: Modelado ágil en UX (repite)</a> Eduardo Mercovich</td>						
 					</tr>
 
 					<tr>
 						<th>16:30</th>
 						<td>Break</td>
-						<td rowspan="2"><a href="actividad.php?s=19#content">Taller de prototipado rápido y testeo de usabilidad con usuarios</a> Guillermo Ermel</td>
+						<td rowspan="2"><a href="actividad.php?s=19">Taller de prototipado rápido y testeo de usabilidad con usuarios</a> Guillermo Ermel</td>
 						<td colspan="2">Break &nbsp;</td>
 					</tr>
 					
 
 					<tr>
 						<th>17:00</th>
-						<td><a href="actividad.php?s=20#content">Lean UX</a> Juan Manuel Carraro</td>
-						<td><a href="actividad.php?s=21#content">Usabilidad desde el caso de uso</a> Víctor Pezzeti</td>
+						<td><a href="actividad.php?s=20">Lean UX</a> Juan Manuel Carraro</td>
+						<td><a href="actividad.php?s=21">Usabilidad desde el caso de uso</a> Víctor Pezzeti</td>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>											
 					</tr>

@@ -1,16 +1,30 @@
 <div class="mainhead" id="">
 	<div class="mbody">
-		<ul id="nav1">
-			<li>
-				<a href="./#top">Home</a>
-			</li>
-			<li>
-				<a href="./#programa">Programa</a>
-			</li>
-			<li>
-				<a href="https://eventioz.com/ux2012/registrations/new">Registrarse ahora</a>
-			</li>
-		</ul>
+	
+		<div class="layoutContentEtc">
+			<div class="colContent">
+			
+				<ul id="nav1">
+					<li>
+						<a href="./#top">Home</a>
+					</li>
+					<li>
+						<a href="./#programa">Programa</a>
+					</li>
+					<li>
+						<a href="https://eventioz.com/ux2012/registrations/new">Registrarse ahora</a>
+					</li>
+				</ul>
+
+		</div><?php /* colContent */ ?>
+
+		<div class="colEtc">
+			<a href="https://www.facebook.com/Ux2012"><img src="rsrc/facebook24.png" alt="Facebook: ux2012" width="24" height="24" /></a>
+			<a href="https://twitter.com/ux2012"><img src="rsrc/twitter24.gif" alt="Twitter: @ux2012" width="24" height="24" /></a>
+		</div><?php /* colEtc */ ?>
+		
+	</div><?php /* layoutContentEtc */ ?>
+
 	</div><?php /* /mbody */ ?>
 </div><?php /* /mainhead */ ?>
 
