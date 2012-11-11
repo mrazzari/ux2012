@@ -2,25 +2,14 @@
 	include("bits/common.php");
 
 	$pageKind = "home";
-	
-	?><html lang="es">
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	?>
 
-	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-	
-	<title>UX2012: Jornada de Experiencia de Usuario</title> 
-	
-	<meta content="Experiencia de Usuario, Usabilidad, Diseño de Interacción, Accesibilidad" name="keywords">
-
-	<meta content="UX2012: Jornada de Experiencia de Usuario" property="og:title">
-	<meta content="http://www.ux2012.com.ar" property="og:url">
-	<meta content="UX2012: 28/nov/2012 Centro Cultural San Martín, en el marco del Día Mundial de la Usabilidad. El principal evento profesional en Argentina sobre Experiencia de Usuario, Usabilidad, Diseño de Interacción, Accesibilidad y temáticas relacionadas." property="og:description">
-
-	<link href="rsrc/base.css" media="screen" rel="stylesheet" type="text/css">	
-</head>
-
+<html lang="es">
+<?php
+	$pageTitle = "";
+	include ( "bits/_htmlhead.php" );
+	?>
 
 <body class="home">
 
@@ -40,15 +29,7 @@
 					La jornada se realizará el día 28 de noviembre de 2012 de 9 a 19 hs. en el Centro Cultural General San Martín de la Ciudad de Buenos Aires, en el marco del Día Mundial de la Usabilidad. Estará orientada a profesionales y estudiantes de diseño, comunicación y desarrollo, que busquen generar una buena experiencia de usuario en sus productos digitales.
 				</p>
 				
-				<p>
-					<strong class="accent">
-					El evento es gratuito, requiere registro previo para asegurar lugar.
-					</strong>
-				</p>
-				<p>
-					<span class="button big"><a href="https://eventioz.com/ux2012/registrations/new">Registrate ahora &raquo;</a></span>
-					<br />&nbsp;
-				</p>
+<?php include ( "bits/boxcall2atn-registrate.php" ); ?>
 
 
 				<h4>
@@ -71,7 +52,7 @@
 <h2 id="programa">Programa</h2>
 
 
-				<table class="programa">
+				<table class="programa fixedHeader">
 
 				<thead>
 					<tr>
@@ -171,15 +152,7 @@
 
 
 
-				<p>
-					<strong class="accent">
-					El evento es gratuito, requiere registro previo para asegurar lugar.
-					</strong>
-				</p>
-				<p>
-					<span class="button big"><a href="https://eventioz.com/ux2012/registrations/new">Registrate ahora &raquo;</a></span>
-					<br />&nbsp;
-				</p>
+<?php include ( "bits/boxcall2atn-registrate.php" ); ?>
 
 
 

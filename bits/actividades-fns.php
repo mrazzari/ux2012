@@ -14,6 +14,23 @@ return $s;
 }
 
 
+function getActividadTitle($s){
+
+global $indiceSlotsActividades, $actividades;
+
+$codigoSlotEnActividades = $indiceSlotsActividades [ $s - 1 ];
+
+$a = $actividades[ $codigoSlotEnActividades ] ;
+
+$html = '';
+
+$html .= $a['nombre'] . ': ' . $a['titulo'] ;
+
+return $html;
+
+};
+
+
 function getActividad($s){
 
 global $indiceSlotsActividades, $actividades;

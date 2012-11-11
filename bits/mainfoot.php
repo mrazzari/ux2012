@@ -5,6 +5,21 @@
 
 </div><?php /* /mainfoot */ ?>
 
+	<?php /*
+		performance enhancement: put scripts at bottom.
+		http://developer.yahoo.com/performance/rules.html#js_bottom
+		*/ ?>
+
+	<?php /* JQuery Framework */ ?>
+	<script type="text/javascript" src="scripts/jquery-1.8.2.min.js"></script>
+	
+	<?php /* JQuery Plugins */ ?>
+	<script type="text/javascript" src="scripts/jquery-plugins/jquery.form-validation-and-hints.js"></script>
+	<script type="text/javascript" src="scripts/jquery-plugins/fixed-table-header.js"></script>
+
+	<?php /* UX2012 scripts */ ?>
+	<script type="text/javascript" src="scripts/sitescripts.js"></script>
+
 
 <script type="text/javascript">
 
@@ -20,3 +35,4 @@
   })();
 
 </script>
+

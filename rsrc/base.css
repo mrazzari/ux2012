@@ -190,7 +190,10 @@ UL.logos UL{ margin-bottom:20pt; }
 }
 
 
-TABLE.programa{ width:100%; }
+TABLE.programa{ width:100%;
+	empty-cells:show;
+	border-collapse:collapse;
+	}
 
 TABLE.programa TH, TABLE.programa TD{
 	text-align:left;
@@ -205,6 +208,16 @@ TABLE.programa A{
 	font-weight:bold;
 	text-decoration: underljne;
 	color: 000; /*#ec1c24;*/
+	}
+
+.fixedtableheader{	
+	background:#fff;
+	opacity: .84;
+	filter: alpha(opacity=84);
+	border-bottom:1px solid #ccc;
+}
+.fixedtableheader TH{
+	color:#000; /* al 84% es #666 */
 	}
 
 

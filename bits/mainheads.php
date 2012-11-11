@@ -11,6 +11,11 @@
 					<li>
 						<a href="./#programa">Programa</a>
 					</li>
+					<?php if($mostrarEmpleos){ ?>
+					<li>
+						<a href="empleos.php">Empleos</a>
+					</li>
+					<?php }; ?>
 					<li>
 						<a href="https://eventioz.com/ux2012/registrations/new">Registrarse ahora</a>
 					</li>
@@ -62,7 +67,7 @@
 			<div class="colEtc">
 				<div class="topmap">
 					<span class="legend"><a href="https://maps.google.com/maps?q=Sarmiento+1551,+Buenos+Aires,+Argentina" target="_blank">Ver mapa</a></span>
-					<a href="https://maps.google.com/maps?q=Sarmiento+1551,+Buenos+Aires,+Argentina" target="_blank"><img alt="Mapa" src="img/staticmap.png" /></a> 
+					<a href="https://maps.google.com/maps?q=Sarmiento+1551,+Buenos+Aires,+Argentina" target="_blank"><img alt="Mapa" src="rsrc/staticmap.png" /></a> 
 				</div>
 
 			</div><?php /* /colEtc */ ?>
