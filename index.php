@@ -112,24 +112,24 @@
 
 					<tr>
 						<th>15:30</th>
-						<td><a href="actividad.php?s=14">Arquitectura de información cross-channel</a> Gonzalo Auza</td>
-						<td><a href="actividad.php?s=15">El diseñador de UX, un especialista con múltiples personalidades</a> Michael Dorka</td>
-						<td><a href="actividad.php?s=16">Periodismo usable</a> Emiliano Cosenza</td>
-						<td><a href="actividad.php?s=17">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>							
+						<td><a href="actividad.php?s=13">Arquitectura de información cross-channel</a> Gonzalo Auza</td>
+						<td><a href="actividad.php?s=14">El diseñador de UX, un especialista con múltiples personalidades</a> Michael Dorka</td>
+						<td><a href="actividad.php?s=15">Periodismo usable</a> Emiliano Cosenza</td>
+						<td><a href="actividad.php?s=16">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>							
 					</tr>
 
 					<tr>
 						<th>16:30</th>
 						<td>Break</td>
-						<td rowspan="2"><a href="actividad.php?s=19">Taller de prototipado rápido y testeo de usabilidad con usuarios</a> Guillermo Ermel</td>
+						<td rowspan="2"><a href="actividad.php?s=17">Taller de prototipado rápido y testeo de usabilidad con usuarios</a> Guillermo Ermel</td>
 						<td colspan="2">&nbsp;</td>
 					</tr>
 					
 
 					<tr>
 						<th>17:00</th>
-						<td><a href="actividad.php?s=20">Lean UX</a> Juan Manuel Carraro</td>
-						<td><a href="actividad.php?s=21">Usabilidad desde el caso de uso</a> Víctor Pezzeti</td>
+						<td><a href="actividad.php?s=18">Lean UX</a> Juan Manuel Carraro</td>
+						<td><a href="actividad.php?s=19">Usabilidad desde el caso de uso</a> Víctor Pezzeti</td>
 						<td>&nbsp;</td>															
 					</tr>
 

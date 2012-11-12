@@ -16,15 +16,13 @@ $indiceSlotsActividades = array(
 	'vTraynor', //10
 	'lorenaPaz', //11
 	'mGrieco', //12
-	'eMercovich', //13
-	'gAuza', //14
-	'mDorka', //15
-	'eCosenza', //16
-	'fFeller', //17
-	'eMercovich', //18
-	'gErmel', //19
-	'JMC', //20
-	'vPezzeti' //21
+	'gAuza', //13
+	'mDorka', //14
+	'eCosenza', //15
+	'fFeller', //16
+	'gErmel', //17
+	'JMC', //18
+	'vPezzeti' //19
 );
 
 
@@ -191,20 +189,6 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 	*/
 
 		),
-
-	'eMercovich' => array(
-		'nombre' => 'Eduardo Mercovich',
-		'cargo' => '',
-		'titulo' => 'Taller de Modelado ágil en UX: casos de uso y diagramas de actividad.',
-		'donde' => 'Laboratorio',
-		'horario' => '14:00 a 15:20 hs y 15:30 a 16:50 hs',
-		'resumen' => 'Es frecuente observar problemas de usabilidad que no surgen (y por lo tanta no son arreglables) desde las interfaces de Usuario, sino que se originan en el flujo propuesto para una tarea o interacción entre actores de un sistema. 
-		
-		En este taller, veremos cómo utilizar 2 tipos de diagramas simples para co-definir (con todo el equipo) las interacciones de un sistema en función de sus actores y características, de manera de facilitar un diseño sólido sobre el cual crear las interfaces.
-		
-		<strong class="">La sala tiene capacidad limitada. El taller se realiza dos veces (a las 14:00 y a las 15:30 hs) para permitir una mayor concurrencia.</strong>'
-		),
-
 
 // 15:30 hs
 
