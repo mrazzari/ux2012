@@ -42,11 +42,14 @@
 
 <p>Cum soluta nobis eleifend option congue nihil imperdiet doming id. Litterarum formas humanitatis per seacula quarta decima et quinta decima eodem modo typi qui nunc! Usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii?</p>
 
-<p>Zzril delenit augue duis dolore te feugait nulla. Velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis. Duis autem vel eum iriure dolor in hendrerit in vulputate at vero eros et accumsan.
+<p>Zzril delenit augue duis dolore te feugait nulla. Velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis. Duis autem vel eum iriure <a href="empleos-publicar.php">vero eros et accumsan &raquo;</a>
 </p>
 
-<?php include ( 'bits/boxcall2atn-publicar.php' ); ?>
+<?php // include ( 'bits/boxcall2atn-publicar.php' ); ?>
 
+
+<br />
+<h3>Ofertas publicadas</h3>
 
 <div class="box jobpostindex" id="empleos">
 
