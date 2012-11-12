@@ -102,9 +102,7 @@ Mi charla realizar&aacute; una introducci&oacute;n sobre el objeto de estudio de
 
 
 
-<div class="mainfoot">
-
-</div><?php /* /mainfoot */ ?>
+<?php include ( "bits/mainfoot.php" ); ?>
 
 
 </body>

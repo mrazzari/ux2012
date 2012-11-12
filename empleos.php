@@ -91,9 +91,7 @@
 
 
 
-<div class="mainfoot">
-
-</div><?php /* /mainfoot */ ?>
+<?php include ( "bits/mainfoot.php" ); ?>
 
 
 </body>
