@@ -2,4 +2,6 @@
 
 /* common functions */
 
+$mostrarEmpleos = false;
+
 ?>

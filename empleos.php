@@ -7,13 +7,21 @@
 	
 	?><html lang="es">
 
-<?php
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	$idSlotActividad = getS();
+	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 	
-	$pageTitle = getActividadTitle( $idSlotActividad );
-	include ( "bits/_htmlhead.php" );
-	?>
+	<title>UX2012: Jornada de Experiencia de Usuario</title> 
+	
+	<meta content="" name="keywords">
+
+	<meta content="UX2012: Jornada de Experiencia de Usuario" property="og:title">
+	<meta content="http://www.ux2012.com.ar" property="og:url">
+	<meta content="UX2012: 28/nov/2012 Centro Cultural San Martín, en el marco del Día Mundial de la Usabilidad. El principal evento profesional en Argentina sobre Experiencia de Usuario, Usabilidad, Diseño de Interacción, Accesibilidad y temáticas relacionadas." property="og:description">
+
+	<link href="rsrc/base.css" media="screen" rel="stylesheet" type="text/css">	
+</head>
 
 
 <body class="single">
@@ -28,7 +36,17 @@
 		<div class="layoutContentEtc">
 			<div class="colContent">
 
-<?php /*
+
+
+<h2>Empleos en UX2012</h2>
+
+<p>Cum soluta nobis eleifend option congue nihil imperdiet doming id. Litterarum formas humanitatis per seacula quarta decima et quinta decima eodem modo typi qui nunc! Usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii? </p>
+
+<p>Zzril delenit augue duis dolore te feugait nulla. Velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis. Duis autem vel eum iriure dolor in hendrerit in vulputate at vero eros et accumsan.
+</p>
+
+
+
 
 <h2 class="disertante"><strong>Lorena Paz</strong><br />Socióloga abocada a la Cooperación Tecnológica</h2>
 <h2 class="actividad">¿Qué le aporta el diseño de interacción a la sociedad?</h2>
@@ -63,19 +81,21 @@ Mi charla realizar&aacute; una introducci&oacute;n sobre el objeto de estudio de
 
 </div>
 
-// fichaDisertante 
-
-*/ 
-
-?>
-
-<?= getActividad( $idSlotActividad ) ; ?>
 
 
 
 
 
-<?php include ( "bits/boxcall2atn-registrate.php" ); ?>
+
+				<p>
+					<strong class="accent">
+					El evento es gratuito, requiere registro previo para asegurar lugar.
+					</strong>
+				</p>
+				<p>
+					<span class="button big"><a href="https://eventioz.com/ux2012/registrations/new">Registrate ahora &raquo;</a></span>
+					<br />&nbsp;
+				</p>
 
 
 
