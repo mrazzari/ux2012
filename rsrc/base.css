@@ -10,6 +10,8 @@ BODY{
 
 A IMG{ border:none; }
 
+.hint { color: #808080; }
+
 
 .mainhead, .mainhead1, ,mainhead2, mainhead3, .mainbody, .mainfoot{
 	overflow:hidden;
@@ -256,3 +258,32 @@ H2.actividad{
 
 
 
+
+/* empleos */
+
+.jobpostindex{}
+
+.jobpostindex .item { 
+	color: #808080; 
+	border-bottom: 1px solid #ccc;
+	padding:8pt 0 6pt;
+	overflow:hidden; 
+	}
+
+.jobpostindex .item .itemphoto{ float:left; width: 52px; }
+.jobpostindex .item .itemphoto IMG{ height:48px; width:48px; }
+
+.jobpostindex .item .itemctnt{
+	margin-left:60px;
+	}
+
+.jobpostindex .item .itemctnt .who .name, 
+.jobpostindex .item .itemctnt .who .company{
+	color:#000; font-weight: bold;
+	}
+
+.jobpostindex .item .itemctnt .what{ }
+
+.jobpostindex .item .itemctnt .what P{ margin:0; }
+.jobpostindex .item .itemctnt .what .jobtitle { font-size:16pt; }
+.jobpostindex .item .itemctnt .what .jobkind { font-size:11pt; }

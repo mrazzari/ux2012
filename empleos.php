@@ -40,7 +40,7 @@
 
 <h2>Empleos en UX2012</h2>
 
-<p>Cum soluta nobis eleifend option congue nihil imperdiet doming id. Litterarum formas humanitatis per seacula quarta decima et quinta decima eodem modo typi qui nunc! Usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii? </p>
+<p>Cum soluta nobis eleifend option congue nihil imperdiet doming id. Litterarum formas humanitatis per seacula quarta decima et quinta decima eodem modo typi qui nunc! Usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii?</p>
 
 <p>Zzril delenit augue duis dolore te feugait nulla. Velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis. Duis autem vel eum iriure dolor in hendrerit in vulputate at vero eros et accumsan.
 </p>
@@ -48,22 +48,37 @@
 <?php include ( 'bits/boxcall2atn-publicar.php' ); ?>
 
 
-<div class="box jobpostindex">
-	<div class="who">
-		<div class="foto">
-			<img src="img/foto-federico-zelechowski.jpg" alt="Federico Zelechowski" width="64" height="64" />
-		</div>
-		<div class="name">Federico Zelechowski</div>
-		<div class="company">3818 Buenos Aires</div>
-	</div>
-	
-	<div class="what">
-		<a href="empleo.php?id=fz3818-1">UX / UI Designer</a>
-		Full-time, Semisenior en Palermo
-	</div>
+<div class="box jobpostindex" id="empleos">
+
+<?php for($i=0; $i<10; $i++) { ?>
+
+	<div class="item">
+
+		<div class="itemphoto">
+			<img src="img/foto-federico-zelechowski.jpg" alt="Federico Zelechowski" />
+		</div><?php /* /itemphoto */ ?>
+
+		<div class="itemctnt">
+			<div class="who">
+				<span class="name">Federico Zelechowski</span> 
+				de
+				<span class="company">3818 Buenos Aires</span>
+				busca
+			</div ><?php /* /"who" */ ?>
+			
+			<div class="what">
+				<p class="jobtitle"><a href="empleo.php?id=fz3818-1">UX / UI Designer</a></p>
+				<p class="jobkind">Full-time, Semisenior en Palermo</p>
+			</div><?php /* /what */ ?>
+			
+		</div><?php /* /itemctnt */ ?>
+		
+	</div><?php /* /item */ ?>
+
+<?php }; //end for ?>
 
 
-</div>
+</div><?php /* /jobpostindex */ ?>
 
 
 
