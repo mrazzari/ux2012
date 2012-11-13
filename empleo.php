@@ -1,15 +1,23 @@
 <?php 
 	include("bits/common.php");
-	include("bits/actividades-fns.php");
-	include("bits/actividades-db.php");
+	include("bits/empleos-fns.php");
+	include("bits/empleos-db.php");
 	
 	$pageKind = "single";
-	
+
+
+	$empleoid = getEmpleoID( );
+	$empleoTitle = getEmpleoTitle( $empleoid );
+	if( $empleoTitle == false ){
+		header( 'Location: empleos.php' ) ;
+		exit;
+		};
+
 	?><html lang="es">
 
-<?php
+<?php	
 	
-	$pageTitle = "Oferta de empleo"; //getActividadTitle( $idSlotActividad );
+	$pageTitle = "Oferta de empleo de " . $empleoTitle; 
 	include ( "bits/_htmlhead.php" );
 	?>
 
@@ -28,10 +36,14 @@
 
 
 <h2 class="disertante"><strong>Oferta de empleo</strong></h2>
+
+<?= getEmpleoPost( $empleoid ) ?>
+
+<?php /*
+
 <h2 class="disertante" style="margin-top:24pt;">
 	<span style="font-size:16pt;">Federico Zelechowski <span class="hint1">de</span> <a href="http://www.3818.com.ar/">3818 Buenos Aires</a> <span class="hint1">busca</span></span>
 	</h2>
-<?php /* <h2 class="disertante"><strong>3818 Buenos Aires</strong><br />Federico Zelechowski</h2> */ ?>
 <h2 class="actividad" style="margin-top:18pt;"><span style="font-size:48pt">UX / UI Designer</span><br /><span style="font-size:22pt;">Full-time, Semisenior en Palermo</span></h2>
 
 We are seeking Experience Designers of all levels who have experience connecting customers and brands through intuitive interfaces and trans-formative brand experiences. <br />
@@ -79,59 +91,12 @@ Our team speak english, french and spanish, and is trained to work remotely with
 <br />
 The founders and staff's experience gives us the ability to master complex web projects, including foreign languages and complex typographies.
 
-
+*/ ?>
 
 
 <p class="back">
-<a href="empleos.php#empleos">&laquo; ver todas las ofertas de empleo</a>
+<a href="./#empleos">&laquo; ver todas las ofertas de empleo</a>
 </p>
-
-<?php /*
-
-
-<div class="navActividades">
-	<div class="nav1">
-		<a href="./#programa" class="programa">&laquo; Programa</a>
-		<span class="aula">Aula X, 15:00 hs</span>
-	</div>
-	<div class="controls"><a href="?id=1"><img src="rsrc/white-arrow-4-22pt.gif" alt="anterior" width="20" height="16" /></a><a href="?id=3"><img src="rsrc/white-arrow-6-22pt.gif" alt="siguiente" width="20" height="16" /></a>
-	</div>
-</div>
-
-<p style="margin-top:16pt;">
-Mi charla realizar&aacute; una introducci&oacute;n sobre el objeto de estudio de la Sociolog&iacute;a en relaci&oacute;n al campo de la Human Computer Interaction.
-</p>
-<p>Tomando como autor principal al Soci&oacute;logo Georg Simmel, brindar&eacute; un an&aacute;lisis en terminos hist&oacute;ricos de los sucesos compartidos por ambas disciplinas.</p>
-<p>Y responder&aacute; las siguientes preguntas: &iquest;que m&eacute;todos toma prestados de las Ciencias Sociales el DCU? &iquest;y c&oacute;mo los adecua, y para qu&eacute; fines? &iquest;Qu&eacute; hay detr&aacute;s de la medici&oacute;n de la experiencia del usuario? &iquest;Qu&eacute; es la eficiencia?, &iquest;Qu&eacute; se mide? &iquest;Qu&eacute; no se mide? &iquest;Para qu&eacute; sirve la usabilidad? &iquest;Para que sirve la accesibilidad? &iquest;para que sirve la inaccesibilidad? Qu&eacute; le aporta la sociolog&iacute;a al dise&ntilde;o de interacci&oacute;n? &iquest;Qu&eacute; le aporta el dise&ntilde;o de interacci&oacute;n a la sociedad?</p>
-<p>A tal fin, tomar&eacute; tres autores y sus textos claves: "Un enfoque integrado del Dise&ntilde;o Universal. Para la inclusi&oacute;n de todas las edades, culturas y diversidades&rdquo; de Jim Sandhu, "Los usos de Nielsen: Para una cr&iacute;tica de la ideolog&iacute;a de la usabilidad" de Carlos Scolari y "La din&aacute;mica de las redes tecno-econ&oacute;micas" de Michel Callon.</p>
-
-<div class="fichaDisertante">
-
-	<div class="colFoto">
-		<img src="img/staticmap.png" height="120" width="120" />
-	</div>
-
-	<div class="colCV">
-		<h3>Lorena Paz</h3>
-		<p>Y responder&aacute; las siguientes preguntas: &iquest;que m&eacute;todos toma prestados de las Ciencias Sociales el DCU? &iquest;y c&oacute;mo los adecua, y para qu&eacute; fines? &iquest;Qu&eacute; hay detr&aacute;s de la medici&oacute;n de la experiencia del usuario? &iquest;Qu&eacute; es la eficiencia?, &iquest;Qu&eacute; se mide? &iquest;Qu&eacute; no se mide? &iquest;Para qu&eacute; sirve la usabilidad?
-		</p>
-	</div>
-
-</div>
-
-// fichaDisertante 
-
-*/ 
-
-?>
-
-
-
-
-
-
-
-<?php // include ( "bits/boxcall2atn-registrate.php" ); ?>
 
 
 

@@ -13,7 +13,8 @@
 					</li>
 					<?php if($mostrarEmpleos){ ?>
 					<li>
-						<a href="empleos.php">Empleos</a>
+						<?php // <a href="empleos.php">Empleos</a> ?>
+						<a href="./#empleos">Empleos</a>
 					</li>
 					<?php }; ?>
 					<li>

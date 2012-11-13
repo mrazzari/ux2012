@@ -42,7 +42,7 @@
 			<div class="colContent">
 
 
-<p class="breadcrumb"><a href="empleos.php">Empleos</a> &raquo; Sumate como sponsor recruiter</p>
+<p class="breadcrumb"><a href="./#empleos">Empleos</a> &raquo; Sumate como sponsor recruiter</p>
 
 
 <h2 style="font-size:24pt;">¡Gracias por querer sponsorear UX 2012!</h2>
@@ -58,7 +58,7 @@ Como <strong>Sponsor Recruiter,</strong> accedés a:
 
 <ul style="margin-top:0;">
 	<li style="margin-top:0;">Una credencial personalizada y destacada con tu nombre, empresa,<br />y el perfil que est&aacute;s buscando. </li>
-	<li>Además, tu oferta laboral con los datos de contacto que desees, <br />será publicada en la sección <a href="empleos.php">empleos</a> del sitio.</li>
+	<li>Además, tu oferta laboral con los datos de contacto que desees, <br />será publicada en la sección <a href="./#empleos">empleos</a> del sitio.</li>
 </ul>
 
 <p>
@@ -118,15 +118,23 @@ Los fondos de UX2012 son administrados por la Asociación Civil Res Non Verba.
 	</li>
 	<li style="margin-top:10pt;">Envianos un e-mail a <a href="mailto:ux2012ba@gmail.com">ux2012ba@gmail.com</a> con estos datos:
 		<ul>
-			<li>Datos de tu oferta laboral:
+			<li><strong>Datos de tu oferta laboral:</strong>
 				<ul>
 					<li>Nombre y apellido de la credencial a personalizar.</li>
-					<li>Nombre de la empresa.</li>
+					<li>Nombre y URL de la empresa.</li>
 					<li>Foto avatar para el aviso en el sitio.</li>
-					<li>T&iacute;tulo y texto del aviso, incluyendo datos de contacto en el mismo.</li>
+					<li>T&iacute;tulo de la oferta laboral (a presentar en el sitio y credencial personalizada).</li>
+					<li>Texto del aviso, incluyendo:
+						<ul>
+							<li>Tipo de empleo ofrecido (freelance, part-time o fulltime).</li>
+							<li>Nivel de experiencia (pasantía, junior, semisenior, senior).</li>
+							<li>Barrio, ciudad o región.</li>
+							<li>Datos de contacto para enviar CVs.</li>
+						</ul>
+					</li>
 				</ul>
 			</li>
-			<li>Datos del pago: 
+			<li><strong>Datos del pago: </strong>
 				<ul>
 					<li>Tarjeta de cr&eacute;dito o d&eacute;bito: nombre y apellido del titular de la tarjeta o cuenta bancaria.</li>
 					<li>Transferencia bancaria: adjuntanos el comprobante.</li>
@@ -146,7 +154,7 @@ Los fondos de UX2012 son administrados por la Asociación Civil Res Non Verba.
 
 
 
-<p class="back">&laquo; <a href="empleos.php">volver a Empleos</a></p>
+<p class="back">&laquo; <a href="./#empleos">volver a Empleos</a></p>
 
 
 

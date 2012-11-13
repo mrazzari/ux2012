@@ -2,6 +2,6 @@
 
 /* common functions */
 
-$mostrarEmpleos = false;
+$mostrarEmpleos = true; //false;
 
 ?>

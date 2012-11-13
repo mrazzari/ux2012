@@ -1,5 +1,7 @@
 <?php
 	include("bits/common.php");
+	include("bits/empleos-fns.php");
+	include("bits/empleos-db.php");
 
 	$pageKind = "home";
 
@@ -148,6 +150,13 @@
 
 <?php include ( "bits/boxcall2atn-registrate.php" ); ?>
 
+<br />
+
+<?php include ( "bits/mainbody-colctnt-empleos.php" ); ?>
+
+<br />
+
+<?php include ( "bits/boxcall2atn-registrate.php" ); ?>
 
 
 			</div><?php /* /colContent */ ?>
