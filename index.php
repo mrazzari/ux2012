@@ -76,7 +76,7 @@
 						<td><a href="actividad.php?s=1">Qué podemos aprender los diseñadores de las metodologías ágiles</a> Santiago Bustelo</td>
 						<td><a href="actividad.php?s=2">Innovar desde el diseño de Experiencia de Usuario</a> Ivan Wolcan</td>
 						<td><a href="actividad.php?s=3">Neuropsicología aplicada a la Experiencia de Usuario</a> Diego López Castan</td>
-						<td><a href="actividad.php?s=4">Casos y Experiencias de un equipo de UX</a> Emiliano Horcada</td>			
+						<td><a href="actividad.php?s=4">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>						
 					</tr>
 
 					<tr>
@@ -115,7 +115,7 @@
 						<td><a href="actividad.php?s=13">Arquitectura de información cross-channel</a> Gonzalo Auza</td>
 						<td><a href="actividad.php?s=14">El diseñador de UX, un especialista con múltiples personalidades</a> Michael Dorka</td>
 						<td><a href="actividad.php?s=15">Periodismo usable</a> Emiliano Cosenza</td>
-						<td><a href="actividad.php?s=16">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>							
+						<td><a href="actividad.php?s=16">Casos y Experiencias de un equipo de UX</a> Emiliano Horcada</td>									
 					</tr>
 
 					<tr>
