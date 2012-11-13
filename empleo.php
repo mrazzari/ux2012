@@ -79,14 +79,12 @@ Our team speak english, french and spanish, and is trained to work remotely with
 <br />
 The founders and staff's experience gives us the ability to master complex web projects, including foreign languages and complex typographies.
 
-<br />
-<br />
-
-<hr />
 
 
-<br />
+
+<p class="back">
 <a href="empleos.php#empleos">&laquo; ver todas las ofertas de empleo</a>
+</p>
 
 <?php /*
 

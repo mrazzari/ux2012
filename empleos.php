@@ -50,12 +50,12 @@ Queremos que UX 2012 sea una <strong>oportunidad para conectarnos.</strong> Entr
 </p>
 
 <p>
-Podr&aacute;s acercarte a las empresas que nos apoyan y estar&aacute;n ofreciendo empleo. &iexcl;Aprovech&aacute; el networking para conseguir tu pr&oacute;ximo trabajo!
+Podr&aacute;s acercarte a los profesionales y empresas que nos apoyan y estar&aacute;n ofreciendo empleo. &iexcl;Aprovech&aacute; el networking para conseguir tu pr&oacute;ximo trabajo!
 </p>
 
-<h4>Y si sos empresa</h4>
+<h4>Y si necesitás profesionales o freelancers para tu empresa…</h4>
 
-<p>Sumate apoyando el evento y encontrá candidatos para desarrollo, diseño, usabilidad y comunicación. <a href="empleos-publicar.php">sumate y public&aacute; un aviso &raquo;</a>
+<p>Sumate apoyando el evento y encontrá candidatos para las áreas de diseño, desarrollo, usabilidad y comunicación, <strong><a href="empleos-publicar.php">apoyá UX2012 y public&aacute; un aviso &raquo;</a></strong>
 </p>
 
 

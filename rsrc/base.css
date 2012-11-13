@@ -8,8 +8,11 @@ BODY{
 	
 }
 
+A, A:link, A:active{ color: #06f; }
+A:visited{ color: #66c; }
 A IMG{ border:none; }
 
+.small{ font-size:10pt; }
 .hint { color: #808080; }
 
 
@@ -42,7 +45,14 @@ A IMG{ border:none; }
 	display:inline;
 	}
 	
-	
+
+LI.ifhatchedline.hatched{
+	border-left:2px solid #ccc;
+	padding-left:.5em;
+	margin-left:-.6em;
+	list-style:none;
+	}
+
 
 .mainhead, .mainhead1, ,mainhead2, mainhead3, .mainbody, .mainfoot{
 	overflow:hidden;
@@ -318,3 +328,9 @@ H2.actividad{
 .jobpostindex .item .itemctnt .what P{ margin:0; }
 .jobpostindex .item .itemctnt .what .jobtitle { font-size:16pt; }
 .jobpostindex .item .itemctnt .what .jobkind { font-size:11pt; }
+
+
+
+
+P.breadcrumb, P.back{ font-weight:bold; color: #808080; }
+P.back{ margin:24pt 0 12pt; padding-top: 12pt; border-top:1px solid #ccc; }
