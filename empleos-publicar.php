@@ -43,7 +43,86 @@
 
 
 
-<h2>Sumate como sponsor recruiter y public&aacute; tu aviso</h2>
+<h2 style="font-size:24pt;">¡Gracias por querer sumarte a UX 2012! ;)</h2>
+
+
+<p style="margin-bottom:0">
+Por <strong>$500</strong> ser&aacute;s Sponsor Recruiter y tendr&aacute;s: 
+</p>
+
+<ul style="margin-top:0;">
+	<li style="margin-top:0;">Una credencial personalizada con el nombre de la empresa y el perfil que est&aacute;s buscando. </li>
+	<li>Un aviso en el sitio con tu oferta laboral. </li>
+</ul>
+
+<p>
+Ten&eacute;s tiempo <strong>hasta el 23 de noviembre de 2012</strong> para sumar a tu empresa y apoyar el evento. Los fondos de UX2012 son administrados por la Asociación Civil Res Non Verba.
+</p>
+
+<h3>C&oacute;mo sumarse y publicar el aviso:</h3>
+
+<ol>
+	<li>Realiza el pago con alguna de estos medios:<br />
+		<ul>
+			<li class="hatch unhatched">Tarjeta de cr&eacute;dito o d&eacute;bito <a href="#" class="jsHatch">[ver instrucciones]</a>
+				<ol class="ifhatched">
+					<li>Ingresá al <a href="https://www.resnonverba.org/forms/v2/rnv/1/espanol/">formulario de donaciones de Res Non Verba</a>.</li>
+					<li>Ingresá los datos datos personales.</li>
+					<li>En la sección "AUTORIZO EL DEBITO MENSUAL DE…", selección "Otro monto por única vez", especificando $500 por cada credencial y aviso que desees.</li>
+				</ol>
+				</li>
+			<li class="hatch unhatched">Paypal <a href="#" class="jsHatch">[ver instrucciones]</a>
+				<ul class="ifhatched">
+					<li>
+					</li>
+				</ul>
+				</li>
+			<li class="hatch unhatched">Transferencia bancaria <a href="#" class="jsHatch">[ver instrucciones]</a>
+				<ul class="ifhatched">
+					<li>
+					</li>
+				</ul>
+				</li>
+			<li class="hatch unhatched">Efectivo o cheque <a href="#" class="jsHatch">[ver instrucciones]</a>
+				<ul class="ifhatched">
+					<li>
+					</li>
+				</ul>
+			</li>
+			
+		</ul>
+	</li>
+	<li style="margin-top:10pt;">Envianos un e-mail a <a href="mailto:ux2012ba@gmail.com">ux2012ba@gmail.com</a> con estos datos:
+		<ul>
+			<li>Datos del pago: 
+				<ul>
+					<li>Tarjeta de cr&eacute;dito o d&eacute;bito: nombre y apellido del titular de la tarjeta o cuenta bancaria.</li>
+					<li>Transferencia bancaria: adjuntanos el comprobante.</li>
+				</ul>
+			</li>
+			<li>Datos de tu oferta laboral:
+				<ul>
+					<li>Nombre y apellido de la credencial a personalizar.</li>
+					<li>Nombre de la empresa.</li>
+					<li>Foto avatar para el aviso en el sitio.</li>
+					<li>T&iacute;tulo y texto del aviso, incluyendo datos de contacto en el mismo.</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li style="margin-top:10pt;">
+	&iexcl;Listo! Publicaremos tu aviso y al acreditarte en el evento, te daremos la credencial para que te conectes con los candidatos. 
+	</li>
+</ol>
+
+
+<p>Cualquier consulta, no dudes en escribirnos a <a href="mailto:ux2012ba@gmail.com">ux2012ba@gmail.com</a>.</p>
+
+
+
+
+<?php /*
+
 
 <p>Cum soluta nobis eleifend option congue nihil imperdiet doming id. Litterarum formas humanitatis per seacula quarta decima et quinta decima eodem modo typi qui nunc!</p>
 
@@ -84,6 +163,8 @@
 <p>Cum soluta nobis eleifend option congue nihil imperdiet doming id. Litterarum formas humanitatis per seacula quarta decima et quinta decima eodem modo typi qui nunc! Usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii?</p>
 
 <a href="empleos.php">&laquo; reddo a domus</a>
+
+*/ ?>
 
 
 

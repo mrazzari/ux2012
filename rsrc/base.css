@@ -13,6 +13,37 @@ A IMG{ border:none; }
 .hint { color: #808080; }
 
 
+
+/* hatches */
+.unhatched .ifhatched, .hatched .ifunhatched,
+.unhatched FIELDSET.cluster .ifhatched, .hatched FIELDSET.cluster .ifunhatched,
+.hatched .unhatched .ifhatched, .unhatched .hatched .ifunhatched {
+	display:none;
+	}
+.unhatched .hatched .ifhatched, 
+.hatched .unhatched .ifunhatched {
+	display:block;
+	}
+.unhatched .hatched SPAN.ifhatched, 
+.hatched .unhatched SPAN.ifunhatched {
+	display:inline;
+	}
+
+.no-js .unhatched DIV.ifhatched, 
+.no-js .hatched DIV.ifunhatched,
+.no-js .hatched .unhatched DIV.ifhatched, 
+.no-js .unhatched .hatched DIV.ifunhatched {
+	display:block;
+	}
+.no-js .unhatched SPAN.ifhatched, 
+.no-js .hatched SPAN.ifunhatched,
+.no-js .hatched .unhatched SPAN.ifhatched, 
+.no-js .unhatched .hatched SPAN.ifunhatched {
+	display:inline;
+	}
+	
+	
+
 .mainhead, .mainhead1, ,mainhead2, mainhead3, .mainbody, .mainfoot{
 	overflow:hidden;
 	clear: both; 

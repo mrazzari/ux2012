@@ -45,20 +45,31 @@
 
 <h2>Empleos en UX2012</h2>
 
-<p>Cum soluta nobis eleifend option congue nihil imperdiet doming id. Litterarum formas humanitatis per seacula quarta decima et quinta decima eodem modo typi qui nunc! Usus legentis in iis qui facit eorum claritatem Investigationes demonstraverunt lectores legere me lius quod ii?</p>
-
-<p>Zzril delenit augue duis dolore te feugait nulla. Velit esse molestie consequat vel illum dolore eu feugiat nulla vel eum iriure <a href="empleos-publicar.php">sumate y public&aacute; tu aviso &raquo;</a>
+<p>
+Queremos que UX 2012 sea una <strong>oportunidad para conectarnos.</strong> Entre todos podemos hacer que el evento sea mucho m&aacute;s que compartir conocimiento.
 </p>
+
+<p>
+Podr&aacute;s acercarte a las empresas que nos apoyan y estar&aacute;n ofreciendo empleo. &iexcl;Aprovech&aacute; el networking para conseguir tu pr&oacute;ximo trabajo!
+</p>
+
+<h4>Y si sos empresa</h4>
+
+<p>Sumate apoyando el evento y encontrá candidatos para desarrollo, diseño, usabilidad y comunicación. <a href="empleos-publicar.php">sumate y public&aacute; un aviso &raquo;</a>
+</p>
+
 
 <?php // include ( 'bits/boxcall2atn-publicar.php' ); ?>
 
 
 <br />
-<h3>Ofertas publicadas</h3>
+<h3 style="font-size:18pt;">Ofertas publicadas</h3>
 
 <div class="box jobpostindex" id="empleos">
 
-<?php for($i=0; $i<10; $i++) { ?>
+<?php // for($i=0; $i<10; $i++) { ?>
+
+
 
 	<div class="item">
 
@@ -83,7 +94,10 @@
 		
 	</div><?php /* /item */ ?>
 
-<?php }; //end for ?>
+
+
+
+<?php // }; //end for ?>
 
 
 </div><?php /* /jobpostindex */ ?>
