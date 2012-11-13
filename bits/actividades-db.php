@@ -7,7 +7,7 @@ $indiceSlotsActividades = array(
 	'sBustelo', //1
 	'iWolcan', //2
 	'dLopezCastan', //3
-	'eHorcada', //4
+	'fFeller', //4
 	'rGalindez', //5
 	'rKohanoff', //6
 	'yGuerzovich', //7
@@ -19,7 +19,7 @@ $indiceSlotsActividades = array(
 	'gAuza', //13
 	'mDorka', //14
 	'eCosenza', //15
-	'fFeller', //16
+	'eHorcada', //16
 	'gErmel', //17
 	'JMC', //18
 	'vPezzeti' //19
@@ -66,14 +66,19 @@ $actividades = array(
 		'resumen' => '¿Cómo puede la Neuropsicología ayudar a mejorar nuestra experiencia de usuario? ¿Qué son los modelos mentales y para que sirven? ¿Las interfaces que creamos puede modificar el cerebro? ¿Por qué  nuestro cerebro prefiere los diseños simétricos? Éstas y otras preguntas van a ser contestadas utilizando ciencias como la Psicología y las Neurociencias, disciplinas que aportan una visión holistica del usuario y son de gran ayuda para mejorar la experiencia de usuario.'
 		),
 
-	'eHorcada' => array(
-		'nombre' => 'Emiliano Horcada',
+	'fFeller' => array(
+		'nombre' => 'Fernando Feller',
 		'cargo' => '',
-		'titulo' => 'Casos y Experiencias de un equipo de UX.',
+		'titulo' => 'Dise&ntilde;ando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;',
 		'donde' => 'Aula 2',
 		'horario' => '10:00 hs',
-		'resumen' => 'En un mercado en el que la creación de experiencias de usuario se ha vuelto un factor determinante en el éxito de un producto digital, la participación y formación de un equipo de UX que pueda presentar soluciones adecuadas se ha vuelto determinante a la hora de conquistar al mercado global. Queremos compartir con la comunidad algunas experiencias, resultados y desafios que tenemos en el equipo de UX de Globant al igual que algunos casos, clientes y contextos con los cual nos hemos enfrentado.'
+		'resumen' => 'Objetivo de la charla: Mostrar, con ejemplos reales, el análisis de usabilidad para un sistema de software mediante la técnica combinada de "personas/escenarios" (Alan Cooper) y storyboard para descubrir las "necesidades" reales de los usuarios.
+ 
+		Punteo de los temas a tratar:</p><ul><li>Introducción</li><li>Usabilidad desde el inicio en Sistemas de software.</li><li>Análisis: trabajo interdisciplinario con desarrolladores del sistema</li><li>Lo que los usuarios dicen y lo que los usuarios realmente "necesitan" (needfinding)</li><li>¿Cómo involucrar activamente al usuario? Conseguir interés y participación.</li><li>Modelado de "personas" (Alan Cooper): se le asigna a los participantes una “persona” y un “escenario”</li><li>Storyboard: descubriendo problemáticas, el flujo de las tareas y el propósito general, no la forma de resolverlo.</li><li>Técnica combinada (story board y personas): Ejemplo con 2 casos reales (un sistema de recluting de RRHH y un sistema de bioinformática). Preparación y experiencia: material, fotos, videos, focus group, afiches resultantes.</li><li>Análisis del resultado: descubrimiento de "nuevas" o "diferentes" necesidades.</li><li>Siguientes pasos: replanteo del problema o solución, nuevas ideas, base para la realización de mockups.</li></ul><p>',
+
+		'cv' => 'Diseñador en comunicación visual (UNLP). 10 años de experiencia en diseño de interacción. Actualmente estoy  a cargo del área de Usabilidad de Flux IT (empresa de tecnologías de información) realizando consultorías, investigación, tests de usuarios, evaluaciones heurísticas, diseño y rediseño de interfaces e interacciones, capacitaciones, etc.'
 		),
+
 
 //11.30 hs
 
@@ -230,20 +235,14 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		La idea de la charla es desarrollar cómo producir contenido “usable”, adaptado a las características del soporte. Para ello, hablaremos fundamentalmente sobre la idea de usuario, los cambios en la comunicación y el medio, y por qué es importante empezar a “diseñar” la información en lugar de sólo escribirla.'
 		),
 
-	'fFeller' => array(
-		'nombre' => 'Fernando Feller',
+	'eHorcada' => array(
+		'nombre' => 'Emiliano Horcada',
 		'cargo' => '',
-		'titulo' => 'Dise&ntilde;ando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;',
+		'titulo' => 'Casos y Experiencias de un equipo de UX.',
 		'donde' => 'Aula 2',
 		'horario' => '15:30 hs',
-		'resumen' => 'Objetivo de la charla: Mostrar, con ejemplos reales, el análisis de usabilidad para un sistema de software mediante la técnica combinada de "personas/escenarios" (Alan Cooper) y storyboard para descubrir las "necesidades" reales de los usuarios.
- 
-		Punteo de los temas a tratar:</p><ul><li>Introducción</li><li>Usabilidad desde el inicio en Sistemas de software.</li><li>Análisis: trabajo interdisciplinario con desarrolladores del sistema</li><li>Lo que los usuarios dicen y lo que los usuarios realmente "necesitan" (needfinding)</li><li>¿Cómo involucrar activamente al usuario? Conseguir interés y participación.</li><li>Modelado de "personas" (Alan Cooper): se le asigna a los participantes una “persona” y un “escenario”</li><li>Storyboard: descubriendo problemáticas, el flujo de las tareas y el propósito general, no la forma de resolverlo.</li><li>Técnica combinada (story board y personas): Ejemplo con 2 casos reales (un sistema de recluting de RRHH y un sistema de bioinformática). Preparación y experiencia: material, fotos, videos, focus group, afiches resultantes.</li><li>Análisis del resultado: descubrimiento de "nuevas" o "diferentes" necesidades.</li><li>Siguientes pasos: replanteo del problema o solución, nuevas ideas, base para la realización de mockups.</li></ul><p>',
-
-		'cv' => 'Diseñador en comunicación visual (UNLP). 10 años de experiencia en diseño de interacción. Actualmente estoy  a cargo del área de Usabilidad de Flux IT (empresa de tecnologías de información) realizando consultorías, investigación, tests de usuarios, evaluaciones heurísticas, diseño y rediseño de interfaces e interacciones, capacitaciones, etc.'
+		'resumen' => 'En un mercado en el que la creación de experiencias de usuario se ha vuelto un factor determinante en el éxito de un producto digital, la participación y formación de un equipo de UX que pueda presentar soluciones adecuadas se ha vuelto determinante a la hora de conquistar al mercado global. Queremos compartir con la comunidad algunas experiencias, resultados y desafios que tenemos en el equipo de UX de Globant al igual que algunos casos, clientes y contextos con los cual nos hemos enfrentado.'
 		),
-
-
 
 // 16.30 hs
 
