@@ -271,7 +271,7 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 
 
 	'vPezzeti' => array(
-		'nombre' => 'Víctor Pezzeti',
+		'nombre' => 'Víctor Pezzetti y Sergio Quaroni',
 		'cargo' => '',
 		'titulo' => 'Usabilidad desde el caso de uso',
 		'donde' => 'Aula 1',
