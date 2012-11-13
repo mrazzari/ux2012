@@ -85,7 +85,7 @@ Los fondos de UX2012 son administrados por la Asociación Civil Res Non Verba.
 				</ul>
 				</li>
 
-			<li class="hatch unhatched ifhatchedline"><strong>Tarjeta de cr&eacute;dito o d&eacute;bito</strong> <a href="#instruccionesTarjetas" class="jsHatch small">[ver instrucciones]</a>
+			<li class="hatch unhatched ifhatchedline"><strong>Tarjeta de cr&eacute;dito o d&eacute;bito (VISA o Mastercard)</strong> <a href="#instruccionesTarjetas" class="jsHatch small">[ver instrucciones]</a>
 				<ol class="ifhatched" id="instruccionesTarjetas">
 					<li>Ingresá al <a href="https://www.resnonverba.org/forms/v2/rnv/1/espanol/">formulario de donaciones por Tarjeta de Res Non Verba &raquo;</a>.</li>
 					<li>Ingresá los datos personales.</li>
