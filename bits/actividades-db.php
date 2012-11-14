@@ -69,13 +69,10 @@ $actividades = array(
 	'fFeller' => array(
 		'nombre' => 'Fernando Feller',
 		'cargo' => '',
-		'titulo' => 'Dise&ntilde;ando Storyboards con el usuario a partir de &ldquo;personas y escenarios&rdquo;',
+		'titulo' => 'Dise&ntilde;ando storyboards con los usuarios a partir de personas y escenarios',
 		'donde' => 'Aula 2',
 		'horario' => '10:00 hs',
-		'resumen' => 'Objetivo de la charla: Mostrar, con ejemplos reales, el análisis de usabilidad para un sistema de software mediante la técnica combinada de "personas/escenarios" (Alan Cooper) y storyboard para descubrir las "necesidades" reales de los usuarios.
- 
-		Punteo de los temas a tratar:</p><ul><li>Introducción</li><li>Usabilidad desde el inicio en Sistemas de software.</li><li>Análisis: trabajo interdisciplinario con desarrolladores del sistema</li><li>Lo que los usuarios dicen y lo que los usuarios realmente "necesitan" (needfinding)</li><li>¿Cómo involucrar activamente al usuario? Conseguir interés y participación.</li><li>Modelado de "personas" (Alan Cooper): se le asigna a los participantes una “persona” y un “escenario”</li><li>Storyboard: descubriendo problemáticas, el flujo de las tareas y el propósito general, no la forma de resolverlo.</li><li>Técnica combinada (story board y personas): Ejemplo con 2 casos reales (un sistema de recluting de RRHH y un sistema de bioinformática). Preparación y experiencia: material, fotos, videos, focus group, afiches resultantes.</li><li>Análisis del resultado: descubrimiento de "nuevas" o "diferentes" necesidades.</li><li>Siguientes pasos: replanteo del problema o solución, nuevas ideas, base para la realización de mockups.</li></ul><p>',
-
+		'resumen' => 'Cómo lograr un buen abordaje para el análisis de usabilidad de un sistema de software a partir de la combinación de tres técnicas: focusgroup, storyboards y personas/escenarios? Se mostrará cómo estas técnicas ayudan a que el usuario se involucre y logran que su participación sea efectiva a fin de detectar motivaciones y necesidades. Veremos los resultados aplicados en dos casos específicos y de dominios totalmente diferentes: un sistema de recruiting para RRHH y otro software para el diseño de fármacos.',
 		'cv' => 'Diseñador en comunicación visual (UNLP). 10 años de experiencia en diseño de interacción. Actualmente estoy  a cargo del área de Usabilidad de Flux IT (empresa de tecnologías de información) realizando consultorías, investigación, tests de usuarios, evaluaciones heurísticas, diseño y rediseño de interfaces e interacciones, capacitaciones, etc.'
 		),
 

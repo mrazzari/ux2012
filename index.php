@@ -78,7 +78,7 @@
 						<td><a href="actividad.php?s=1">Qué podemos aprender los diseñadores de las metodologías ágiles</a> Santiago Bustelo</td>
 						<td><a href="actividad.php?s=2">Innovar desde el diseño de Experiencia de Usuario</a> Ivan Wolcan</td>
 						<td><a href="actividad.php?s=3">Neuropsicología aplicada a la Experiencia de Usuario</a> Diego López Castan</td>
-						<td><a href="actividad.php?s=4">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>						
+						<td><a href="actividad.php?s=4">Diseñando storyboards con los usuarios a partir de personas y escenarios</a> Fernando Feller</td>						
 					</tr>
 
 					<tr>
