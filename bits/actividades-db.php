@@ -270,14 +270,14 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 	'vPezzeti' => array(
 		'nombre' => 'Víctor Pezzetti y Sergio Quaroni',
 		'cargo' => '',
-		'titulo' => 'Usabilidad desde el caso de uso',
+		'titulo' => 'Los patrones de siempre, las soluciones de hoy',
 		'donde' => 'Aula 1',
 		'horario' => '17:00 hs',
-		'resumen' => 'Es muy común achacar a la interfaz las responsabilidades de la falta de usabilidad. Mas allá que este sea un punto critico, generalmente los problemas reales hay que buscarlos en lo más profundo del Sistema: el Caso de Uso.
+		'resumen' => 'Hace ya más de 20 años que los patrones se han consolidado en el área del diseño de software. Con el paso del tiempo su aplicación se ha extendido a otras disciplinas relacionadas a los Sistemas, haciendo especial foco en el área de la Interfaz de Usuario.
 
-		Procesos mal definidos, solicitud de datos innecesarios, etapas mal ordenadas, información redundante son puntos que generan los mayores problemas al momento de usar un sistema.
+					Más allá de esta breve existencia, es importante destacar que hemos estado usando patrones de interfaz desde los comienzos de la informática sin saberlo. Desde el momento que alguien se "inspira" en una aplicación muy utilizada, buscando reducir costos de aprendizaje y retención en el tiempo, o que aplica controles adquiridos a terceros, es que estamos trabajando con patrones.
 
-		Es imprescindible concentrarse en atender los atributos de usabilidad desde las primeras etapas, incluso antes de la toma de requerimientos:</p><ul><li>Tiempo de aprendizaje</li><li>Velocidad de realización de tareas</li><li>Porcentaje de errores de usuarios</li><li>Retención con el paso del tiempo</li><li>Satisfacción subjetiva</li></ul><p>Cada punto se ilustrará con ejemplos que ayuden a comprender la importancia de su análisis detallado. Se presentará también un caso práctico de redefinición de un caso de uso, aplicando estos conceptos enunciados.',
+					Esta presentación busca exponer una clasificación de las diferentes situaciones que se encuentran en el desarrollo de interfaces web y mostrar una serie de patrones que, por un lado guían al principiante y, por el otro, permiten que el experto se organice.',
 		
 		'cv' => 'Profesor Adjunto en la cátedra Diseño de Sistemas, de la Carrera Ingeniería en Sistemas de Información en la UTN Regional Rosario, materia en la cual los conceptos de Usabilidad representan uno de los ejes principales. Focalizando en factores y medidas para evaluarla, así como también en la aplicación de patrones de interfaz, prestando atención a patrones conceptuales (para la toma de requerimientos).
 
