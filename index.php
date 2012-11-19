@@ -132,7 +132,7 @@
 						<th>17:00</th>
 						<td><a href="actividad.php?s=18">Lean UX</a> Juan Manuel Carraro</td>
 						<td><a href="actividad.php?s=19">Los patrones de siempre, las soluciones de hoy</a> Víctor Pezzetti y Sergio Quaroni</td>
-						<td>&nbsp;</td>															
+						<td><strong>Observatorio Argentino de Accesibilidad Web</strong> Carlos Benavidez</td>															
 					</tr>
 
 					<tr>
