@@ -42,11 +42,19 @@
 			</ul>
 		</li>
 
-		<li><h4>Auspician:</h4>
+		<li><h4>Sponsor Oro:</h4>
 			<ul>
-				<li><p><a href="http://www.avantrip.com/"><img src="img/avantrip.gif" alt="Avantrip" width="121" height="120" /></a></p></li>
+				<li><p><a href="http://www.despegar.com/"><img src="img/despegar-148.gif" alt="Despegar.com" width="148" height="42" /></a></p></li>
 			</ul>
 		</li>
+
+		<li><h4>Sponsors Plata:</h4>
+			<ul>
+				<li><p><a href="http://www.avantrip.com/"><img src="img/avantrip.gif" alt="Avantrip" width="78" height="78" /></a></p></li>
+				<li><p><a href="http://www.mulesoft.com/"><img src="img/mulesoft-148.gif" alt="Mulesoft" width="148" height="43" /></a></p></li>
+			</ul>
+		</li>
+
 
 		<li><h4>Convocan:</h4>
 			<ul>
