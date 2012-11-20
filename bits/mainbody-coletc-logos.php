@@ -1,4 +1,4 @@
-<div class="colEtc">
+<div class="colEtc centrarLogos">
 			
 <?php
 /*

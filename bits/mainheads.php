@@ -83,6 +83,6 @@
 
 <div class="mainhead3" id="top">
 	<div class="mbody">
-		<strong>Centro Cultural San Martín</strong> • Sarmiento 1551, Buenos Aires
+		<strong>Centro Cultural San Martín</strong> • <a href="https://maps.google.com/maps?q=Sarmiento+1551,+Buenos+Aires,+Argentina" target="_blank">Sarmiento 1551</a>, Buenos Aires
 	</div><?php /* /mbody */ ?>
 </div><?php /* /mainhead3 */ ?>
