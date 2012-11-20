@@ -52,6 +52,7 @@
 			<ul>
 				<li><p><a href="http://www.avantrip.com/"><img src="img/avantrip.gif" alt="Avantrip" width="78" height="78" /></a></p></li>
 				<li><p><a href="http://www.mulesoft.com/"><img src="img/mulesoft-148.gif" alt="Mulesoft" width="148" height="43" /></a></p></li>
+				<li><p><a href="http://www.ombushop.com/"><img src="img/ombushop-148.gif" alt="Ombu Shop" width="148" height="43" /></a></p></li>
 			</ul>
 		</li>
 
