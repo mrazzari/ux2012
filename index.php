@@ -78,7 +78,7 @@
 						<td><a href="actividad.php?s=1">Qué podemos aprender los diseñadores de las metodologías ágiles</a> Santiago Bustelo</td>
 						<td><a href="actividad.php?s=2">Innovar desde el diseño de Experiencia de Usuario</a> Ivan Wolcan</td>
 						<td><a href="actividad.php?s=3">Neuropsicología aplicada a la Experiencia de Usuario</a> Diego López Castan</td>
-						<td><a href="actividad.php?s=4">Diseñando Storyboards con el usuario a partir de &quot;personas y escenarios&quot;</a> Fernando Feller</td>						
+						<td><a href="actividad.php?s=4">Diseñando storyboards con los usuarios a partir de personas y escenarios</a> Fernando Feller</td>						
 					</tr>
 
 					<tr>
@@ -131,8 +131,8 @@
 					<tr>
 						<th>17:00</th>
 						<td><a href="actividad.php?s=18">Lean UX</a> Juan Manuel Carraro</td>
-						<td><a href="actividad.php?s=19">Usabilidad desde el caso de uso</a> Víctor Pezzetti y Sergio Quaroni</td>
-						<td>&nbsp;</td>															
+						<td><a href="actividad.php?s=19">Los patrones de siempre, las soluciones de hoy</a> Víctor Pezzetti y Sergio Quaroni</td>
+						<td><strong>Observatorio Argentino de Accesibilidad Web</strong> Carlos Benavidez</td>															
 					</tr>
 
 					<tr>

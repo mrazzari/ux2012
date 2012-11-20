@@ -69,13 +69,10 @@ $actividades = array(
 	'fFeller' => array(
 		'nombre' => 'Fernando Feller',
 		'cargo' => '',
-		'titulo' => 'Dise&ntilde;ando Storyboards con el usuario a partir de &ldquo;personas y escenarios&rdquo;',
+		'titulo' => 'Dise&ntilde;ando storyboards con los usuarios a partir de personas y escenarios',
 		'donde' => 'Aula 2',
 		'horario' => '10:00 hs',
-		'resumen' => 'Objetivo de la charla: Mostrar, con ejemplos reales, el análisis de usabilidad para un sistema de software mediante la técnica combinada de "personas/escenarios" (Alan Cooper) y storyboard para descubrir las "necesidades" reales de los usuarios.
- 
-		Punteo de los temas a tratar:</p><ul><li>Introducción</li><li>Usabilidad desde el inicio en Sistemas de software.</li><li>Análisis: trabajo interdisciplinario con desarrolladores del sistema</li><li>Lo que los usuarios dicen y lo que los usuarios realmente "necesitan" (needfinding)</li><li>¿Cómo involucrar activamente al usuario? Conseguir interés y participación.</li><li>Modelado de "personas" (Alan Cooper): se le asigna a los participantes una “persona” y un “escenario”</li><li>Storyboard: descubriendo problemáticas, el flujo de las tareas y el propósito general, no la forma de resolverlo.</li><li>Técnica combinada (story board y personas): Ejemplo con 2 casos reales (un sistema de recluting de RRHH y un sistema de bioinformática). Preparación y experiencia: material, fotos, videos, focus group, afiches resultantes.</li><li>Análisis del resultado: descubrimiento de "nuevas" o "diferentes" necesidades.</li><li>Siguientes pasos: replanteo del problema o solución, nuevas ideas, base para la realización de mockups.</li></ul><p>',
-
+		'resumen' => 'Cómo lograr un buen abordaje para el análisis de usabilidad de un sistema de software a partir de la combinación de tres técnicas: focusgroup, storyboards y personas/escenarios? Se mostrará cómo estas técnicas ayudan a que el usuario se involucre y logran que su participación sea efectiva a fin de detectar motivaciones y necesidades. Veremos los resultados aplicados en dos casos específicos y de dominios totalmente diferentes: un sistema de recruiting para RRHH y otro software para el diseño de fármacos.',
 		'cv' => 'Diseñador en comunicación visual (UNLP). 10 años de experiencia en diseño de interacción. Actualmente estoy  a cargo del área de Usabilidad de Flux IT (empresa de tecnologías de información) realizando consultorías, investigación, tests de usuarios, evaluaciones heurísticas, diseño y rediseño de interfaces e interacciones, capacitaciones, etc.'
 		),
 
@@ -273,14 +270,14 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 	'vPezzeti' => array(
 		'nombre' => 'Víctor Pezzetti y Sergio Quaroni',
 		'cargo' => '',
-		'titulo' => 'Usabilidad desde el caso de uso',
+		'titulo' => 'Los patrones de siempre, las soluciones de hoy',
 		'donde' => 'Aula 1',
 		'horario' => '17:00 hs',
-		'resumen' => 'Es muy común achacar a la interfaz las responsabilidades de la falta de usabilidad. Mas allá que este sea un punto critico, generalmente los problemas reales hay que buscarlos en lo más profundo del Sistema: el Caso de Uso.
+		'resumen' => 'Hace ya más de 20 años que los patrones se han consolidado en el área del diseño de software. Con el paso del tiempo su aplicación se ha extendido a otras disciplinas relacionadas a los Sistemas, haciendo especial foco en el área de la Interfaz de Usuario.
 
-		Procesos mal definidos, solicitud de datos innecesarios, etapas mal ordenadas, información redundante son puntos que generan los mayores problemas al momento de usar un sistema.
+					Más allá de esta breve existencia, es importante destacar que hemos estado usando patrones de interfaz desde los comienzos de la informática sin saberlo. Desde el momento que alguien se "inspira" en una aplicación muy utilizada, buscando reducir costos de aprendizaje y retención en el tiempo, o que aplica controles adquiridos a terceros, es que estamos trabajando con patrones.
 
-		Es imprescindible concentrarse en atender los atributos de usabilidad desde las primeras etapas, incluso antes de la toma de requerimientos:</p><ul><li>Tiempo de aprendizaje</li><li>Velocidad de realización de tareas</li><li>Porcentaje de errores de usuarios</li><li>Retención con el paso del tiempo</li><li>Satisfacción subjetiva</li></ul><p>Cada punto se ilustrará con ejemplos que ayuden a comprender la importancia de su análisis detallado. Se presentará también un caso práctico de redefinición de un caso de uso, aplicando estos conceptos enunciados.',
+					Esta presentación busca exponer una clasificación de las diferentes situaciones que se encuentran en el desarrollo de interfaces web y mostrar una serie de patrones que, por un lado guían al principiante y, por el otro, permiten que el experto se organice.',
 		
 		'cv' => 'Profesor Adjunto en la cátedra Diseño de Sistemas, de la Carrera Ingeniería en Sistemas de Información en la UTN Regional Rosario, materia en la cual los conceptos de Usabilidad representan uno de los ejes principales. Focalizando en factores y medidas para evaluarla, así como también en la aplicación de patrones de interfaz, prestando atención a patrones conceptuales (para la toma de requerimientos).
 
