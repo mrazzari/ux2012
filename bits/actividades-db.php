@@ -22,7 +22,8 @@ $indiceSlotsActividades = array(
 	'eHorcada', //16
 	'gErmel', //17
 	'JMC', //18
-	'vPezzeti' //19
+	'vPezzeti', //19
+	'cBenavidez' //20
 );
 
 
@@ -282,8 +283,25 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'cv' => 'Profesor Adjunto en la cátedra Diseño de Sistemas, de la Carrera Ingeniería en Sistemas de Información en la UTN Regional Rosario, materia en la cual los conceptos de Usabilidad representan uno de los ejes principales. Focalizando en factores y medidas para evaluarla, así como también en la aplicación de patrones de interfaz, prestando atención a patrones conceptuales (para la toma de requerimientos).
 
 		En el ámbito empresarial, trabajando desde hace más de 20 años sobre cada una de las etapas del Proceso de Desarrollo. Con amplia experiencia en análisis, desarrollo y diseño de aplicaciones, dedicado actualmente al análisis y testing, sobre todo en aspectos de usabilidad.'
-		)
+		),
+
+
+
+	'cBenavidez' => array(
+		'nombre' => 'Carlos Benavidez',
+		'cargo' => '',
+		'titulo' => 'Observatorio Argentino de Accesibilidad',
+		'donde' => 'Aula 2',
+		'horario' => '17:00 hs',
+		'resumen' => 'A 13 años de las Pautas de Accesibilidad para el Contenido Web 1.0 y a 4 años de las WCAG 2.0; cuando la accesibilidad es un requisito legal y las WCAG 2.0 se han convertido en una norma ISO/IEC, no hemos logrado institucionalizar la accesibilidad entre quienes desarrollan, diseñan y administran los sitios web.
+
+					La presentación del Observatorio Argentino de Accesibilidad Web será una oportunidad para reflexionar acerca de la responsabilidad de los expertos y proponer cambios en las estrategias de trabajo y comunicación para avanzar hacia una web más inclusiva y, a la vez, más profesional.',
 		
+		'cv' => 'Diseñador y programador web independiente, experto en accesibilidad y autor de herramientas para comprobar la accesibilidad, como Hera  y eXaminator. Como colaborador de la Fundación Sidar de España participó en proyectos como Contramano -sitio ficticio para la enseñanza y práctica de la accesibilidad- y los Manuales de aplicación de las WCAG 1.0 con Dreamweaver y FrontPage.
+
+				Es autor del Libro Blanco de eXaminator, un detallado informe sobre el funcionamiento de esa herramienta donde analiza los principales problemas con la accesibilidad, las métricas utilizadas en las evaluaciones automáticas y propone una metodología de trabajo para mejorar la accesibilidad de los sitios web.'
+		)
+				
 		
 
 );

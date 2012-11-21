@@ -37,14 +37,14 @@ global $indiceSlotsActividades, $actividades;
 
 // limites de s (indice)
 
-	if( $s > 19 ){ $s = 1; };
-	if( $s < 1 ){ $s = 19; };
+	if( $s > 20 ){ $s = 1; };
+	if( $s < 1 ){ $s = 20; };
 	
 	$prevS = $s - 1 ;
 	$nextS = $s + 1 ;
 	
-	if( $prevS < 1 ){ $prevS = 19; };
-	if( $nextS > 19 ){ $nextS = 1; };
+	if( $prevS < 1 ){ $prevS = 20; };
+	if( $nextS > 20 ){ $nextS = 1; };
 
 //
 
