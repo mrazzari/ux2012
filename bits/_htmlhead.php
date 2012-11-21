@@ -21,4 +21,6 @@
 	<meta content="UX2012: 28/nov/2012 Centro Cultural San Martín, en el marco del Día Mundial de la Usabilidad. El principal evento profesional en Argentina sobre Experiencia de Usuario, Usabilidad, Diseño de Interacción, Accesibilidad y temáticas relacionadas." property="og:description">
 
 	<link href="rsrc/base.css" media="screen" rel="stylesheet" type="text/css">	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 </head>
