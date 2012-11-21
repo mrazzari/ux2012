@@ -62,7 +62,7 @@ Como <strong>Sponsor Recruiter,</strong> accedés a:
 </ul>
 
 <p>
-El costo de este sponsorship es de $500 por cada credencial y aviso.  Ten&eacute;s tiempo <strong>hasta el 23 de noviembre de 2012</strong> para sumarte.
+El costo de este sponsorship es de $500 por cada credencial y aviso.  Ten&eacute;s tiempo <strong>hasta el 26 de noviembre de 2012</strong> para sumarte.
 </p>
 
 <p>
