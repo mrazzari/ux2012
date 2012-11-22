@@ -43,7 +43,7 @@ Podr&aacute;s acercarte a los profesionales y empresas que nos apoyan y estar&aa
 				de
 				<span class="company"><?= $a['company'] ?></span>
 
-			<?php	if( $a['busca'] == NULL || $a['busca']!='0' ){ ?>
+			<?php	if( !isset($a['busca']) || $a['busca']!='0' ){ ?>
 				busca
 			<?php	}; ?>
 

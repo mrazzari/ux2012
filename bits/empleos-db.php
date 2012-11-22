@@ -102,7 +102,7 @@ Tendrá que desarrollar la relación comercial con los prestadores que considere
 	•	Espíritu emprendedor.
 	•	Capacidad y velocidad de aprendizaje.
 
-
+Enviá tu CV a <a href="mailto:rrhh@avantrip.com">rrhh@avantrip.com</a>
 
 <strong>Acerca de Avantrip.com</strong>
 Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
@@ -139,6 +139,7 @@ Tendrá que elaborar el plan de Marketing, generar los métodos de control de ge
 	•	Espíritu emprendedor.
 	•	Capacidad y velocidad de aprendizaje.
 
+Enviá tu CV a <a href="mailto:rrhh@avantrip.com">rrhh@avantrip.com</a>
 
 <strong>Acerca de Avantrip.com</strong>
 Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
@@ -176,6 +177,7 @@ Tendrá que desarrollar la relación comercial con las aerolíneas, gestionar y 
 	•	Espíritu emprendedor.
 	•	Capacidad y velocidad de aprendizaje.
 
+Enviá tu CV a <a href="mailto:rrhh@avantrip.com">rrhh@avantrip.com</a>
 
 <strong>Acerca de Avantrip.com</strong>
 Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
