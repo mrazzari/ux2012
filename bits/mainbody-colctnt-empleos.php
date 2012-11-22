@@ -42,7 +42,11 @@ Podr&aacute;s acercarte a los profesionales y empresas que nos apoyan y estar&aa
 				<span class="name"><?= $a['name'] ?></span> 
 				de
 				<span class="company"><?= $a['company'] ?></span>
+
+			<?php	if( $a['busca'] == NULL || $a['busca']!='0' ){ ?>
 				busca
+			<?php	}; ?>
+
 			</div ><?php /* /"who" */ ?>
 			
 			<div class="what">

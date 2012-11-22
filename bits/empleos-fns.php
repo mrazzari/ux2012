@@ -43,7 +43,10 @@ function getEmpleoPost( $id ){
 		$html .= $a['company'] ;
 		};
 	
-	$html .= ' <span class="hint1">busca</span></span></h2>';
+	if( $a['busca'] == NULL || $a['busca']!='0' ){ 
+		$html .= ' <span class="hint1">busca</span>';
+	}
+	$html .= '</span></h2>';
 
 	$html .= '<h2 class="actividad" style="margin-top:18pt;line-height:40pt"><span style="font-size:48pt">' . $a['jobtitle'] . '</span><br /><span style="font-size:22pt;">' . $a['jobkind'] . '</span></h2>';
 	

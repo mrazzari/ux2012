@@ -4,7 +4,140 @@
 
 $empleosDB = array(
 
-//0
+
+	'despegar-1' => array( 
+		'id' => 'despegar-1',
+		'imgsrc' => 'foto-manuel-arturo-48.jpg',
+		'name' => 'Manuel Arturo',
+		'company' => 'Despegar.com',
+		'companyURL' => 'http://www.despegar.com/',
+		'busca' => '0',
+		'jobtitle'  => '¡Te estamos buscando!', // 'Interesados en sumarse a la mayor agencia de viajes en latinoamérica',
+		'jobkind'  => 'Full-time',
+		'post'  => 'Nuestro equipo humano desarrolla y aplica tecnologías y prácticas que mejoran el modo en que cientos de personas planifican y compran sus viajes por todo el mundo.
+
+		<strong>Nuestra misión:</strong>
+		Continuar liderando el mercado de Viajes en América Latina.
+			
+		<strong>Nuestra visión:</strong>
+		Ser el canal de venta de viajes más práctico para nuestros clientes y más eficientes para nuestros proveedores del mercado siendo líderes en precio y volumen, apoyándonos en la excelencia de nuestros recursos humanos y nuestra plataforma tecnológica.
+		
+		<strong>¡Ven a trabajar con nosotros!</strong>
+		Ingresá tu CV en <a href="http://www.despegar.bumeran.com">despegar.bumeran.com</a>'
+		),
+		
+
+
+	'avantrip-2' => array( 
+		'id' => 'avantrip-2',
+		'imgsrc' => 'foto-tomas-gonzalez-ruiz-1-48.jpg',
+		'name' => 'Tomás González Ruiz',
+		'company' => 'Avantrip.com',
+		'companyURL' => 'http://www.avantrip.com/',
+		'jobtitle'  => 'Gerente de Producto',
+		'jobkind'  => 'Full-time',
+		'post'  => 'Buscamos profesional con sólida experiencia en el gerenciamiento integral del área de Producto, adquirida en empresas de servicios turísticos.  Reportará al CEO de la empresa y tendrá visibilidad frente al Directorio para los temas de Producto Turístico. 
+
+<strong>Sus funciones serán:</strong>
+	•	Responsable de la Planificación Anual de Producto.
+	•	Responsable de la Venta. Ingresos por producto.
+	•	Responsable de la rentabilidad.
+	•	Responsable de la calidad del producto.
+	•	Responsable de la competitividad de tarifas. 
+
+Tendrá que desarrollar la relación comercial con los prestadores que considere necesarios para el desarrollo del producto turístico; gestionar y controlar el tablero de comando de producto y supervisar a los responsables del área de Producto Aéreo y Producto Terrestre. 
+
+<strong>Serán competencias clave para el efectivo desarrollo del puesto:</strong>
+	•	Pro actividad, creatividad y liderazgo.
+	•	Mirada integral del negocio.
+	•	Excelentes Relaciones interpersonales
+	•	Ambición comercial.
+	•	Espíritu emprendedor.
+	•	Capacidad y velocidad de aprendizaje.
+
+
+
+<strong>Acerca de Avantrip.com</strong>
+Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
+Avantrip realiza venta online, telefónica y presencial y es dueña de los canales de comercialización de Quiero Viajes, programa de fidelización del Banco de Galicia y de RCI Travel, programa de post venta de RCI Timeshares.  Actualmente trabajan en Avantrip 67 personas.'
+		),
+		
+		
+		
+		
+
+	'avantrip-1' => array( 
+		'id' => 'avantrip-1',
+		'imgsrc' => 'foto-tomas-gonzalez-ruiz-1-48.jpg',
+		'name' => 'Tomás González Ruiz',
+		'company' => 'Avantrip.com',
+		'companyURL' => 'http://www.avantrip.com/',
+		'jobtitle'  => 'Gerente de Marketing',
+		'jobkind'  => 'Full-time',
+		'post'  => 'Buscamos profesional con sólida experiencia en el gerenciamiento integral del área de Marketing, adquirida en empresas de Internet o Consumo masivo.  Reportará al CEO de la empresa y tendrá visibilidad frente al Directorio para los temas de Marketing. 
+
+<strong>Sus funciones serán:</strong>
+	•	Responsable de la Planificación estratégica de Marketing.
+	•	Responsable de la Venta. 
+	•	Responsable del presupuesto de Marketing y CPC/CPA.
+	•	Responsable de la relación y cumplimiento de objetivos de las Alianzas comerciales. 
+
+Tendrá que elaborar el plan de Marketing, generar los métodos de control de gestión del área y afianzar las relaciones comerciales con las Alianzas de la empresa. 
+
+<strong>Serán competencias clave para el efectivo desarrollo del puesto:</strong>
+	•	Pro actividad, creatividad y liderazgo.
+	•	Mirada integral del negocio.
+	•	Excelentes Relaciones interpersonales
+	•	Ambición comercial.
+	•	Espíritu emprendedor.
+	•	Capacidad y velocidad de aprendizaje.
+
+
+<strong>Acerca de Avantrip.com</strong>
+Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
+Avantrip realiza venta online, telefónica y presencial y es dueña de los canales de comercialización de Quiero Viajes, programa de fidelización del Banco de Galicia y de RCI Travel, programa de post venta de RCI Timeshares.  Actualmente trabajan en Avantrip 67 personas.'
+		),
+
+
+
+
+		
+	'avantrip-3' => array( 
+		'id' => 'avantrip-3',
+		'imgsrc' => 'foto-tomas-gonzalez-ruiz-1-48.jpg',
+		'name' => 'Tomás González Ruiz',
+		'company' => 'Avantrip.com',
+		'companyURL' => 'http://www.avantrip.com/',
+		'jobtitle'  => 'Gerente de Producto Aéreo',
+		'jobkind'  => 'Full-time',
+		'post'  => 'Buscamos profesional con sólida experiencia en el gerenciamiento integral del área de Producto Aereo, adquirida en empresas de servicios turísticos.  Reportará al Gerente de Producto de la empresa. 
+
+<strong>Sus funciones serán:</strong>
+	•	Responsable de la planificación anual de producto aéreo.
+	•	Responsable de la venta de aéreos. Ingresos por producto.
+	•	Responsable de la rentabilidad del producto aéreo.
+	•	Responsable de la calidad del producto aéreo.
+	•	Responsable de la competitividad de tarifas de aéreos. 
+
+Tendrá que desarrollar la relación comercial con las aerolíneas, gestionar y controlar el tablero de comando del producto aéreo y supervisar al equipo de expertos operativos del área de Producto aéreo. Será responsabilidad suya la gestión de ofertas especiales y todos los acuerdos comerciales con las compañías aéreas. 
+
+<strong>Serán competencias clave para el efectivo desarrollo del puesto:</strong>
+	•	Pro actividad, creatividad y liderazgo.
+	•	Mirada integral del negocio.
+	•	Excelentes Relaciones interpersonales
+	•	Ambición comercial.
+	•	Espíritu emprendedor.
+	•	Capacidad y velocidad de aprendizaje.
+
+
+<strong>Acerca de Avantrip.com</strong>
+Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
+Avantrip realiza venta online, telefónica y presencial y es dueña de los canales de comercialización de Quiero Viajes, programa de fidelización del Banco de Galicia y de RCI Travel, programa de post venta de RCI Timeshares.  Actualmente trabajan en Avantrip 67 personas.'
+		),
+		
+		
+		
+//
 
 	'fz3818-1'  => array(
 		'id' => 'fz3818-1',
@@ -60,7 +193,7 @@ Our team speak english, french and spanish, and is trained to work remotely with
 The founders and staff's experience gives us the ability to master complex web projects, including foreign languages and complex typographies."
 		),
 
-//1
+//
 	
 	'keikendo-1' => array( 
 		'id' => 'keikendo-1',
@@ -86,18 +219,10 @@ En Keikendo diseñamos experiencias que mejoran los resultados del negocio.
 Nuestro enfoque de solución de problemas está basado en las disciplinas de diseño centrado en el usuario y las metodologías ágiles. En el centro del proceso ubicamos los objetivos del negocio y los de los usuarios del producto.
 
 Tenemos un especial interés por hacer del mundo un lugar mejor para vivir. Nuestra filosofía de trabajo es abierta y buscamos contacto permanente con los equipos internos de los clientes, que es el lugar donde se nos necesita para liderar el cambio.'
-/*
-Ofrecemos a nuestros clientes:
-- Investigación: Relevamos información de valor sobre la experiencia que tienen las personas cuando interactúan con un producto. 
-- Diseño de experiencias: Creamos productos amigables, intuitivos, accesibles y fáciles de usar que mejoran los resultados del negocio. 
-- Diseño de interfaces: Desarrollamos interfaces web, móviles y de software basados en los estándares de la W3C. 
-- Capacitación: Brindamos programas de formación en usabilidad, arquitectura de información, diseño de interacción y accesibilidad.
-'
-*/
 		),
 
 
-//2 
+
 		
 
 );

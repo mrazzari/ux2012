@@ -314,7 +314,7 @@ H2.actividad{
 	}
 
 .jobpostindex .item .itemphoto{ float:left; width: 52px; }
-.jobpostindex .item .itemphoto IMG{ height:48px; width:48px; }
+.jobpostindex .item .itemphoto IMG{ height:48px; width:48px; border:1px solid #ccc; }
 
 .jobpostindex .item .itemctnt{
 	margin-left:60px;
