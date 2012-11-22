@@ -5,6 +5,53 @@
 $empleosDB = array(
 
 
+	'mulesoft-1' => array( 
+		'id' => 'mulesoft-1',
+		'imgsrc' => 'foto-victoria-charra-48.jpg',
+		'name' => 'Victoria Charra',
+		'company' => 'Mulesoft',
+		'companyURL' => 'http://www.mulesoft.com/',
+		'busca' => '1',
+		'jobtitle'  => 'Software UI Engineer',
+		'jobkind'  => 'Full-time, Senior en Microcentro',
+		'post'  => 'Web and enterprise integration platform software is too hard, requiring sophisticated IT architects, developers and administrators to design, deploy, and maintain overly complex environments, MuleSoft is developing a new generation of lightweight, open-source based web integration solutions ready-made for the cloud and we are currently looking for a talented web developer who is passionate about building great tools and products with great user experiences that make it much simpler to build and maintain these IT environments.
+
+<strong>Position deliverables</strong>
+	•	Collaborate with product management, engineering, and most importantly, users, on designing the overall user experience.
+	•	Translate ideas and designs into working HTML/CSS/Javascript-based products that adhere to a style guide that you help define and creates a consistent and easy to understand user experience.
+	•	Implement rich interactive applications using Javascript which work flawlessly in a multi-browser environment and are easy to maintain and enhance.
+	•	Collaborate with QA to ensure designs are easy to test, user personas are correctly defined and a high set of standards for product usability is enforced before the product is shipped.
+	•	Collaborate with Technical Writers to ensure the user documentation follows the same level of high standards set for the product and clearly articulates how the product is used and what tasks users can accomplish using it.
+	•	Iterate quickly on ideas and push them out to customers in a continuous fashion.
+
+<strong>The ideal candidate will have:</strong>
+	•	You Know the latest frameworks (browser side), and how to interact with server side.
+	•	You can demonstrate examples where you have created excellent user experiences that have been recognized by users, industry, or peers.
+	•	You\'ve deep knowledge about Javascript, HTML, and CSS.
+	•	UX experience.
+	•	Experience using prototypes (eg. Axure).
+	•	REST knowledge.
+All-star developers always bring a little something extra to the table. Bonus points to you if have Java knowledge.
+
+<strong>What Mulesoft offers</strong>
+	•	The opportunity to be part of a great team of professionals.
+	•	An environment where you will be challenged every week by teammates that will expect only the very best from you.
+	•	A real open source experience. We have a community around our products where you engage directly with users through online discussions, social media and meetups.
+	•	A newly renovated state of the art office in the heart of Buenos Aires with a comfortable and collaborative work environment and the latest technology (state of the art laptops and monitors and more)
+	•	A great salary, stock options, and career growth opportunities.
+	
+Send your resume to <a href="careers@mulesource.com">careers@mulesource.com</a>.
+
+
+<strong>About us:</strong>
+
+MuleSoft is solving the largest and most important problem in IT: integration. Companies spend $500 billion dollars every year writing custom integration code to make systems work together - a problem that’s only increasing with the cloud.  We built the world’s most widely used integration platform, which connects applications, databases and organizations as easily as Facebook connects people. Our technology is a key enabler of today’s most important movements: cloud, social, mobile and the enterprise.  
+
+MuleSoft is an explosive-growth, well-funded, early stage company on a mission to fix integration.  We have big name customers like JP Morgan, BMW, Wal-Mart, Nokia and Zynga, and over 3,000 companies and 100,000 developers use our products.Our goal is to build a great company filled with exceptional people who challenge and admire each other.  Are you looking for a fast-paced environment with a huge market opportunity and unlimited growth potential? If you want to have a big impact on our success, love working in high performing teams, and have the track record to prove it, we want to meet you!'
+		),
+		
+		
+
 	'despegar-1' => array( 
 		'id' => 'despegar-1',
 		'imgsrc' => 'foto-manuel-arturo-48.jpg',
