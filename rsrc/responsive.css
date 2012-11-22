@@ -14,16 +14,13 @@
 		overflow: hidden;
 		zoom: 1;
 	}
-
 	.layoutContentEtc {
 		width:760px !important;
 	}
-
 	.colContent {
 		float:left;
 		width:500px !important;
 	}
-
 	.colEtc {
 		float:right !important;
 		margin-right: 40px !important;
@@ -39,7 +36,6 @@
 
 	UL#nav1, UL#nav1 LI{
 	list-style:none; margin:0; padding:0; }
-
 	UL#nav1 LI{ display:inline !important; padding-right:20pt; font-size:14pt; }
 	UL#nav1 LI A{ text-decoration:none; color: #000; }
 
@@ -50,6 +46,7 @@
 		height: 148px;
 	}
 }
+
 
 
 /* Tablet Portrait size */
@@ -66,20 +63,16 @@
 		overflow: hidden;
 		zoom: 1;
 	}
-
 	.layoutContentEtc {
 		width:550px !important;
 	}
-
 	.colContent {
 		float:left;
 		width:550px !important;
 	}
-
 	.colEtc {
 		float:left !important;
 	}
-
 	.mainhead .coletc {
 		margin-top: 15px;
 		text-align: left !important;
@@ -87,17 +80,37 @@
 
 	UL#nav1, UL#nav1 LI{
 	list-style:none; margin:0; padding:0; }
-
 	UL#nav1 LI{ display:inline !important; padding-right:20pt; font-size:14pt; }
 	UL#nav1 LI A{ text-decoration:none; color: #000; }
 
 	.topmap { display: none; }
 
 	.mainhead3 a { text-decoration: underline !important; }
+
+	ul.logos li {
+		float: left !important;
+		width: 200px !important;
+	}
+
+	ul.logos li ul {
+		float: left !important;
+		width: 200px !important;
+	}
+	ul.logos li ul h4 {
+		width: 200px !important;
+	}
+
+	.centrarLogos {
+		width: 600px !important;
+	}
 }
+
+
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {}
+
+
 
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -113,16 +126,13 @@
 		overflow: hidden;
 		zoom: 1;
 	}
-
 	.layoutContentEtc {
 		width:760px;
 	}
-
 	.colContent {
 		float:left;
 		width:500px;
 	}
-
 	.colEtc {
 		float:right;
 		margin-right: 40px !important;
@@ -138,7 +148,6 @@
 
 	UL#nav1, UL#nav1 LI{
 	list-style:none; margin:0; padding:0; }
-
 	UL#nav1 LI{ display:inline !important; padding-right:20pt; font-size:14pt; }
 	UL#nav1 LI A{ text-decoration:none; color: #000; }
 
@@ -149,11 +158,6 @@
 		height: 148px;
 	}
 
-	/*.centrarLogos {
-		width: 306px !important;
-		text-align: center !important;
-	}*/
-
 	.mainhead,
 	.mainhead2,
 	.mainhead3,
@@ -162,11 +166,27 @@
 	}
 }
 
+
+
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 	body.home .mainhead2 h1 {
 		font-size: 80px !important;
 	}
+
+	.home .mainhead2 .p1 {
+		font-size: 24px !important;
+	}
+	.home .mainhead2 .p2 {
+		font-size: 21px !important;
+	}
+	.home .mainhead2 .p3 {
+		font-size: 15px !important;
+	}
+	.home .mainhead2 .p4 {
+		font-size: 18px !important;
+	}
+
 
 	.mbody {
 		width: 300px !important;
@@ -175,23 +195,19 @@
 		overflow: hidden;
 		zoom: 1;
 	}
-
 	.layoutContentEtc {
 		width:300px !important;
 	}
-
 	.colContent {
 		float:left;
 		width:300px !important;
 	}
-
 	.colEtc {
 		float:left !important;
 	}
 
 	UL#nav1, UL#nav1 LI{
 	list-style:none; margin:0; padding:0; }
-
 	UL#nav1 LI{ display:block !important; padding-right:20pt; font-size:14pt; }
 	UL#nav1 LI A{ text-decoration:none; color: #000; }
 
@@ -203,18 +219,28 @@
 		margin-top: 15px !important;
 		text-align: left !important;
 	}
-
-	/*.centrarLogos {
-		width: 306px !important;
-		text-align: center !important;
-	}*/
 }
+
+
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 /* Solo si esta en "orientation: landscape" */
 @media only screen and (max-width: 479px) and (orientation: landscape) {
 	body.home .mainhead2 h1 {
 		font-size: 80px !important;
+	}
+
+	.home .mainhead2 .p1 {
+		font-size: 24px !important;
+	}
+	.home .mainhead2 .p2 {
+		font-size: 20px !important;
+	}
+	.home .mainhead2 .p3 {
+		font-size: 17px !important;
+	}
+	.home .mainhead2 .p4 {
+		font-size: 19px !important;
 	}
 
 	.mbody {
@@ -224,23 +250,19 @@
 		overflow: hidden;
 		zoom: 1;
 	}
-
 	.layoutContentEtc {
 		width:450px !important;
 	}
-
 	.colContent {
 		float:left;
 		width:450px !important;
 	}
-
 	.colEtc {
 		float:left !important;
 	}
 
 	UL#nav1, UL#nav1 LI{
 	list-style:none; margin:0; padding:0; }
-
 	UL#nav1 LI{ display:inline !important; padding-right:20pt; font-size:13pt !important; }
 	UL#nav1 LI A{ text-decoration:none; color: #000; }
 
@@ -251,5 +273,60 @@
 	.mainhead .coletc {
 		margin-top: 15px !important;
 		text-align: left !important;
+	}
+
+	ul.logos li {
+		float: left !important;
+		width: 200px !important;
+	}
+
+	ul.logos li ul {
+		float: left !important;
+		width: 200px !important;
+	}
+
+	/* Fix para que no salten las columnas */
+	ul.logos li ul:nth-child(2) {
+		float: left !important;
+		width: 200px !important;
+		min-height: 201px;
+	}
+	/* Fix para que no salten las columnas */
+	ul.logos li ul:nth-child(5) {
+		float: left !important;
+		width: 200px !important;
+		min-height: 235px !important;
+	}
+
+	ul.logos li ul h4 {
+		width: 200px !important;
+	}
+
+	.centrarLogos {
+		width: 460px !important;
+	}
+
+	/* Tabla Responsive */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		display: none;
+	}
+	td {
+		position: relative;
+		padding-left: 50%; 
+	}
+	td:before {
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
 	}
 }
