@@ -4,6 +4,28 @@
 
 $empleosDB = array(
 
+
+	'globant-1' => array( 
+		'id' => 'globant-1',
+		'imgsrc' => 'foto-martina-pifarre.jpg',
+		'name' => 'Martina Pifarre',
+		'company' => 'Globant',
+		'companyURL' => 'http://www.globant.com/',
+		'busca' => '1',
+		'jobtitle'  => 'UX para el equipo de Globant!',
+		'jobkind'  => 'Full Time, Ssr en adelante en Buenos Aires',
+		'post'  => 'Buscamos gente apasionada con ganas de ser parte de un gran equipo de UX con habilidades en User Research, Information Architecture, Interaction Design y Usability. 
+Si disfrutas/amas estas prácticas y tenes capacidad y experiencia, nos encantaría conocerte y contarte más de los proyectos y posibilidades dentro de Globant.
+Hay posiciones con oportunidades de viajar a San Francisco, UK, New York, y otras para trabajar localmente.
+Escribinos a <a href="mailto:recruiting@globant.com">recruiting@globant.com</a>
+
+Acerca de nosotros:
+<strong>Globant</strong> es la compañía de América Latina líder en la creación de productos de software innovadores para audiencias globales. Para nosotros, eso significa que somos el lugar donde los mejores ingenieros se unen a un excelente equipo de diseñadores y laboratorios de innovación para ofrecer una superior experiencia de usuario. 
+Tiene más de 2.500 profesionales que trabajan para compañías como Electronic Arts, JWT, Zynga, Autodesk, Virgin, Google y Coca Cola, entre otras. Para más información visitá nuestro Web site <a href="http://www.globant.com/">www.globant.com.</a>'
+		),
+
+
+
 	'ombushop-1' => array( 
 		'id' => 'ombushop-1',
 		'imgsrc' => 'foto-lucas-mourelle-ombushop-48.jpg',
@@ -26,7 +48,6 @@ Quienes formamos parte del staff de OmbuShop tenemos especial interés por el di
 
 ¡Esperamos tu mail!'
 		),
-
 
 
 
