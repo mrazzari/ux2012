@@ -22,7 +22,7 @@ OmbuShop lidera la revolución del eCommerce en América Latina.
 
 Desarrollamos una plataforma simple y fácil de usar que permite a cualquier persona o empresa crear su tienda online en minutos. Nuestros usuarios pueden crear sus tiendas sin la necesidad de instalar software adicional ni contar con conocimientos de código.
 
-Quienes formamos parte del staff de OmbuShop tenemos especial interés por el diseño centrado en el usuario, una web semántica, abierta y accesible para todos, el desarrollo con estándares (XHTML, HTML5, CSS, etc.) y el diseño de calidad hasta el último detalle. Trabajamos con Github, Trello, HipChat y utilizamos metodologías LEAN.
+Quienes formamos parte del staff de OmbuShop tenemos especial interés por el diseño centrado en el usuario, una web semántica, abierta y accesible para todos, el desarrollo con estándares (XHTML, HTML5, CSS, etc.) y el diseño de calidad hasta el último detalle. Trabajamos con Github, Trello, HipChat y utilizamos metodologías lean.
 
 ¡Esperamos tu mail!'
 		),
