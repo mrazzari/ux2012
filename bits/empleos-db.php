@@ -44,7 +44,7 @@ OmbuShop lidera la revolución del eCommerce en América Latina.
 
 Desarrollamos una plataforma simple y fácil de usar que permite a cualquier persona o empresa crear su tienda online en minutos. Nuestros usuarios pueden crear sus tiendas sin la necesidad de instalar software adicional ni contar con conocimientos de código.
 
-Quienes formamos parte del staff de OmbuShop tenemos especial interés por el diseño centrado en el usuario, una web semántica, abierta y accesible para todos, el desarrollo con estándares (XHTML, HTML5, CSS, etc.) y el diseño de calidad hasta el último detalle. Trabajamos con Github, Trello, HipChat y utilizamos metodologías LEAN.
+Quienes formamos parte del staff de OmbuShop tenemos especial interés por el diseño centrado en el usuario, una web semántica, abierta y accesible para todos, el desarrollo con estándares (XHTML, HTML5, CSS, etc.) y el diseño de calidad hasta el último detalle. Trabajamos con Github, Trello, HipChat y utilizamos metodologías lean.
 
 ¡Esperamos tu mail!'
 		),
@@ -148,7 +148,7 @@ Tendrá que desarrollar la relación comercial con los prestadores que considere
 	•	Espíritu emprendedor.
 	•	Capacidad y velocidad de aprendizaje.
 
-
+Enviá tu CV a <a href="mailto:rrhh@avantrip.com">rrhh@avantrip.com</a>
 
 <strong>Acerca de Avantrip.com</strong>
 Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
@@ -185,6 +185,7 @@ Tendrá que elaborar el plan de Marketing, generar los métodos de control de ge
 	•	Espíritu emprendedor.
 	•	Capacidad y velocidad de aprendizaje.
 
+Enviá tu CV a <a href="mailto:rrhh@avantrip.com">rrhh@avantrip.com</a>
 
 <strong>Acerca de Avantrip.com</strong>
 Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
@@ -222,6 +223,7 @@ Tendrá que desarrollar la relación comercial con las aerolíneas, gestionar y 
 	•	Espíritu emprendedor.
 	•	Capacidad y velocidad de aprendizaje.
 
+Enviá tu CV a <a href="mailto:rrhh@avantrip.com">rrhh@avantrip.com</a>
 
 <strong>Acerca de Avantrip.com</strong>
 Avantrip es una agencia de viajes online, perteneciente al grupo Biblos América, dueña de Biblos Travel, segundo operador de mayor tamaño en  la Argentina. 
