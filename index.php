@@ -61,7 +61,7 @@
 						<th>
 						</th>
 						<th>Sala C</th>
-						<th>Sala D</th>
+						<th>Sala Muiño</th>
 						<th>Aula 1</th>
 						<th>Aula 2</th>
 					</tr>
@@ -122,9 +122,8 @@
 
 					<tr>
 						<th>16:30</th>
-						<td>Break</td>
 						<td rowspan="2"><a href="actividad.php?s=17">Taller de prototipado rápido y testeo de usabilidad con usuarios</a> Guillermo Ermel</td>
-						<td colspan="2">&nbsp;</td>
+						<td colspan="3">Break</td>
 					</tr>
 					
 
@@ -136,8 +135,8 @@
 					</tr>
 
 					<tr>
-						<th>18:00</th>
-						<td colspan="4">Cierre</td>
+						<th>18:15</th>
+						<td colspan="4">Cierre en Sala C</td>
 					</tr>
 
 					
