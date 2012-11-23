@@ -4,6 +4,31 @@
 
 $empleosDB = array(
 
+	'ombushop-1' => array( 
+		'id' => 'ombushop-1',
+		'imgsrc' => 'foto-lucas-mourelle-ombushop-48.jpg',
+		'name' => 'Lucas Mourelle',
+		'company' => 'OmbuShop',
+		'companyURL' => 'http://www.ombushop.com/',
+		'busca' => '1',
+		'jobtitle'  => 'Diseñador Web y Front-end Developer',
+		'jobkind'  => 'Freelance, Junior o Semisenior en la Ciudad de Buenos Aires',
+		'post'  => 'Si sos Diseñador Gráfico o estudiante avanzado, te encanta diseñar para la Web y tenés conocimientos y experiencia en las tecnologías front-end: HTML, CSS y algo de JavaScript (esta última: no excluyente), te invitamos a trabajar con nosotros de forma freelance en la confección de Themes para las tiendas de nuestra plataforma.
+
+Envianos tu CV y link a tu portfolio/trabajos a: <a href="lucas@ombushop.com">lucas@ombushop.com</a>
+
+<strong>Acerca de OmbuShop</strong>
+OmbuShop lidera la revolución del eCommerce en América Latina.
+
+Desarrollamos una plataforma simple y fácil de usar que permite a cualquier persona o empresa crear su tienda online en minutos. Nuestros usuarios pueden crear sus tiendas sin la necesidad de instalar software adicional ni contar con conocimientos de código.
+
+Quienes formamos parte del staff de OmbuShop tenemos especial interés por el diseño centrado en el usuario, una web semántica, abierta y accesible para todos, el desarrollo con estándares (XHTML, HTML5, CSS, etc.) y el diseño de calidad hasta el último detalle. Trabajamos con Github, Trello, HipChat y utilizamos metodologías LEAN.
+
+¡Esperamos tu mail!'
+		),
+
+
+
 
 	'mulesoft-1' => array( 
 		'id' => 'mulesoft-1',
