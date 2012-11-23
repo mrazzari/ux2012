@@ -48,7 +48,7 @@ $actividades = array(
 		'nombre' => 'Ivan Wolcan',
 		'cargo' => '',
 		'titulo' => 'Innovar desde el diseño de Experiencia de Usuario',
-		'donde' => 'Sala D',
+		'donde' => 'Sala Muiño',
 		'horario' => '10:00 hs',
 		'resumen' => 'Es sabido que la mayoría de los CEO ven la necesidad de innovar para subsistir en el mercado de hoy en día. Es sabido también, que centrar cualquier diseño en usuarios, incrementa las posibilidades de éxito de todo producto o servicio.
 		
@@ -93,7 +93,7 @@ $actividades = array(
 		'nombre' => 'Rafael Kohanoff',
 		'cargo' => '',
 		'titulo' => 'Tecnologías para la Salud y la Discapacidad',
-		'donde' => 'Sala D',
+		'donde' => 'Sala Muiño',
 		'horario' => '11:30 hs',
 		'resumen' => 'Una mirada diferente, pensando en la gente y la accesibilidad a los mismos de dispositivos funcionales de calidad y económicos. Experiencias y desarrollos reales realizados desde el INTI (Instituto Nacional de Tecnología Industrial).'
 		),
@@ -141,7 +141,7 @@ $actividades = array(
 		'nombre' => 'Verónica Traynor',
 		'cargo' => '',
 		'titulo' => 'Usabilidad: momento eureka!',
-		'donde' => 'Sala D',
+		'donde' => 'Sala Muiño',
 		'horario' => '14:00 hs',
 		'resumen' => 'Generar una interfaz usable implica lograr que esté centrada en las necesidades motrices y mentales de los usuarios.
 
@@ -211,7 +211,7 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'nombre' => 'Michael Dorka',
 		'cargo' => '',
 		'titulo' => 'El diseñador de UX, un especialista con múltiples personalidades',
-		'donde' => 'Sala D',
+		'donde' => 'Sala Muiño',
 		'horario' => '15:30 hs',
 		'resumen' => 'Diseño de UX  no sólo es diseño de páginas web o desarrollo de interfaces de software, ni es solamente el área de  diseñadores gráficos o de diseñadores de interfaz. 
 		
@@ -248,7 +248,7 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'nombre' => 'Guillermo Ermel',
 		'cargo' => '',
 		'titulo' => 'Taller de prototipado rápido y testeo de usabilidad con usuarios',
-		'donde' => 'Sala D',
+		'donde' => 'Sala C',
 		'horario' => '16:30 hs',
 		'resumen' => 'Taller de prototipado rápido y testeo de usabilidad con usuarios
 
@@ -261,7 +261,7 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'nombre' => 'Juan Manuel Carraro',
 		'cargo' => '',
 		'titulo' => 'Lean UX',
-		'donde' => 'Sala C',
+		'donde' => 'Sala Muiño',
 		'horario' => '17:00 hs',
 		'resumen' => 'El objetivo de la charla es transmitir los conceptos fundamentales del proceso de trabajo Lean UX y las diferencias con los procesos clásicos de Diseño Centrado en el Usuario. Describir los objetivos y la rutina de las pruebas con usuarios en un contexto lean. Explicar en qué contexto es apropiada la introducción del proceso lean.'
 		),
