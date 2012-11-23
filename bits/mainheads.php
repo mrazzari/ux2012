@@ -24,9 +24,14 @@
 
 		</div><?php /* colContent */ ?>
 
-		<div class="colEtc">
+		<div class="colEtc redesSociales">
 			<a href="https://www.facebook.com/Ux2012"><img src="rsrc/facebook24.png" alt="Facebook: ux2012" width="24" height="24" /></a>
 			<a href="https://twitter.com/ux2012"><img src="rsrc/twitter24.gif" alt="Twitter: @ux2012" width="24" height="24" /></a>
+		</div><?php /* colEtc */ ?>
+
+		<div class="colEtc redesSocialesAlt">
+			<p>Seguinos en: 
+						<a href="https://www.facebook.com/Ux2012">Facebook</a> - <a href="https://twitter.com/ux2012">Twitter</a></p>
 		</div><?php /* colEtc */ ?>
 		
 	</div><?php /* layoutContentEtc */ ?>
