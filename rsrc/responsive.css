@@ -301,8 +301,6 @@
 		font-size: 18px !important;
 	}
 
-
-
 	.mbody {
 		width: 300px !important;
 		margin: 0 auto;
@@ -334,7 +332,6 @@
 	UL#nav1 LI A {
 		display: block;
 	}
-
 
 	.topmap { 
 		display: none; 
@@ -431,12 +428,21 @@
 		margin: 0 !important;
 		position: relative;
 		text-align: left !important;
-		top: 4.3%;
+		top: 35%;
 		left: -1%;
 	}
 
 	TABLE.programa TH, TABLE.programa TD {
 		font-size: 12pt !important;
+	}
+
+	#ajusteResponsive {
+		font-size: 21pt !important;
+		line-height: 29pt !important;
+	}
+
+	#ajusteResponsive2 {
+		font-size: 15pt !important;
 	}
 }
 
@@ -538,7 +544,6 @@
 		width: 200px !important;
 	}
 
-	/* Para que no salten las columnas */
 	ul.logos li ul:nth-child(2) {
 		float: left !important;
 		width: 200px !important;
@@ -557,7 +562,6 @@
 	.centrarLogos {
 		width: 460px !important;
 	}
-
 
 	/* Tabla Responsive */
 	table, thead, tbody, th, td, tr { 
@@ -618,6 +622,15 @@
 
 	TABLE.programa TH, TABLE.programa TD {
 		font-size: 12pt !important;
+	}
+
+	#ajusteResponsive {
+		font-size: 21pt !important;
+		line-height: 29pt !important;
+	}
+
+	#ajusteResponsive2 {
+		font-size: 15pt !important;
 	}
 	
 }

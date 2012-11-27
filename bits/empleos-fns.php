@@ -48,8 +48,8 @@ function getEmpleoPost( $id ){
 	}
 	$html .= '</span></h2>';
 
-	$html .= '<h2 class="actividad" style="margin-top:18pt;line-height:40pt"><span style="font-size:48pt">' . $a['jobtitle'] . '</span></h2>';
-	$html .= '<h3 class="actividad"><span style="font-size:22pt;">' . $a['jobkind'] . '</span></h2>';
+	$html .= '<h2 class="actividad" style="margin-top:18pt;line-height:40pt"><span style="font-size:48pt" id="ajusteResponsive">' . $a['jobtitle'] . '</span></h2>';
+	$html .= '<h3 class="actividad"><span style="font-size:22pt;" id="ajusteResponsive2">' . $a['jobkind'] . '</span></h2>';
 	
 
 	$html .= '<p>';
