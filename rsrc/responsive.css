@@ -69,6 +69,21 @@
 		text-decoration: underline !important;
 		color: 000;
 	}
+
+	.navactividades {
+		background: #DDD;
+		overflow: visible !important;
+		width: 100% !important; /*550px*/
+		height: 28px;
+		font-size: 14pt;
+		margin-bottom: 55px !important;
+	}
+
+	.navactividades .nav1 {
+		float: left !important;
+		width: 80% !important; /*470px*/
+		height: 28px;
+	}
 }
 
 
@@ -120,6 +135,21 @@
 
 	.topmap { 
 		display: none; 
+	}
+
+	.navactividades {
+		background: #DDD;
+		overflow: hidden;
+		width: 550px !important;
+		height: 28px;
+		font-size: 14pt;
+		margin-bottom: 55px !important;
+	}
+
+	.navactividades .nav1 {
+		float: left;
+		width: 470px !important;
+		height: 28px;
 	}
 
 	.mainhead3 a { 
@@ -244,6 +274,11 @@
 		font-size: 80px !important;
 	}
 
+	.mainhead, .mainhead1 {
+	    background: none repeat scroll 0 0 #E6E6E6;
+	    padding: 10pt 0 0 0 !important;
+	}
+
 	.home .mainhead2 .p1 {
 		font-size: 24px !important;
 	}
@@ -256,6 +291,16 @@
 	.home .mainhead2 .p4 {
 		font-size: 18px !important;
 	}
+
+	.mainhead2 .p1 {
+		margin: 0 !important;
+	}
+
+	.mainhead2 .p4 {
+		margin-top: 10px !important;
+		font-size: 18px !important;
+	}
+
 
 
 	.mbody {
@@ -290,20 +335,6 @@
 		display: block;
 	}
 
-	/*
-	.redesSocialesAlt {
-		display: inherit;
-		font-size:14pt;
-		color: #000 !important;
-		width: 300px !important;
-		text-align: left !important;
-	}
-	.redesSocialesAlt a {
-		font-size:14pt;
-		color: #000 !important;
-		margin-right: 5px;
-	}
-	*/
 
 	.topmap { 
 		display: none; 
@@ -315,6 +346,13 @@
 
 	.mainhead .coletc {
 		text-align: left;
+	}
+
+	.redesSociales {
+		position: absolute;
+		text-align: right !important;
+		right: 0;
+		margin: 0 !important;
 	}
 
 	/* Tabla Responsive */
@@ -349,6 +387,57 @@
 		text-decoration: underline !important;
 		color: 000;
 	}
+
+	table.programa th, table.programa td{
+		border: none !important;
+	}
+
+	table.programa th {
+		background: #CCCCCC !important;
+	}
+
+	H2.disertante STRONG {
+	  font-size: 18pt !important;
+	}
+
+	H2.actividad {
+	  font-size: 15pt !important;
+	  line-height: 20pt !important;
+	  line-height: 30pt;
+	  margin: 0 0 12pt !important;
+	}
+
+	.jobtitle {
+		font-size: 16pt !important;
+		line-height: 150% !important;
+	}
+
+	.navactividades {
+		background: #DDD;
+		overflow: visible !important;
+		width: 100% !important; /*550px*/
+		height: 28px;
+		font-size: 14pt;
+		margin-bottom: 55px !important;
+	}
+
+	.navactividades .nav1 {
+		width: 470px !important; /*470px*/
+		height: 28px;
+	}
+
+	.navActividades .controls {
+	    float: none !important;
+		margin: 0 !important;
+		position: relative;
+		text-align: left !important;
+		top: 4.3%;
+		left: -1%;
+	}
+
+	TABLE.programa TH, TABLE.programa TD {
+		font-size: 12pt !important;
+	}
 }
 
 
@@ -358,6 +447,11 @@
 @media only screen and (max-width: 479px) and (orientation: landscape) {
 	body.home .mainhead2 h1 {
 		font-size: 80px !important;
+	}
+
+	.mainhead, .mainhead1 {
+	    background: none repeat scroll 0 0 #E6E6E6;
+	    padding: 10pt 0 0 0 !important;
 	}
 
 	.home .mainhead2 .p1 {
@@ -372,6 +466,14 @@
 	}
 	.home .mainhead2 .p4 {
 		font-size: 19px !important;
+	}
+
+	.mainhead2 .p1 {
+		margin: 0 !important;
+	}
+
+	.mainhead2 .p4 {
+		font-size: 17px !important;
 	}
 
 	.mbody {
@@ -409,9 +511,10 @@
 	}
 
 	.redesSociales {
-		padding: 10px 15px 0 0 !important;
-		float: right !important;
-		text-align: right;
+		position: absolute;
+		text-align: right !important;
+		right: 0;
+		margin: 0 !important;
 	}
 
 	.topmap { 
@@ -488,4 +591,33 @@
 		text-decoration: underline !important;
 		color: 000;
 	}
+
+	table.programa th, table.programa td{
+		border: none !important;
+	}
+
+	table.programa th {
+		background: #CCCCCC !important;
+	}
+
+	H2.disertante STRONG {
+	  font-size: 18pt !important;
+	}
+
+	H2.actividad {
+	  font-size: 15pt !important;
+	  line-height: 20pt !important;
+	  line-height: 30pt;
+	  margin: 12pt 0;
+	}
+
+	.jobtitle {
+		font-size: 16pt !important;
+		line-height: 150% !important;
+	}
+
+	TABLE.programa TH, TABLE.programa TD {
+		font-size: 12pt !important;
+	}
+	
 }
