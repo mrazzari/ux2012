@@ -70,7 +70,7 @@
 		color: 000;
 	}
 
-	.navactividades {
+	.navActividades {
 		background: #DDD;
 		overflow: visible !important;
 		width: 100% !important; /*550px*/
@@ -79,7 +79,7 @@
 		margin-bottom: 55px !important;
 	}
 
-	.navactividades .nav1 {
+	.navActividades .nav1 {
 		float: left !important;
 		width: 80% !important; /*470px*/
 		height: 28px;
@@ -142,7 +142,7 @@
 		display: none; 
 	}
 
-	.navactividades {
+	.navActividades {
 		background: #DDD;
 		overflow: hidden;
 		width: 550px !important;
@@ -151,7 +151,7 @@
 		margin-bottom: 55px !important;
 	}
 
-	.navactividades .nav1 {
+	.navActividades .nav1 {
 		float: left;
 		width: 470px !important;
 		height: 28px;
@@ -414,7 +414,7 @@
 		line-height: 100% !important;
 	}
 
-	.navactividades {
+	.navActividades {
 		background: #DDD;
 		overflow: visible !important;
 		width: 100% !important; /*550px*/
@@ -423,7 +423,7 @@
 		margin-bottom: 55px !important;
 	}
 
-	.navactividades .nav1 {
+	.navActividades .nav1 {
 		width: 470px !important; /*470px*/
 		height: 28px;
 	}
