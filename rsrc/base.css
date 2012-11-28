@@ -252,7 +252,7 @@ TABLE.programa TH, TABLE.programa TD{
 TABLE.programa A{
 	font-weight:bold;
 	text-decoration: underljne;
-	color: 000; /*#ec1c24;*/
+	color: #000; /*#ec1c24;*/
 	}
 
 .fixedtableheader{	

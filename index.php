@@ -6,7 +6,7 @@
 	$pageKind = "home";
 
 	?>
-
+<!DOCTYPE html>
 <html lang="es">
 <?php
 	$pageTitle = "";

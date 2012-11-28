@@ -5,7 +5,8 @@
 	
 	$pageKind = "single";
 	
-	?><html lang="es">
+	?><!DOCTYPE html>
+<html lang="es">
 
 <?php /*<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
