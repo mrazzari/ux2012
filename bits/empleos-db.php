@@ -4,7 +4,30 @@
 
 $empleosDB = array(
 
+	'corvalius-1' => array( 
+		'id' => 'corvalius-1',
+		'imgsrc' => 'foto-sfq-48.jpg',
+		'name' => 'Sebastián Fernández Quezada',
+		'company' => 'Corvalius',
+		'companyURL' => 'http://www.corvalius.com/',
+		'busca' => '0',
+		'jobtitle'  => '¡Buscamos desarrollador Web!',
+		'jobkind'  => 'Full Time en Buenos Aires',
+		'post'  => 'Buscamos desarrollador ASP.NET MVC. 
+No importa que tengas poca experiencia, queremos conocerte. 
 
+<strong>Acerca de Corvalius</strong>
+ADVERTENCIA: Es probable que en Corvalius no hagas cosas comúnes :-)
+En Corvalius nos dedicamos a dos cosas: Investigación y Desarrollo. 
+Nos especializamos en hacer software complejo, distinto y que impacta
+directa o indirectamente a miles o millones de usuarios.
+Faltás vos.
+
+Envianos tu CV a <a href="info@corvalius.com">info@corvalius.com</a>.
+'
+		),
+		
+		
 	'globant-1' => array( 
 		'id' => 'globant-1',
 		'imgsrc' => 'foto-martina-pifarre.jpg',
