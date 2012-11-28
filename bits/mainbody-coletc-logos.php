@@ -70,7 +70,7 @@
 				<li><p><a href="http://www.resnonverba.org/"><img src="img/rnv148-32.gif" alt="Res Non Verba" width="148" height="65" /></a></p></li>
 				<li><p><a href="http://convistaalmar.com.ar/"><img src="img/cvam.gif" alt="Con Vista Al Mar" width="148" height="72" /></a></p></li>
 				<li><p><a href="http://keikendo.com/"><img src="img/keikendo.gif" alt="Keikendo" width="148" height="36" /></a></p></li>
-				<li><p style="margin-top:16pt;"><a href="http://www.accesibleyusable.com/"><img src="img/DIEAU.gif" alt="Diseño de interacción con estándares de accesibilidad y usabilidad" width="104" /></a></p></li>
+				<li><p style="margin-top:16pt;"><a href="http://www.accesibleyusable.com/"><img src="img/DIEAU.gif" alt="Diseño de interacción con estándares de accesibilidad y usabilidad" width="108" /></a></p></li>
 			</ul>
 		</li>
 
