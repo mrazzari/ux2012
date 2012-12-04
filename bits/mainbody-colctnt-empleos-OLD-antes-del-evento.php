@@ -1,13 +1,17 @@
 <h2 id="empleos">Empleos en UX2012</h2>
 
 <p>
-UX 2012 es una <strong>oportunidad para conectarnos.</strong> Entre todos pudimos hacer que el evento sea mucho m&aacute;s que compartir conocimiento.
+Queremos que UX 2012 sea una <strong>oportunidad para conectarnos.</strong> Entre todos podemos hacer que el evento sea mucho m&aacute;s que compartir conocimiento.
 </p>
 
 <p>
-Los asistentes tuvieron la oportunidad de acercarse a los profesionales y empresas que <a href="empleos-recruiters.php">apoyaron UX2012</a> ofreciendo empleo en el evento y en esta página.
+Podr&aacute;s acercarte a los profesionales y empresas que nos apoyan y estar&aacute;n ofreciendo empleo. &iexcl;Aprovech&aacute; el networking para conseguir tu pr&oacute;ximo trabajo!
 </p>
 
+<h4>Y si necesitás profesionales o freelancers para tu empresa…</h4>
+
+<p>Sumate apoyando el evento y encontrá candidatos para las áreas de diseño, desarrollo, usabilidad y comunicación, <strong><a href="empleos-publicar.php">apoyá UX2012 y public&aacute; un aviso &raquo;</a></strong>
+</p>
 
 
 <?php // include ( 'bits/boxcall2atn-publicar.php' ); ?>

@@ -1,7 +1,7 @@
 <html lang="es">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Sorteo UX2012</title>
+	<title>UX2012</title>
 
 <style>
 BODY{
@@ -113,7 +113,7 @@ P.randname.active{
 		<span style="margin-left:-.05em;">UX</span><span class="accent">2<span style="letter-spacing:-.05em;">0<span style="letter-spacing:-.1em;">12</span></span></span>
 	</span>
 	<br />	
-	Sorteo
+
 </p>
 </div><!-- /randname -->
 
@@ -134,7 +134,7 @@ P.randname.active{
 <script type="text/javascript">
 
 $("BODY").click(function() {
-	document.location="ruleta.php";
+	document.location="index.php";
 })
 
 

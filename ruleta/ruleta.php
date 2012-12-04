@@ -12,8 +12,6 @@ BODY{
 	
 }
 
-.accent{ color:#ec1c24; }
-
 #boxRandnames{
 	text-align:center;
 	font-size:96pt;
@@ -35,7 +33,7 @@ P.randname, P.randabove, P.randbelow{
 background: rgba(255, 255, 255, 0.5);
 
 	/*height:226pt;	*/
-
+	opacity: 0;
 }
 
 P.randabove{ 
@@ -107,14 +105,23 @@ P.randname.active{
 
 
 <div id="boxRandnames">
+	<?php
 	
-<p class="randname" style="margin-top:-48pt">
-	<span style="font-size:60pt;">
-		<span style="margin-left:-.05em;">UX</span><span class="accent">2<span style="letter-spacing:-.05em;">0<span style="letter-spacing:-.1em;">12</span></span></span>
-	</span>
-	<br />	
-	Sorteo
-</p>
+	include ('db.php');
+	
+	?><?php
+	
+	$nombresShuffled = shuffle ( $nombres );
+	
+	for( $i=0; $i < 300; $i++ ){
+		$class2 = 'randname';
+			if ( $i>100){ $class2 = " randabove"; }
+			if ( $i>200){ $class2 = " randbelow"; }
+
+		echo '<p class="' . $class2 . '" id="rand'.$i.'">' . ( $nombres[ $i ] ) . '</p>';
+		}
+	
+	?>
 </div><!-- /randname -->
 
 
@@ -133,8 +140,43 @@ P.randname.active{
 
 <script type="text/javascript">
 
+globalix = 0;
+delayInicial = 500;
+
+	for( var i = 0 ; i < 20; i ++ ){
+		setTimeout(function () { 
+			$( '#rand'+globalix ).addClass ( "current" ) ;
+				$( '#rand'+(globalix + 100) ).addClass ( "current" ) ;
+				$( '#rand'+(globalix + 200) ).addClass ( "current" ) ;
+			globalix ++;
+			}, i*250 + delayInicial );	
+			
+		}
+	
+	// 5000 msecs pasaron
+		
+	for( var i = 0 ; i < 10; i ++ ){
+		setTimeout(function () { 
+			$( '#rand'+globalix ).addClass ( "current" ) ;
+			globalix ++;
+			}, (5500 + i*100  + delayInicial ) ); 
+		}
+	
+	// 6500 pasaron
+
+globalix -= ( Math.floor ( Math.random() * 30 ) )
+
+		setTimeout(function () { 
+			$( '#rand'+globalix ).addClass ( "current" ) ;
+			}, ( 5000  + delayInicial ) );
+
+		setTimeout(function () { 
+			$( '#rand'+globalix ).addClass ( "active" ) ;
+			}, ( 8000  + delayInicial ) );
+	
+
 $("BODY").click(function() {
-	document.location="ruleta.php";
+	location.reload();
 })
 
 

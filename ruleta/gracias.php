@@ -113,7 +113,7 @@ P.randname.active{
 		<span style="margin-left:-.05em;">UX</span><span class="accent">2<span style="letter-spacing:-.05em;">0<span style="letter-spacing:-.1em;">12</span></span></span>
 	</span>
 	<br />	
-	Sorteo
+	¡Gracias!
 </p>
 </div><!-- /randname -->
 
@@ -130,15 +130,6 @@ P.randname.active{
 	<script type="text/javascript" src="scripts/jquery-1.8.2.min.js"></script>
 	
 
-
-<script type="text/javascript">
-
-$("BODY").click(function() {
-	document.location="ruleta.php";
-})
-
-
-</script>
 
 
 
