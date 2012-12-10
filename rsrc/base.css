@@ -265,7 +265,8 @@ TABLE.programa A{
 	color:#000; /* al 84% es #666 */
 	}
 
-
+.programa .pptonline A,
+SPAN.pptonline.sample { padding-left: 20px; background-image: url('pptonline.gif'); background-repeat: no-repeat; }
 
 
 

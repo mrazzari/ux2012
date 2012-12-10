@@ -37,7 +37,10 @@ $actividades = array(
 		'titulo' => '¿Qué podemos aprender los diseñadores de las metodologías ágiles?',
 		'donde' => 'Sala C',
 		'horario' => '10:00 hs',
-		'resumen' => 'Proyectos que se vuelven interminables, clientes insatisfechos y productos finales con los que el equipo no se siente orgulloso, son problemas comunes a muchos proyectos de diseño.
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/13842463" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		Proyectos que se vuelven interminables, clientes insatisfechos y productos finales con los que el equipo no se siente orgulloso, son problemas comunes a muchos proyectos de diseño.
 		
 		No sólo son problemas evitables, sino que en los últimos años han surgido desde disciplinas de ingeniería, definiciones y soluciones que resultan aplicables a disciplinas de diseño.
 		
@@ -50,7 +53,10 @@ $actividades = array(
 		'titulo' => 'Innovar desde el diseño de Experiencia de Usuario',
 		'donde' => 'Sala Muiño',
 		'horario' => '10:00 hs',
-		'resumen' => 'Es sabido que la mayoría de los CEO ven la necesidad de innovar para subsistir en el mercado de hoy en día. Es sabido también, que centrar cualquier diseño en usuarios, incrementa las posibilidades de éxito de todo producto o servicio.
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15571327" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		Es sabido que la mayoría de los CEO ven la necesidad de innovar para subsistir en el mercado de hoy en día. Es sabido también, que centrar cualquier diseño en usuarios, incrementa las posibilidades de éxito de todo producto o servicio.
 		
 		Pero ¿Qué es la innovación? ¿Qué es innovar? ¿Cómo están innovando las empresas hoy en día? ¿cuál es la relación que existe con el diseño de experiencia de usuario? ¿Se puede vender innovación?
 
@@ -64,7 +70,10 @@ $actividades = array(
 		'titulo' => 'Neuropsicología aplicada a la Experiencia de Usuario',
 		'donde' => 'Aula 1',
 		'horario' => '10:00 hs',
-		'resumen' => '¿Cómo puede la Neuropsicología ayudar a mejorar nuestra experiencia de usuario? ¿Qué son los modelos mentales y para que sirven? ¿Las interfaces que creamos puede modificar el cerebro? ¿Por qué  nuestro cerebro prefiere los diseños simétricos? Éstas y otras preguntas van a ser contestadas utilizando ciencias como la Psicología y las Neurociencias, disciplinas que aportan una visión holistica del usuario y son de gran ayuda para mejorar la experiencia de usuario.'
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15470538" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		¿Cómo puede la Neuropsicología ayudar a mejorar nuestra experiencia de usuario? ¿Qué son los modelos mentales y para que sirven? ¿Las interfaces que creamos puede modificar el cerebro? ¿Por qué  nuestro cerebro prefiere los diseños simétricos? Éstas y otras preguntas van a ser contestadas utilizando ciencias como la Psicología y las Neurociencias, disciplinas que aportan una visión holistica del usuario y son de gran ayuda para mejorar la experiencia de usuario.'
 		),
 
 	'fFeller' => array(
@@ -73,7 +82,10 @@ $actividades = array(
 		'titulo' => 'Dise&ntilde;ando storyboards con los usuarios a partir de personas y escenarios',
 		'donde' => 'Aula 2',
 		'horario' => '10:00 hs',
-		'resumen' => 'Cómo lograr un buen abordaje para el análisis de usabilidad de un sistema de software a partir de la combinación de tres técnicas: focusgroup, storyboards y personas/escenarios? Se mostrará cómo estas técnicas ayudan a que el usuario se involucre y logran que su participación sea efectiva a fin de detectar motivaciones y necesidades. Veremos los resultados aplicados en dos casos específicos y de dominios totalmente diferentes: un sistema de recruiting para RRHH y otro software para el diseño de fármacos.',
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15505873" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		Cómo lograr un buen abordaje para el análisis de usabilidad de un sistema de software a partir de la combinación de tres técnicas: focusgroup, storyboards y personas/escenarios? Se mostrará cómo estas técnicas ayudan a que el usuario se involucre y logran que su participación sea efectiva a fin de detectar motivaciones y necesidades. Veremos los resultados aplicados en dos casos específicos y de dominios totalmente diferentes: un sistema de recruiting para RRHH y otro software para el diseño de fármacos.',
 		'cv' => 'Diseñador en comunicación visual (UNLP). 10 años de experiencia en diseño de interacción. Actualmente estoy  a cargo del área de Usabilidad de Flux IT (empresa de tecnologías de información) realizando consultorías, investigación, tests de usuarios, evaluaciones heurísticas, diseño y rediseño de interfaces e interacciones, capacitaciones, etc.'
 		),
 
@@ -104,7 +116,10 @@ $actividades = array(
 		'titulo' => 'Sistemas de producto-servicio, experiencias de valor desde una mirada holística',
 		'donde' => 'Aula 1',
 		'horario' => '11:30 hs',
-		'resumen' => 'Con un mercado altamente competitivo que vira hacia la provisión de información de servicios y el foco en la sustentabilidad, la necesidad de encontrar soluciones alternativas se ha incrementado. El diseño de Sistemas de Producto-Servicio concibe a sus componentes como parte de un sistema complejo para soluciones de que sumen valor, visibilidad y equidad.  A partir de pensar de manera integrada productos, servicios, comunicación y vínculos entre actores, se busca generar nuevos modelos de negocios que tengan siempre al usuario en el centro.
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15523863" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		Con un mercado altamente competitivo que vira hacia la provisión de información de servicios y el foco en la sustentabilidad, la necesidad de encontrar soluciones alternativas se ha incrementado. El diseño de Sistemas de Producto-Servicio concibe a sus componentes como parte de un sistema complejo para soluciones de que sumen valor, visibilidad y equidad.  A partir de pensar de manera integrada productos, servicios, comunicación y vínculos entre actores, se busca generar nuevos modelos de negocios que tengan siempre al usuario en el centro.
 
 		A partir de casos exitosos, se introduce este enfoque y sus alcances  como motor de innovación para empresas y respuesta sustentable para el sector público y para la sociedad. Asimismo, se presentan herramientas usadas por el diseñador de sistemas de producto para desarrollar la habilidad de detectar e interpretar fenómenos sociales y su aplicación estratégica para el desarrollo de nuevas experiencias holísticas.'
 		),
@@ -115,7 +130,10 @@ $actividades = array(
 		'titulo' => 'Cocinando experiencias',
 		'donde' => 'Aula 2',
 		'horario' => '11:30 hs',
-		'resumen' => '¿Qué es diseñar una experiencia? ¿Qué nuevas habilidades y herramientas son necesarias para lograr un producto exitoso? ¿Cómo afectan estas técnicas a las aplicaciones Web, Desktop y Mobile? ¿Cómo integrar al diseño y al diseñador en proyectos de desarrollo de software? ¿Cómo obtener buenos resultados recurrentemente?
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15471020" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		¿Qué es diseñar una experiencia? ¿Qué nuevas habilidades y herramientas son necesarias para lograr un producto exitoso? ¿Cómo afectan estas técnicas a las aplicaciones Web, Desktop y Mobile? ¿Cómo integrar al diseño y al diseñador en proyectos de desarrollo de software? ¿Cómo obtener buenos resultados recurrentemente?
 
 		Esta charla introductoria dará respuestas a estas preguntas presentando el proceso de diseño y desarrollo de productos de ejemplo.'
 		),
@@ -128,7 +146,10 @@ $actividades = array(
 		'titulo' => 'Accesibilidad práctica con HTML5 + CSS3 + ARIA',
 		'donde' => 'Sala C',
 		'horario' => '14:00 hs',
-		'resumen' => 'Quienes crean la web se ven frecuentemente limitados por tiempos cortos, costos por hora, otras prioridades, y fundamentalmente por la idea de que al no ser especialistas en accesibilidad, está fuera del alcance de sus proyectos.
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15487078" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		Quienes crean la web se ven frecuentemente limitados por tiempos cortos, costos por hora, otras prioridades, y fundamentalmente por la idea de que al no ser especialistas en accesibilidad, está fuera del alcance de sus proyectos.
 
 		En esta charla veremos formas de trabajo y soluciones puntuales para incorporar la accesibilidad en el flujo de trabajo cotidiano, para desarrollar sitios y aplicaciones web que hagan uso intensivo de las técnicas más modernas de maquetado con HTML5 y CSS3, respetando las propuestas del diseñador visual, sin sacrificar accesibilidad.
 
@@ -140,10 +161,13 @@ $actividades = array(
 	'vTraynor' => array(
 		'nombre' => 'Verónica Traynor',
 		'cargo' => '',
-		'titulo' => 'Usabilidad: momento eureka!',
+		'titulo' => '7 errores de Diseño de Interacción que afectan la Experiencia de los Usuarios',
 		'donde' => 'Sala Muiño',
 		'horario' => '14:00 hs',
-		'resumen' => 'Generar una interfaz usable implica lograr que esté centrada en las necesidades motrices y mentales de los usuarios.
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/13753438" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		Generar una interfaz usable implica lograr que esté centrada en las necesidades motrices y mentales de los usuarios.
 
 		La pregunta es cómo medimos la facilidad de uso. ¿A través de encuestas de satisfacción? ¿Siguiendo el movimiento de los ojos? ¿Verificando el trayecto del mouse?
 
@@ -213,7 +237,10 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'titulo' => 'El diseñador de UX, un especialista con múltiples personalidades',
 		'donde' => 'Sala Muiño',
 		'horario' => '15:30 hs',
-		'resumen' => 'Diseño de UX  no sólo es diseño de páginas web o desarrollo de interfaces de software, ni es solamente el área de  diseñadores gráficos o de diseñadores de interfaz. 
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15515755" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		Diseño de UX  no sólo es diseño de páginas web o desarrollo de interfaces de software, ni es solamente el área de  diseñadores gráficos o de diseñadores de interfaz. 
 		
 		Un equipo de UX es multidisciplinario, allí se encuentran especialistas en áreas tales como Sociología, de Psicología, de Literatura y Marketing entre otros. 
 		
@@ -226,7 +253,10 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'titulo' => 'Periodismo usable',
 		'donde' => 'Aula 1',
 		'horario' => '15:30 hs',
-		'resumen' => 'El periodismo produce contenido para personas que, según su experiencia con el soporte, los llama lectores, oyentes, televidentes o espectadores.
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15428989" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		El periodismo produce contenido para personas que, según su experiencia con el soporte, los llama lectores, oyentes, televidentes o espectadores.
 		
 		Cuando generamos contenido para soportes digitales, ¿a quién le comunicamos? A personas, por supuesto. Pero, a diferencia del resto de los medios concebidos en el modelo broadcast, la experiencia que propone un medio digital nos exige pensar, ya no en consumidores, sino en usuarios de la información. 
 		
@@ -239,7 +269,10 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'titulo' => 'Casos y Experiencias de un equipo de UX.',
 		'donde' => 'Aula 2',
 		'horario' => '15:30 hs',
-		'resumen' => 'En un mercado en el que la creación de experiencias de usuario se ha vuelto un factor determinante en el éxito de un producto digital, la participación y formación de un equipo de UX que pueda presentar soluciones adecuadas se ha vuelto determinante a la hora de conquistar al mercado global. Queremos compartir con la comunidad algunas experiencias, resultados y desafios que tenemos en el equipo de UX de Globant al igual que algunos casos, clientes y contextos con los cual nos hemos enfrentado.'
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15516151" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		En un mercado en el que la creación de experiencias de usuario se ha vuelto un factor determinante en el éxito de un producto digital, la participación y formación de un equipo de UX que pueda presentar soluciones adecuadas se ha vuelto determinante a la hora de conquistar al mercado global. Queremos compartir con la comunidad algunas experiencias, resultados y desafios que tenemos en el equipo de UX de Globant al igual que algunos casos, clientes y contextos con los cual nos hemos enfrentado.'
 		),
 
 // 16.30 hs
@@ -250,9 +283,13 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'titulo' => 'Taller de prototipado rápido y testeo de usabilidad con usuarios',
 		'donde' => 'Sala C',
 		'horario' => '16:30 hs',
+		'pptonline' => true,
 		'resumen' => 'Taller de prototipado rápido y testeo de usabilidad con usuarios
 
-		Utilizando la técnica de prototipado iterativo en papel y de testeo de usabilidad con usuarios, los participantes aprenderán de forma 100% práctica cómo evaluar la usabilidad de sitios web y aplicaciones.'
+		Utilizando la técnica de prototipado iterativo en papel y de testeo de usabilidad con usuarios, los participantes aprenderán de forma 100% práctica cómo evaluar la usabilidad de sitios web y aplicaciones.
+		
+		<strong>Los elementos del taller están disponibles en <a href="
+bit.ly/ux2012-ermel">bit.ly/ux2012-ermel</a>.</strong>'
 		),
 
 // 17 hs
@@ -263,7 +300,10 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'titulo' => 'Lean UX',
 		'donde' => 'Sala Muiño',
 		'horario' => '17:00 hs',
-		'resumen' => 'El objetivo de la charla es transmitir los conceptos fundamentales del proceso de trabajo Lean UX y las diferencias con los procesos clásicos de Diseño Centrado en el Usuario. Describir los objetivos y la rutina de las pruebas con usuarios en un contexto lean. Explicar en qué contexto es apropiada la introducción del proceso lean.'
+		'pptonline' => true,
+		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15411640" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+		
+		El objetivo de la charla es transmitir los conceptos fundamentales del proceso de trabajo Lean UX y las diferencias con los procesos clásicos de Diseño Centrado en el Usuario. Describir los objetivos y la rutina de las pruebas con usuarios en un contexto lean. Explicar en qué contexto es apropiada la introducción del proceso lean.'
 		),
 
 
