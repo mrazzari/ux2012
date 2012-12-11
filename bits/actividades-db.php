@@ -55,6 +55,8 @@ $actividades = array(
 		'horario' => '10:00 hs',
 		'pptonline' => true,
 		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15571327" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+		<iframe src="https://docs.google.com/file/d/0BynOEIFf2LzxbHZ1RWx5Z0hFR0k/preview" width="599" height="370" frameborder="0"></iframe><span class="byline">Agradecemos a <a href="https://twitter.com/cizark">César Kästli</a> por registrar este video.</span>
 		
 		Es sabido que la mayoría de los CEO ven la necesidad de innovar para subsistir en el mercado de hoy en día. Es sabido también, que centrar cualquier diseño en usuarios, incrementa las posibilidades de éxito de todo producto o servicio.
 		
@@ -132,7 +134,9 @@ $actividades = array(
 		'horario' => '11:30 hs',
 		'pptonline' => true,
 		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15471020" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
-		
+
+		<iframe src="https://docs.google.com/file/d/0BynOEIFf2LzxNnZlVHJoSUc5clk/preview?pli=1" width="599" height="370" frameborder="0"></iframe><span class="byline">Agradecemos a <a href="https://twitter.com/cizark">César Kästli</a> por registrar este video.</span>
+
 		¿Qué es diseñar una experiencia? ¿Qué nuevas habilidades y herramientas son necesarias para lograr un producto exitoso? ¿Cómo afectan estas técnicas a las aplicaciones Web, Desktop y Mobile? ¿Cómo integrar al diseño y al diseñador en proyectos de desarrollo de software? ¿Cómo obtener buenos resultados recurrentemente?
 
 		Esta charla introductoria dará respuestas a estas preguntas presentando el proceso de diseño y desarrollo de productos de ejemplo.'
@@ -166,6 +170,8 @@ $actividades = array(
 		'horario' => '14:00 hs',
 		'pptonline' => true,
 		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/13753438" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+		<iframe src="https://docs.google.com/file/d/0BynOEIFf2LzxX1FFOUF1WUZEeTA/preview?pli=1"  width="599" height="370" frameborder="0"></iframe><span class="byline">Agradecemos a <a href="https://twitter.com/cizark">César Kästli</a> por registrar este video.</span>
 		
 		Generar una interfaz usable implica lograr que esté centrada en las necesidades motrices y mentales de los usuarios.
 
@@ -240,6 +246,8 @@ Visit http://www.rga.com/about/locations/buenos-aires to learn more about R/GA 
 		'pptonline' => true,
 		'resumen' => '<iframe src="http://www.slideshare.net/slideshow/embed_code/15515755" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 		
+		<iframe src="https://docs.google.com/file/d/0BynOEIFf2LzxVWZELWdKekFSbzg/preview?pli=1" width="599" height="370" frameborder="0"></iframe><span class="byline">Agradecemos a <a href="https://twitter.com/cizark">César Kästli</a> por registrar este video.</span>
+
 		Diseño de UX  no sólo es diseño de páginas web o desarrollo de interfaces de software, ni es solamente el área de  diseñadores gráficos o de diseñadores de interfaz. 
 		
 		Un equipo de UX es multidisciplinario, allí se encuentran especialistas en áreas tales como Sociología, de Psicología, de Literatura y Marketing entre otros. 
