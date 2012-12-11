@@ -35,7 +35,7 @@
 	?>
 	
 	<ul class="logos">
-		<li><h4>Organizaron:</h4>
+		<li><h4>Organizan:</h4>
 			<ul>
 				<li><p><a href="http://www.centroculturalsanmartin.com/"><img src="img/csm.gif" alt="Centro Cultural General San Martín" width="148" height="90" /></a></p></li>
 				<li><p><a href="http://ixda.com.ar/"><img src="img/ixda-ba.gif" alt="IxDA Buenos Aires, Asociación de Diseño de Interacción" width="114" height="47" /></a></p></li>
@@ -57,7 +57,7 @@
 		</li>
 
 
-		<li><h4>Convocaron:</h4>
+		<li><h4>Convocan:</h4>
 			<ul>
 				<li><p><a href="http://uxpa.org.ar/"><img src="img/uxpa-ar.gif" alt="UXPA Argentina" width="148" height="69" /></a></p></li>
 				<li><p><a href="http://www.isoc.org.ar/"><img src="img/isoc-ar.gif" alt="ISOC Argentina" width="148" height="37" /></a></p></li>
@@ -65,7 +65,7 @@
 			</ul>
 		</li>
 
-		<li><h4>Apoyaron:</h4>
+		<li><h4>Apoyan:</h4>
 			<ul>
 				<li><p><a href="http://www.resnonverba.org/"><img src="img/rnv148-32.gif" alt="Res Non Verba" width="148" height="65" /></a></p></li>
 				<li><p><a href="http://convistaalmar.com.ar/"><img src="img/cvam.gif" alt="Con Vista Al Mar" width="148" height="72" /></a></p></li>
