@@ -185,6 +185,8 @@
 				</table>
 
 
+				<object width="640" height="481" id="flickr"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fdisenoinclusivo%2Fsets%2F72157632223755054%2Fshow%2F&page_show_back_url=%2Fphotos%2Fdisenoinclusivo%2Fsets%2F72157632223755054%2F&set_id=72157632223755054&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=122138"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=122138" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fdisenoinclusivo%2Fsets%2F72157632223755054%2Fshow%2F&page_show_back_url=%2Fphotos%2Fdisenoinclusivo%2Fsets%2F72157632223755054%2F&set_id=72157632223755054&jump_to=" width="640" height="481"></embed></object>
+
 
 <?php // include ( "bits/boxcall2atn-registrate.php" ); ?>
 

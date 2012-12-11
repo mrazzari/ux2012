@@ -238,6 +238,7 @@ UL.logos UL{ margin-bottom:40pt; }
 TABLE.programa{ width:100%;
 	empty-cells:show;
 	border-collapse:collapse;
+	margin-bottom: 1em;
 	}
 
 TABLE.programa TH, TABLE.programa TD{
