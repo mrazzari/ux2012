@@ -1,9 +1,9 @@
+<!--
 <div class="mainhead" id="">
 	<div class="mbody">
 	
 		<div class="layoutContentEtc">
 			<div class="colContent">
-			
 				<ul id="nav1">
 					<li>
 						<a href="./#top">Home</a>
@@ -21,24 +21,21 @@
 						<a href="https://eventioz.com/ux2012/registrations/new">Registrarse ahora</a>
 					</li>
 				</ul>
+			</div><?php /* colContent */ ?>
+			<div class="colEtc redesSociales">
+				<a href="https://www.facebook.com/Ux2012"><img src="rsrc/facebook24.png" alt="Facebook: ux2012" width="24" height="24" /></a>
+				<a href="https://twitter.com/ux2012"><img src="rsrc/twitter24.gif" alt="Twitter: @ux2012" width="24" height="24" /></a>
+			</div><?php /* colEtc */ ?>
 
-		</div><?php /* colContent */ ?>
-
-		<div class="colEtc redesSociales">
-			<a href="https://www.facebook.com/Ux2012"><img src="rsrc/facebook24.png" alt="Facebook: ux2012" width="24" height="24" /></a>
-			<a href="https://twitter.com/ux2012"><img src="rsrc/twitter24.gif" alt="Twitter: @ux2012" width="24" height="24" /></a>
-		</div><?php /* colEtc */ ?>
-
-		<div class="colEtc redesSocialesAlt">
-			<p>Seguinos en: 
-						<a href="https://www.facebook.com/Ux2012">Facebook</a> - <a href="https://twitter.com/ux2012">Twitter</a></p>
-		</div><?php /* colEtc */ ?>
-		
-	</div><?php /* layoutContentEtc */ ?>
-
+			<div class="colEtc redesSocialesAlt">
+				<p>Seguinos en: 
+					<a href="https://www.facebook.com/Ux2012">Facebook</a> - <a href="https://twitter.com/ux2012">Twitter</a>
+				</p>
+			</div><?php /* colEtc */ ?>
+		</div><?php /* layoutContentEtc */ ?>
 	</div><?php /* /mbody */ ?>
 </div><?php /* /mainhead */ ?>
-
+-->
 
 <div class="mainhead2" id="top">
 	<div class="mbody">
@@ -50,7 +47,7 @@
 				<div class="boxUXH1">
 					<?php if($pageKind == "home"){ ?>
 						<h1>
-						<span style="margin-left:-.05em;">UX</span><span class="accent">2<span style="letter-spacing:-.05em;">0<span style="letter-spacing:-.1em;">12</span></span></span>
+						<span style="margin-left:-.05em;">UX</span><span class="accent">2<span style="letter-spacing:-.05em;">0<span style="letter-spacing:-.1em;">13</span></span></span>
 						</h1>
 					<?php }else{ ?>
 						<h1>
@@ -66,16 +63,16 @@
 				</div>
 			</div><?php /* /layoutBox */ ?>
 
-			<p class="p4"><strong class="accent">28 de noviembre 2012, 9 a 19 hs.</strong></p>
-				
-			</div><?php /* /colContent */ ?>
+			<p class="p4"><strong class="accent">3 y 4 de diciembre 2013.</strong></p>
 
+			</div><?php /* /colContent */ ?>
+			<!--
 			<div class="colEtc">
 				<div class="topmap">
 					<span class="legend"><a href="https://maps.google.com/maps?q=Sarmiento+1551,+Buenos+Aires,+Argentina" target="_blank">Ver mapa</a></span>
 					<a href="https://maps.google.com/maps?q=Sarmiento+1551,+Buenos+Aires,+Argentina" target="_blank"><img alt="Mapa" src="rsrc/staticmap.png" /></a> 
 				</div>
-
+			-->
 			</div><?php /* /colEtc */ ?>
 
 		</div><?php /* /layoutContentEtc */ ?>
@@ -88,6 +85,6 @@
 
 <div class="mainhead3" id="top">
 	<div class="mbody">
-		<strong>Centro Cultural San Martín</strong> • <a href="https://maps.google.com/maps?q=Sarmiento+1551,+Buenos+Aires,+Argentina" target="_blank">Sarmiento 1551</a>, Buenos Aires
+		<strong>Centro Cultural Borges</strong> • <strong>Universidad Católica Argentina</strong>
 	</div><?php /* /mbody */ ?>
 </div><?php /* /mainhead3 */ ?>
