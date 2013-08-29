@@ -22,6 +22,7 @@
 	
 		<div class="layoutContentEtc">
 			<div class="organizers">
+					<p>Organizado por:</p>
 					<img src="img/logos-teaser.png" width="600" height="108">
 			</div>
 			<div class="colContent">

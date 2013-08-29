@@ -64,6 +64,7 @@
 			</div><?php /* /layoutBox */ ?>
 
 			<p class="p4"><strong class="accent">3 y 4 de diciembre 2013.</strong></p>
+			<a class="btn-twitter" href="https://twitter.com/UX2013"><img src="rsrc/icon-twitter.png" width="18" height="23" /> Seguinos en Twitter</a>
 
 			</div><?php /* /colContent */ ?>
 			<!--

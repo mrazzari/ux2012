@@ -153,8 +153,8 @@ BODY.home .mainhead2 H1{ font-size:116pt; margin:0;  }
 	.mainhead2 .p4{ font-size:18pt; margin:-4pt 0 0;text-align: center;}
 
 /* .body .mainhead Ps */
-.home .mainhead2 .p1{ font-size:24pt; margin:-16pt 0 6pt; }
-.home .mainhead2 .p2{ font-size:18pt; }
+.home .mainhead2 .p1{ font-size:35pt; margin: -18pt 0 8pt 8pt; }
+.home .mainhead2 .p2{ font-size:16pt; }
 .home .mainhead2 .p3{ font-size:16pt; }
 .home .mainhead2 .p4{ font-size:18pt; margin:30pt 0 0; }
 
@@ -360,3 +360,38 @@ P.breadcrumb, P.back{ font-weight:bold; color: #808080; }
 P.back{ margin:24pt 0 12pt; padding-top: 12pt; border-top:1px solid #ccc; }
 
 .organizers {margin-top:40px;}
+.organizers p{margin-bottom: 0;}
+
+.btn-twitter,
+.btn-twitter:visited{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #1388AD;
+	padding: 14px 6px 14px 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 29%;
+	margin: 21px auto 0 auto;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	}
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:visited,
+.btn-twitter:active,
+.btn-twitter:link{
+	text-decoration: none;
+	color: #fff;
+	}
+.btn-twitter:hover{
+	background-color: #19718D;
+	}
+.btn-twitter img{
+	position: absolute;
+	left: 42px;
+	top: 14px;
+	}
