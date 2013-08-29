@@ -23,7 +23,7 @@
 		<div class="layoutContentEtc">
 			<div class="organizers">
 					<p>Organizado por:</p>
-					<img src="img/logos-teaser.png" width="600" height="108">
+					<img src="img/logos-teaser.png" width="600" height="108" alt="Organizadores: IxDA Buenos Aires, UXPA Argentina, ISOC Argentina">
 			</div>
 			<div class="colContent">
 			<?php // redaccion en tiempo futuro antes del evento 
