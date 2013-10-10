@@ -1,22 +1,22 @@
 
-.ux h1,.ux h2,.ux h3,.ux h4, .ux p{
+h1, h2, h3, h4, p{
 	color: #253036;
 	font-family: "helveticaeue", helvetica, arial, sans-serif;
 }
-.ux h1{
+h1{
 	font-size: 117px;
 	text-align: center;
 	margin-top: 75px;
 	margin-bottom: 40px;
 	font-weight: bold;
 }
-.ux h2{
+h2{
 	text-align: center;
 	font-size: 36px;
 	font-weight: bold;
 	margin-bottom: 18px;
 }
-.ux h3{
+h3{
 	font-family: Arial, sans-serif;
 	font-size: 37px;
 	text-align: center;
