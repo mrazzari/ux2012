@@ -1,22 +1,26 @@
 
-.ux h1,.ux h2,.ux h3,.ux h4, .ux p{
+h1, 
+h2, 
+h3,
+h4,  
+p{
 	color: #253036;
 	font-family: "helveticaeue", helvetica, arial, sans-serif;
 }
-.ux h1{
+h1{
 	font-size: 117px;
 	text-align: center;
 	margin-top: 75px;
 	margin-bottom: 40px;
 	font-weight: bold;
 }
-.ux h2{
+h2{
 	text-align: center;
 	font-size: 36px;
 	font-weight: bold;
 	margin-bottom: 18px;
 }
-.ux h3{
+h3{
 	font-family: Arial, sans-serif;
 	font-size: 37px;
 	text-align: center;
@@ -64,6 +68,9 @@
 }
 
 /*HEADER*/
+.convocatoria .header{
+	padding-bottom: 40px;
+}
 .header{
 	background-color: #81cfe7;
 	border-top: 1px solid #a8deee;
@@ -191,6 +198,9 @@
 }
 
 /*INTRO*/
+.convocatoria .intro{
+	padding-bottom: 0;
+}
 .intro{
 	padding-bottom: 55px;
 }
@@ -207,6 +217,14 @@
 .intro-txt{
 	border-bottom: 1px solid #ebebeb;
 	padding-bottom: 20px;
+}
+.convocatoria .intro-txt h4{
+	width:84%;
+	margin: 0 auto;
+	font-size: 22px;
+	font-weight: normal;
+	margin-top: 24px;
+	margin-bottom: 8px;
 }
 .intro .event-day{
 	margin-bottom: 12px;
@@ -327,6 +345,13 @@
 .sponsors img {
 	display: block;
 	text-align: center;
+}
+.convocatoria .sponsors{
+	padding-top: 0;
+}
+.convocatoria .sponsors h4{
+	border: none;
+	margin-top: 0;
 }
 .sponsors h4{
 	font-size: 25px;
