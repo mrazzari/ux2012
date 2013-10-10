@@ -358,6 +358,9 @@ h3{
 	margin: 0 8px;
 	float:left;	
 }
+.sponsors ul.diammond li{
+	width: 332px;
+}
 .sponsors h3{
 	font-size: 30px;
 	margin-bottom: 8px;
@@ -371,6 +374,11 @@ h3{
 .sponsors .gold{
 	width: 20%;
 	margin: 0 auto;
+}
+.sponsors .diammond{
+	width: 36%;
+	margin: 0 auto;
+	min-height: 120px;
 }
 .sponsors .organizers{
 	width: 63%;
