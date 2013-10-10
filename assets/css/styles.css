@@ -204,7 +204,7 @@ h3{
 }
 .intro p{
 	font-size: 16px;
-	line-height: 27px;
+	line-height: 30px;
 	color: #818181;
 	width: 84%;
 	margin: 0px auto;
@@ -215,6 +215,9 @@ h3{
 .intro-txt{
 	border-bottom: 1px solid #ebebeb;
 	padding-bottom: 20px;
+}
+.intro-txt p[first-child]{
+	margin-bottom:20px;
 }
 .intro .event-day{
 	margin-bottom: 12px;
