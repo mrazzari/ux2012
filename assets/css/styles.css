@@ -38,6 +38,7 @@ h3{
 	border-bottom: 1px solid #5dbcd9;
 	background-image:none;
 	box-shadow: none;
+	filter:progid:dximagetransform.microsoft.gradient(startColorstr='#81cfe7', endColorstr='#81cfe7', GradientType=0);
 }
 .navbar .nav > li > a {
 	text-shadow:none;
@@ -54,6 +55,8 @@ h3{
 }
 .menu .nav.pull-right > li > a {
 	padding: 13px 6px;
+	width: 33px;
+	height: 33px;
 }
 .menu .nav.pull-right > li > a:hover{
 	background: transparent;
@@ -94,10 +97,8 @@ h3{
 .register a{
 	padding: 13px 14px;
 	display: block;
-	text-align: center;
 	width: 30%;
 	margin: 0 auto;
-	vertical-align: middle;
 	text-decoration: none;
 	text-shadow:none;
 	font-size: 18px;
@@ -118,8 +119,14 @@ h3{
 }
 .header a:hover,
 .register a:hover{
-	background-color: #103b53;
+	background-color: #082535;
 	background-position: 0 -48px;
+	text-decoration: none;
+	-webkit-transition: background-position 0s linear;
+	-moz-transition: background-position 0s linear;
+	-ms-transition: background-position 0s linear;
+	-o-transition: background-position 0s linear;
+	transition: background-position 0s linear;
 }
 
 /*EVENT-PLACE*/
@@ -157,8 +164,8 @@ h3{
 .call > p{
 	text-align: center;
 	color: #fff;
-	font-weight: bold;
-	font-size: 18px;
+	font-weight: normal;
+	font-size: 20px;
 	margin-top: -30px;
 	margin-bottom: 33px;
 }
@@ -171,9 +178,11 @@ h3{
 }
 .call a:hover .day {
 	background-color: #0F293A;
+	text-decoration:none;	
 }
 .call a:hover .day p{
 	color: #D2F8FF;
+	text-decoration:none;	
 }
 .call a:hover .day-place{
 	background-color: #182325;
@@ -181,7 +190,6 @@ h3{
 .call .day p{
 	margin-top: 13px;
 	text-align: center;
-	vertical-align: middle;
 	color: #f7f7f7;
 	font-weight: bold;
 }
@@ -209,6 +217,15 @@ h3{
 .convocatoria .intro{
 	padding-bottom: 0;
 }
+.convocatoria .intro-txt h4{
+	width:84%;
+	margin: 0 auto;
+	font-size: 22px;
+	font-weight: normal;
+	margin-top: 24px;
+	margin-bottom: 8px;
+}
+
 .intro{
 	padding-bottom: 55px;
 }
@@ -225,14 +242,6 @@ h3{
 .intro-txt{
 	border-bottom: 1px solid #ebebeb;
 	padding-bottom: 20px;
-}
-.convocatoria .intro-txt h4{
-	width:84%;
-	margin: 0 auto;
-	font-size: 22px;
-	font-weight: normal;
-	margin-top: 24px;
-	margin-bottom: 8px;
 }
 .intro-txt p[first-child]{
 	margin-bottom:20px;
@@ -282,7 +291,7 @@ h3{
 }
 /*REGISTER*/
 .register{
-	background-color: #E9E9E9;
+	background-color: #81cfe7;
 	padding-bottom: 40px;
 	padding-top: 40px;
 }
@@ -345,6 +354,92 @@ h3{
 	width: 60%;
 	padding-left: 50px;
 	vertical-align: top;
+}
+/*MAPA*/
+.map{
+	overflow: hidden;
+	background:url(../../img/map_bg.jpg) no-repeat top center #f8f8f8;
+	height: 642px;
+	position: relative;
+	-webkit-box-shadow:inset 0px 1px 8px rgba(50, 50, 50, 0.43);
+	-moz-box-shadow:   inset 0px 1px 8px rgba(50, 50, 50, 0.43);
+	box-shadow:        inset 0px 1px 8px rgba(50, 50, 50, 0.43);
+}
+.map .container{
+	position: relative;
+	width: 770px !important;
+}
+.map img{
+	position:relative;
+	text-align: center;
+	max-width: 2048px;
+}
+.point-3dic,
+.point-4dic{
+	z-index: 5;
+	position: absolute;
+	height: 68px;
+	-webkit-box-shadow: 3px 3px 17px rgba(50, 50, 50, 0.43);
+	-moz-box-shadow:    3px 3px 17px rgba(50, 50, 50, 0.43);
+	box-shadow:         3px 3px 17px rgba(50, 50, 50, 0.43);
+}
+.point-3dic .marker,
+.point-4dic .marker{
+	position: relative;
+}
+
+.point-3dic{
+	top: 458px;
+	right: -17px;
+}
+.point-3dic .point{
+	background-image:url(../../img/pointer-3dic.png);
+	position: absolute;
+	top: -17px;
+	left: -21px;
+	width: 32px;
+	height: 24px;
+	z-index: 5;
+}
+.point-4dic{
+	top: 68px;
+	right: 189px;
+}
+.point-4dic .point{
+	background-image:url(../../img/pointer-4dic.png);
+	position: absolute;
+	top: -61px;
+	left: -135px;
+	width: 30px;
+	height: 23px;
+	z-index: 5;
+}
+
+.map h4{
+	border-radius:5px 0 0 5px;
+	background-color: #253036;
+	color: #6cdcff;
+	font-size: 39px;
+	display: inline-block;
+	float: left;
+	padding: 25px 15px;
+}
+.map .address{
+	color:#253036;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 8px;
+	width: 240px;
+	margin-left: 107px;
+	height: 52px;
+}
+.map .accent{
+	color: #fff;
+}
+.map p{
+	margin-left: 19px;
+	line-height: 5px;
+	margin-top: 14px;
 }
 
 /*SPONSORS*/
@@ -457,4 +552,360 @@ h3{
 }
 .footer .ux-txt{
 	font-size: 30px;
+}
+
+
+/*
+ * X BROWSER
+ */
+
+.ie7 .register .container {
+	text-align: center;
+}
+
+.ie7 .register a {
+	display: inline !important;
+}
+
+.ie7 .point-4dic .point{
+	left: -145px!important;
+}
+.ie7 .point-3dic .point{
+	top:-19px;
+}
+.ie7 .map .address{
+	height: 38px;
+	padding-top: 22px;
+}
+
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 979px){
+	.navbar .container {
+		width: 100% !important;
+	}
+	.menu .navbar .btn-navbar {
+		float: left;
+		padding: 11px;
+		background-color: #253036;
+	}
+	.menu .navbar-fixed-top {
+		margin-bottom: 0px;
+	}
+	.menu .nav-collapse .nav > li {
+		border-top: 1px solid #75B5C9;
+	}
+	.menu .navbar-fixed-top .navbar-inner, 
+	.menu .navbar-fixed-bottom .navbar-inner {
+		padding: 8px;
+	}
+	.menu .nav.pull-left{
+		margin-top: 10px;
+	}
+	.menu .nav-collapse .nav {
+		margin:0;
+	}
+	.container {
+		width: 100% !important;
+	}
+	.header {
+		margin-top: 0;
+	}
+	.call .row-fluid .span6 {
+		width: 48%;
+	}
+	.event-content{
+		padding-top: 0;
+	}
+	.event-content img {
+		float: none;
+		display: block;
+		margin: 25px auto;
+	}
+	.content-items {
+		width: 84%;
+	}
+	.map {
+		background-position-x: -680px;
+	}
+	.point-3dic {
+		top: 448px;
+		right: 33px;
+	}
+	.point-4dic {
+		top: 78px;
+		right: 239px;
+	}
+	.map {
+		background-position-x: 55%;
+	}
+}
+
+@media (max-width: 767px) { 
+	body{
+		padding: 0 !important;
+	}
+	.call {
+		height: 342px;
+		padding-top: 45px;
+	}
+	.call h3 {
+		font-size: 52px;
+		margin-bottom: 21px;
+	}
+	.call .row-fluid .span6 {
+		width: 98%;
+	}
+	.call .day-place {
+		float: left;
+		width: 65%;
+		border-radius:0 5px 5px 0;
+		padding: 17px 0;
+	}
+	.call .day {
+		float: left;
+		border-radius: 5px 0 0 5px;
+	}
+	.call > p {
+		font-size: 16px;
+		width: 71%;
+		margin: 0 auto;
+		line-height: 24px;
+		padding-bottom: 20px;
+	}
+	.menu .navbar-fixed-top .navbar-inner, 
+	.menu .navbar-fixed-bottom .navbar-inner {
+		padding: 7px 23px;
+		width: auto;
+	}
+	.map {
+		background-position-x: 51%;
+	}
+	.map p {
+		margin-left: 4px;
+		line-height: 17px;
+		margin-top: 0;
+		font-size: 12px;
+		margin-bottom: 2px;
+	}
+	.map h4 {
+		font-size: 36px;
+		padding: 25px 8px;
+	}
+	.map .address {
+		width: 176px;
+		margin-left: 95px;
+	}
+	.point-3dic {
+		right: 98px;
+	}
+	.point-4dic {
+		right: 272px;
+	}
+	.point-4dic .point {
+		top: -68px;
+		left: -123px;
+	}
+}
+ 
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 102px;
+		margin-top: 59px;
+		margin-bottom: 32px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	h3 {
+		font-size: 31px;
+		line-height: 35px;
+		padding-top: 38px;
+		margin-bottom: 20px;
+	}
+	.header p {
+		font-size: 17px;
+		margin-bottom: 5px;
+	}
+	.header .date {
+		font-size: 28px;
+		margin-top: 33px;
+	}
+	
+	.event-place p {
+		font-size: 16px;
+	}
+	.header a, .register a {
+		width: 62%;
+	}
+	.event-content img {
+		margin: 30px auto;
+	}
+	.intro {
+		padding-bottom: 28px;
+	}
+
+	.map {
+		background-position-x: 44%;
+	}
+	.point-4dic {
+		right: 399px;
+		top: 113px;
+	}
+	.point-3dic {
+		right: 399px;
+		top: 410px;
+	}
+	.map .marker {
+		display: none;
+	}
+
+	.sponsors img {
+		max-width: 96%;
+		margin: 0 auto;
+		height: auto;
+	}
+	.sponsors .diammond {
+		width: 75%;
+		text-align: center;
+		margin: 0 auto;
+		min-height: 102px;
+	}
+	.sponsors .diammond img{
+		max-width: 80%;
+	}
+	.sponsors .gold {
+		width: 43%;
+	}
+	.sponsors .organizers {
+		width: 43%;
+	}
+	.footer .ux-txt {
+		font-size: 27px;
+		display: block;
+	}
+	.footer h3 {
+		font-size: 16px;
+		padding: 0;
+		margin-bottom: 0px;
+	}
+	.footer p {
+		font-size: 14px;
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 320px) {
+	h1 {
+		font-size: 73px;
+		margin-top: 37px;
+		margin-bottom: 20px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	.header .date {
+		font-size: 24px;
+	}
+	.convocatoria .header p {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+	.convocatoria .header {
+		padding-bottom: 28px;
+	}
+	.convocatoria .event-place p {
+		font-size: 12px;
+		width: 100%;
+		margin: 12px auto;
+		font-weight: bold;
+		line-height: 23px;
+	}
+	.event-place p {
+		font-size: 16px;
+		width: 300px;
+		margin: 17px auto;
+		line-height: 23px;
+	}
+	.call {
+		height: 369px;
+		padding-top: 19px;
+	}
+	.call h3 {
+		font-size: 42px;
+		margin-bottom: 14px;
+	}
+	.call > p {
+		width: 92%;
+	}
+	.call .day {
+		font-size: 32px;
+		padding: 22px 12px;
+	}
+	.call .day-place {
+		width: 65%;
+		padding: 20px 0;
+		margin-bottom: 11px;
+	}
+	.call .day-place p {
+		font-size: 12px;
+	}
+	.call .day-place p:first-child {
+		line-height: 17px;
+	}
+
+	.intro p {
+		line-height: 28px;
+		width: 90%;
+	}
+	.event-content img {
+		margin: 30px auto;
+		max-width: 99%;
+		height: auto;
+	}
+	.content-items {
+		float: none;
+		margin-left: 0;
+	}
+	.point-4dic {
+		right: 474px;
+		top: 119px;
+	}
+	.point-3dic {
+		right: 474px;
+	}
+	.sponsors .diammond {
+		width: 90%;
+	}
+	.sponsors .diammond img {
+		max-width: 88%;
+	}
+	.sponsors ul.diammond li {
+		width: 100%;
+	}
+	.sponsors .gold {
+		width: 63%;
+	}
+	.sponsors .organizers {
+		width: 61%;
+	}
+	.sponsors ul li {
+		width: 185px;
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+	.mail-sponsor h3 {
+		font-size: 16px;
+		padding: 0;
+	}
+	.mail-sponsor p {
+		font-size: 15px;
+	}
+	.footer h3 {
+		font-size: 12px;
+	}
 }
