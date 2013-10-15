@@ -10,7 +10,7 @@
     <meta content="UX2013: Jornada de Experiencia de Usuario" property="og:title">
     <meta content="http://www.ux2013.com.ar" property="og:url">
     <meta content="UX2013: 03/dic/2013: Universidad Catolica Argentina y 04/dic/2013: Centro Cultural Borges, en el marco del Día Mundial de la Usabilidad. El principal evento profesional en Argentina sobre Experiencia de Usuario, Usabilidad, Diseño de Interacción, Accesibilidad y temáticas relacionadas." property="og:description">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
@@ -37,11 +37,18 @@
             <div class="nav-collapse collapse">
               <ul class="nav pull-left">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#convocatoria">Convocatorias</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Convocatorias<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="jornada-academica.html">Jornada académica</a></li>
+                      <li><a href="jornada-profesional.html">Jornada profesional</a></li>
+                    </ul>
+                </li>
+                <!-- <li><a href="#convocatoria">Convocatorias</a></li> -->
                 <li><a href="https://eventioz.com.ar/e/ux2013-experiencia-de-usuario/registrations/new">Registrarse ahora</a></li>
                 <!--
                 <li><a href="#">Programa</a></li>-->
-                <li><a href="#como-llegar">Como llegar</a></li>
+                <li><a href="#sedes">Sedes</a></li>
                 
               </ul>
               <ul class="nav pull-right">
@@ -106,9 +113,9 @@
         <div class="intro-txt">
           <p class="event-day">UX2013 es el principal evento en Argentina sobre Experiencia de Usuario, Usabilidad, Diseño de Interacción, Accesibilidad y temáticas relacionadas. El eje que atravesará a todas las charlas es Cambio y Transformación. Explorará cómo incluir y abordar el diseño de experiencias de usuario en el ámbito corporativo.</p>
           <p class="event-day">Tendrá 2 jornadas en el marco del Día Mundial de la Usabilidad:</p>
-          <p><span class="accent"><strong>Jornada profesional - 3 de diciembre de 9 a 19 hs.</strong></span></p>
+          <p><span class="accent"><strong>Jornada académica - 3 de diciembre de 9 a 19 hs.</strong></span></p>
           <p class="event-day">Está orientada a estudiantes y académicos de las diversas áreas que involucran la definición de experiencias de usuario.</p>
-          <p><span class="accent"><strong>Jornada académica - 4 de diciembre de 9 a 19 hs.</strong></span></p>
+          <p><span class="accent"><strong>Jornada profesional - 4 de diciembre de 9 a 19 hs.</strong></span></p>
           <p>Está orientada a profesionales de diseño, comunicación y desarrollo que busquen generar la mejor experiencia de usuario en sus productos digitales.</p>
         </div>
         <div class="event-content">
@@ -233,7 +240,8 @@
         </div>
       </div>
     </section> -->
-    <section id="como-llegar" class="map">
+    <section id="sedes" class="map">
+      <h3>Sedes</h3>
       <div class="container">
         <div class="point-3dic">
           <h4><span class="accent">3</span>DIC</h4>
@@ -284,7 +292,11 @@
     </section>
     <section class="footer">
       <div class="container">
-        <h3><span class="ux-txt"><span class="accent">UX</span>2013</span>  Experiencia de Usuario | <span class="accent">3 y 4 de diciembre 2013</span></h3>
+        <h3><span class="ux-txt"><span class="accent">UX</span>2013</span></h3>  
+        <div class="title">
+          <p>Experiencia de Usuario |</p>
+          <p><span class="accent">3 y 4 de diciembre 2013</span></p>
+        </div>
         <p><strong>Usabilidad, Accesibilidad, Diseño y Tecnología</strong> | En el marco del Día Mundial de la Usabilidad</p>
       </div>
     </section>
