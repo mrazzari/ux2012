@@ -645,6 +645,10 @@ h3{
 	.navbar .container {
 		width: 100% !important;
 	}
+	.menu .nav-collapse .dropdown-menu a {
+		padding: 20px 10px;
+		color: #253036;
+	}
 	.menu .navbar .btn-navbar {
 		float: left;
 		padding: 11px;
@@ -1069,7 +1073,6 @@ h3{
 	.header .date {
 		font-size: 23px;
 		text-align: center;
-		margin-left: 0;
 	}
 	.header a, 
 	.register a {
@@ -1083,6 +1086,7 @@ h3{
 		font-size: 16px;
 		line-height: 25px;
 		text-align: left;
+		margin-left: 10px;
 	}
 	.convocatoria .intro-txt h4 {
 		width: 91%;
