@@ -315,6 +315,9 @@ h3{
 .intro .accent{
 	color: #253036;
 }
+.intro .accent-plazo {
+	color: #65BDD8;
+}
 .intro-txt{
 	border-bottom: 1px solid #ebebeb;
 	padding-bottom: 20px;
@@ -684,6 +687,11 @@ h3{
 	width: 36%;
 	margin: 0 auto;
 	min-height: 120px;
+}
+.sponsors .silver{
+	width: 175px;
+	margin: 0 auto;
+	min-height: 108px;
 }
 .sponsors .organizers{
 	width: 63%;
@@ -1244,6 +1252,10 @@ h3{
 		margin-top: 8px;
 		min-height: 94px;
 	}
+	.sponsors h3 {
+		font-size: 23px;
+		margin-bottom: 5px;
+	}
 	.sponsors .diammond {
 		width: 90%;
 	}
@@ -1480,7 +1492,7 @@ h3{
 		max-width: 79%;
 	}
 	.sponsors img {
-		max-width: 85%;
+		max-width: 80%;
 	}
 	.mail-sponsor h3 {
 		font-size: 16px;
