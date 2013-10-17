@@ -31,6 +31,25 @@ h3{
 .container{
 	width: 960px !important;
 }
+/*.empleos .intro .jobtitle {
+	padding-top: 0;
+	margin-bottom: 20px;
+}
+.empleos .intro .who {
+	font-size: 36px;
+	margin-bottom: 12px;
+	margin-top: 40px;
+	color: #C5C5C5;
+	font-weight: normal;
+}
+.empleos .intro .jobkind {
+	color: #253036;
+	font-size: 16px;
+	text-align: center;
+	font-weight: normal;
+	margin: 0 0 25px 0;
+}*/
+
 
 /*MENU*/
 .menu .navbar-inner{
@@ -115,6 +134,9 @@ h3{
 .convocatoria .header{
 	padding-bottom: 40px;
 }
+.empleos .header {
+	padding-bottom: 17px;
+}
 .header{
 	background-color: #81cfe7;
 	border-top: 1px solid #a8deee;
@@ -135,7 +157,8 @@ h3{
 	margin-bottom: 26px;
 }
 .header a,
-.register a{
+.register a,
+.jobpostindex a.empleo{
 	padding: 13px 14px;
 	display: block;
 	width: 30%;
@@ -159,7 +182,8 @@ h3{
 	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
 }
 .header a:hover,
-.register a:hover{
+.register a:hover,
+.jobpostindex a.empleo:hover{
 	background-color: #082535;
 	background-position: 0 -48px;
 	text-decoration: none;
@@ -168,6 +192,15 @@ h3{
 	-ms-transition: background-position 0s linear;
 	-o-transition: background-position 0s linear;
 	transition: background-position 0s linear;
+}
+.jobpostindex a.empleo{
+	margin: 24px auto;
+}
+.empleos .mas-empleos{
+	width: 84%;
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
 }
 
 /*EVENT-PLACE*/
@@ -255,10 +288,12 @@ h3{
 }
 
 /*INTRO*/
-.convocatoria .intro{
+.convocatoria .intro,
+.empleos .intro{
 	padding-bottom: 0;
 }
-.convocatoria .intro-txt h4{
+.convocatoria .intro-txt h4,
+.empleos .intro-txt h4{
 	width:84%;
 	margin: 0 auto;
 	font-size: 22px;
@@ -338,6 +373,12 @@ h3{
 }
 
 /*PROGRAM*/
+.program .title{
+		display: none;
+	}
+.program {
+	margin-bottom: 50px;
+}
 .program .nav-tabs > li > a {
 	padding: 18px 0 14px 0;
 	margin-right: 0;
@@ -345,6 +386,9 @@ h3{
 }
 .program .nav-tabs > li {
 	width: 50%;
+}
+.program .nav {
+	margin-bottom: 0;
 }
 .program .tabbable span{
 	display:block;
@@ -361,40 +405,72 @@ h3{
 
 .program table{
 	margin-top: 40px;
-	width:90%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
+}
+.program thead th{
+	font-size: 16px;
+	height: 35px;
+	color:#253036;
 }
 .program table tr{
 	/*border-bottom: 2px solid #fff;*/
 	margin-bottom: 2px;
 }
 .program table .breaks{
-	height: 50px;
+	height: 45px;
 	background:url(../../img/bg-table.jpg) repeat top center #f8f8f8;
 	text-align: center;
 	font-weight: bold;
 	color: #727272;
 	font-size: 14px;
 }
+.program table td {
+	padding-left: 42px;
+	}
 .program table .breaks td{
 	border:1px solid #e0e0e0;
+	padding-left: 0px;
+}
+.program table tbody th{
+	color: #fff;
+	font-size: 26px;
+	padding: 0 10px;
 }
 .program table .breaks th{
 	background-color: #a7ddee;
 }
 .program table .talks th{
 	background-color: #81cfe7;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
 }
 .program table .talks{
-		height: 85px;
-		padding-top:10px;
+	padding-top:10px;
+}
+.program table .talks td{
+	padding: 10px 0 0px 20px;
+	vertical-align: top;
+}
+.program .with-deck{
+	background:url(../../img/icon-program.jpg) no-repeat top left transparent;
+	padding-left: 45px;
 }
 .program table tbody a{
-	display: block;	
-	width: 60%;
-	padding-left: 50px;
+	display: block;
 	vertical-align: top;
+	width: 95%;
+	font-size: 14px;
+	line-height: 17px;
+	color: #0088cc;
+}
+.program table tbody p{
+	font-size: 12px;
+	color: #253036;
+}
+.program tbody .desc{
+	display: none;
 }
 /*MAPA*/
 .map{
@@ -485,7 +561,67 @@ h3{
 	line-height: 5px;
 	margin-top: 14px;
 }
-
+/*OFERTAS LABORALES*/
+.jobpostindex .item {
+	color: #808080;
+	border-bottom: 1px solid #E9E9E9;
+	padding: 8pt 2% 0pt;
+	overflow: hidden;
+}
+.empleos .jobpostindex .item {
+	width: 84%;
+	margin: 0 auto;
+}
+.empleos .jobpostindex {
+	margin-top: 30px;
+	margin-bottom: 22px;
+}
+.empleos .intro-txt {
+	padding-bottom: 20px;
+}
+.empleos .jobpostindex .jobtitle {
+	font-size: 24pt !important;
+	line-height: 33px !important;
+}
+.empleos .jobpostindex .jobtitle,
+.empleos .jobpostindex .jobkind {
+	width: auto;
+}
+.jobpostindex .item .itemphoto {
+	float: left;
+}
+.jobpostindex .item .itemctnt {
+	margin-left: 80px;
+}
+.jobpostindex .item .itemphoto img {
+	height: 60px;
+	width: 60px;
+	border: 1px solid #ccc;
+}
+.jobpostindex .item .itemctnt .who {
+	font-size: 16px;
+	margin-bottom: 4px;
+	line-height: 20px;
+}
+.jobpostindex .item .itemctnt .who .name, 
+.jobpostindex .item .itemctnt .who .company {
+	color:#3C3C3C;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+}
+.jobpostindex .item .itemctnt .what .jobtitle {
+	font-size: 16pt;
+	margin-bottom: 8px;
+}
+.jobpostindex .item .itemctnt .what .jobtitle  a {
+	line-height: 24px;
+}
+.jobpostindex .item .itemctnt .what .jobkind {
+	font-size: 11pt;
+	margin-bottom: 7px;
+	color:#818181;
+}
 /*SPONSORS*/
 .sponsors {
 	padding-bottom: 36px;
@@ -496,10 +632,12 @@ h3{
 	display: block;
 	text-align: center;
 }
-.convocatoria .sponsors{
+.convocatoria .sponsors,
+.empleos .sponsors{
 	padding-top: 0;
 }
-.convocatoria .sponsors h4{
+.convocatoria .sponsors h4,
+.empleos .sponsors h4{
 	border: none;
 	margin-top: 0;
 }
@@ -637,7 +775,17 @@ h3{
 	padding-top: 22px;
 }
 
-
+/*empleos*/
+.item-list{
+	width: 84%;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 30px !important;
+	color: #818181;
+}
+.item-list li{
+	line-height: 30px !important;
+}
 
 /*RESPONSIVE*/
 
@@ -752,10 +900,12 @@ h3{
 	.register a {
 		width: 40%;
 	}
-	.convocatoria .header p{
+	.convocatoria .header p,
+	.empleos .header p{
 		line-height: 28px;
 	}
-	.convocatoria .header {
+	.convocatoria .header,
+	.empleos .header{
 		padding-bottom: 17px;
 	}
 	.event-place p {
@@ -811,9 +961,59 @@ h3{
 	.intro p {
 		line-height: 27px;
 	}
+
+	.program table, 
+	.program tbody, 
+	.program th, 
+	.program td, 
+	.program tr {
+		display: block;
+	}
+	.program thead{
+			display: none;
+	}
+	.program table th {
+		padding: 6px 0 !important;
+		font-size: 20px;
+	}
+	.program table .breaks td {
+		height: 16px;
+		padding: 10px 0;
+		border:none;
+	}
+	.program table .breaks {
+		height: 52px;
+		background: none;
+	}
+	.program table .breaks th {
+		background-color: #81cfe7;
+	}
+	.program table .talks {
+		padding-top: 12px;
+		padding-bottom: 9px;
+	}
+	.program table {
+		border: 1px solid #DADADA;
+		padding-bottom: 12px;
+	}
+	.program .tabbable span {
+		font-size: 15px;
+	}
+	.program .tabbable .accent {
+		font-size: 20px;
+		margin-bottom: 6px;
+	}
+	.program tbody .desc{
+		display:block;
+		font-size: 12px;
+		text-align: left;
+		font-weight: bold;
+		text-transform: capitalize;
+		color: #253036;
+	}
 	.map {
 		background-image: none;
-		max-height: 369px;
+		max-height: 303px;
 		background-color: transparent;
 		box-shadow: none;
 		border-bottom: 1px solid #ebebeb;
@@ -821,6 +1021,7 @@ h3{
 	.map h3{
 		display:block;
 		text-align: center;
+		padding-top: 10px;
 	}
 	.map h4 {
 		font-size: 49px;
@@ -857,6 +1058,9 @@ h3{
 	}
 	.map .marker {
 		display: none;
+	}
+	.jobpostindex .item {
+		padding: 8pt 3% 0pt;
 	}
 	.sponsors ul li {
 		display: block;
@@ -901,6 +1105,14 @@ h3{
 		margin: 3px 3px;
 		width:auto;
 	}
+	.jobpostindex .item .itemctnt .who .name, 
+	.jobpostindex .item .itemctnt .who .company,
+	.jobpostindex .item .itemctnt .who  {
+		font-size: 14px;
+	}
+	.jobpostindex .item .itemctnt .what .jobtitle {
+		font-size: 15pt;
+	}
 }
  
 @media (max-width: 480px) {
@@ -942,7 +1154,8 @@ h3{
 		margin: 0;
 		text-align: center;
 	}
-	.convocatoria .header p {
+	.convocatoria .header p,
+	.empleos .header p {
 		font-size: 16px;
 		line-height: 24px;
 		padding: 0 10px;
@@ -979,14 +1192,36 @@ h3{
 		width: 91%;
 		margin-left: 10px;
 	}
-	.convocatoria .intro p {
+	.convocatoria .intro p,
+	.empleos .intro p{
 		width: 90%;
 	}
-	.convocatoria .intro-txt h4 {
+	.convocatoria .intro-txt h4,
+	.empleos .intro-txt h4 {
 		width: 90%;
+	}
+	.program .nav-tabs > li {
+		width: 100%;
+	}
+	.program .nav {
+		display: none;
+	}
+	.program .title{
+		display: block;
+		margin-top: 26px;
+	}
+	.program .tab-content > .tab-pane, 
+	.program .pill-content > .pill-pane {
+		display: block;
+	}
+	.program h3 {
+		margin-bottom: 0;
+	}
+	.program table {
+		margin-top: 17px;
 	}
 	.map {
-		max-height: 324px;
+		max-height: 292px;
 	}
 	.map h4 {
 		font-size: 33px;
@@ -1022,7 +1257,7 @@ h3{
 		width: 63%;
 	}
 	.sponsors .organizers {
-		width: 61%;
+		width: 65%;
 	}
 	.sponsors ul li {
 		width: 185px;
@@ -1060,6 +1295,47 @@ h3{
 	.footer .title{
 		margin: 5px auto;
 	}
+	.empleos .jobpostindex .item .itemctnt {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.empleos .jobpostindex .item .itemphoto {
+		float: none;
+		display: block;
+	}
+	.empleos .jobpostindex .item .itemctnt .what .jobtitle a {
+		line-height: 26px;
+	}
+	.empleos .header h2 {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	.empleos .jobpostindex .item .itemctnt .what .jobtitle a {
+		font-size: 26px;
+	}
+	.empleos .header {
+		padding-bottom: 2px;
+	}
+	.item-list li {
+		line-height: 27px !important;
+	}
+	.jobpostindex .item .itemctnt .who .name, 
+	.jobpostindex .item .itemctnt .who .company,
+	.jobpostindex .item .itemctnt .who {
+		font-size: 13px;
+		line-height: 17px;
+	}
+	.jobpostindex .item .itemctnt .what .jobtitle a {
+		font-size: 19px;
+		line-height: 25px;
+	}
+	.jobpostindex .item .itemctnt .what .jobkind {
+		font-size: 12px;
+	}
+	.empleos .jobpostindex .item {
+		padding-left: 0;
+		width: 90%;
+	}
 }
 @media (max-width: 320px) {
 	h1 {
@@ -1088,17 +1364,24 @@ h3{
 		text-align: left;
 		margin-left: 10px;
 	}
-	.convocatoria .intro-txt h4 {
+	.convocatoria .intro-txt h4,
+	.empleos .intro-txt h4{
 		width: 91%;
 	}
-	.convocatoria .header p {
+	.convocatoria .header p,
+	.empleos .header p {
 		font-size: 14px;
 		margin-bottom: 0;
+		margin-left: 0;
 	}
-	.convocatoria .header {
-		padding-bottom: 28px;
+	.convocatoria .header{
+		padding-bottom: 24px;
 	}
-	.convocatoria .event-place p {
+	.empleos .header{
+		padding-bottom: 0;
+	}
+	.convocatoria .event-place p,
+	.empleos .event-place p{
 		font-size: 12px;
 		width: 100%;
 		margin: 12px auto;
@@ -1107,7 +1390,7 @@ h3{
 	}
 	.event-place p {
 		font-size: 16px;
-		width: 300px;
+		width: 100%;
 		margin: 17px auto;
 		line-height: 23px;
 	}
@@ -1159,8 +1442,11 @@ h3{
 		float: none;
 		margin-left: 0;
 	}
+	.content-items p, .content-items h4 {
+		width: 96%;
+	}
 	.map {
-		max-height: 358px;
+		max-height: 327px;
 	}
 	.map .address {
 		width: 94%;
