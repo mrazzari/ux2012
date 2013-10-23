@@ -1,3 +1,8 @@
+/*-Escondo cosas no vigentes-*/
+.program, #empleos{
+	display: none;
+}
+
 
 h1, 
 h2, 
@@ -634,6 +639,7 @@ h3{
 .sponsors img {
 	display: block;
 	text-align: center;
+	margin: 0 auto;
 }
 .convocatoria .sponsors,
 .empleos .sponsors{
@@ -666,6 +672,10 @@ h3{
 	margin: 0 8px;
 	float:left;	
 }
+.sponsors .gold li {
+	width: 239px;
+	margin: 0 auto;
+}
 .sponsors ul.diammond li{
 	width: 332px;
 }
@@ -679,8 +689,8 @@ h3{
 .sponsors h3:first-child{
 	border:none;
 }
-.sponsors .gold{
-	width: 20%;
+.sponsors .gold {
+	width: 50%;
 	margin: 0 auto;
 }
 .sponsors .diammond{
@@ -855,7 +865,9 @@ h3{
 		width: 342px;
 	}
 	.sponsors .gold {
-		width: 200px;
+		width: 242px;
+		margin: 0 auto;
+		min-height: 155px;
 	}
 	.sponsors .organizers {
 		width: 197px;
@@ -1091,7 +1103,7 @@ h3{
 		max-width: 80%;
 	}
 	.sponsors .gold {
-		width: 43%;
+		width: 100%;
 	}
 	.sponsors .organizers {
 		width: 43%;
@@ -1264,9 +1276,6 @@ h3{
 	}
 	.sponsors ul.diammond li {
 		width: 100%;
-	}
-	.sponsors .gold {
-		width: 63%;
 	}
 	.sponsors .organizers {
 		width: 65%;
