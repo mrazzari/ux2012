@@ -707,6 +707,10 @@ h3{
 	width: 63%;
 	margin: 0 auto;
 }
+.sponsors .support {
+	width: 42%;
+	margin: 0 auto;
+}
 
 /*MAIL SPONSOR*/
 .mail-sponsor {
@@ -1279,6 +1283,9 @@ h3{
 	}
 	.sponsors .organizers {
 		width: 65%;
+	}
+	.sponsors .support {
+		width: 86%;
 	}
 	.sponsors ul li {
 		width: 185px;
