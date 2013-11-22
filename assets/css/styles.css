@@ -1,5 +1,5 @@
 /*-Escondo cosas no vigentes-*/
-.program, #empleos{
+#empleos{
 	display: none;
 }
 
@@ -413,53 +413,87 @@ h3{
 
 .program table{
 	margin-top: 40px;
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 48%;
+	float: left;
+}
+.program table.introductory-talks{
+	margin-right: 38px;
+}
+.program table.borges {
+margin: 40px auto 0 auto;
+float: none;
 }
 .program thead th{
 	font-size: 16px;
 	height: 35px;
 	color:#253036;
 }
+.program thead .type-speak{
+	border-bottom: 1px solid #f8f8f8;
+}
+.program thead .where-speak th{
+	font-size: 12px;
+	font-weight: normal;
+	color: #757575;
+}
 .program table tr{
-	/*border-bottom: 2px solid #fff;*/
+	border-bottom: 1px solid #E6E6E6;
 	margin-bottom: 2px;
 }
 .program table .breaks{
-	height: 45px;
+	height: 27px;
 	background:url(../../img/bg-table.jpg) repeat top center #f8f8f8;
 	text-align: center;
 	font-weight: bold;
 	color: #727272;
 	font-size: 14px;
+	padding: 0;
 }
-.program table td {
-	padding-left: 42px;
-	}
+.program table .talks td {
+	padding-left:6px;
+	padding-top: 4px;
+	font-size: 12px;
+	line-height: 16px;
+	color:#0C0C0C;
+}
+.program table .talks .breaks {
+	padding: 0;
+	vertical-align: middle;
+}
 .program table .breaks td{
 	border:1px solid #e0e0e0;
 	padding-left: 0px;
 }
 .program table tbody th{
 	color: #fff;
-	font-size: 26px;
-	padding: 0 10px;
+	font-size: 18px;
+	padding:0 4px;
 }
-.program table .breaks th{
+.program table .breaks th,
+.program table .talks .break-time{
 	background-color: #a7ddee;
+	border-bottom: 2px solid #fff;
+	 vertical-align: top;
+	padding-top: 4px;
+	font-size: 12px;
+	text-align: right;
 }
 .program table .talks th{
 	background-color: #81cfe7;
 	border-top: 2px solid #fff;
 	border-bottom: 2px solid #fff;
+	 vertical-align: top;
+	padding-top: 4px;
+	font-size: 12px;
+	text-align: right;
 }
 .program table .talks{
 	padding-top:10px;
 }
 .program table .talks td{
-	padding: 10px 0 0px 20px;
 	vertical-align: top;
+	border-right: 1px solid #e8e8e8;
+	width: 191px;
 }
 .program .with-deck{
 	background:url(../../img/icon-program.jpg) no-repeat top left transparent;
@@ -473,9 +507,15 @@ h3{
 	line-height: 17px;
 	color: #0088cc;
 }
+.program table tbody a:hover {
+	text-decoration: none;
+}
 .program table tbody p{
-	font-size: 12px;
-	color: #253036;
+	font-size: 10px;
+	color: #464646;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.5;
 }
 .program tbody .desc{
 	display: none;
@@ -898,6 +938,15 @@ h3{
 	.map {
 		background-position-x: 55%;
 	}
+	.program table.introductory-talks {
+		margin-right:auto;
+	}
+	.program table {
+		margin: 40px auto 0 auto;
+		width: 55%;
+		float: none;
+		display: block;
+	}
 }
 
 @media (max-width: 767px) { 
@@ -997,28 +1046,56 @@ h3{
 			display: none;
 	}
 	.program table th {
-		padding: 6px 0 !important;
+		padding:4px 0 !important;
 		font-size: 20px;
 	}
 	.program table .breaks td {
 		height: 16px;
-		padding: 10px 0;
+		padding: 6px 0;
 		border:none;
 	}
 	.program table .breaks {
-		height: 52px;
+		height: auto;
 		background: none;
+		background-color: #f3f3f3;
 	}
 	.program table .breaks th {
 		background-color: #81cfe7;
 	}
+	.program table .talks .breaks {
+		padding: 0;
+		color: #727272;
+		font-size: 14px;
+		vertical-align: middle;
+		border-bottom: 1px solid #e8e8e8;
+		width: 100%;
+		height: 23px;
+		padding-top: 5px;
+		background-color: #f3f3f3;
+	}
 	.program table .talks {
-		padding-top: 12px;
-		padding-bottom: 9px;
+		padding-top:0;
+		padding-bottom: 0px;
+		margin-bottom: 0;
+	}
+	.program table .talks td {
+		border-right: none;
+		border-bottom: 1px solid #e8e8e8;
+		width: auto;
+	}
+	.program table tr {
+		margin-bottom: 0px;
+	}
+	.program table .talks th,
+	.program table .breaks th, 
+	.program table .talks .break-time{
+		border: none;
+	} 
+	.program table tr {
+		border-bottom:none;
 	}
 	.program table {
 		border: 1px solid #DADADA;
-		padding-bottom: 12px;
 	}
 	.program .tabbable span {
 		font-size: 15px;
@@ -1028,7 +1105,7 @@ h3{
 		margin-bottom: 6px;
 	}
 	.program tbody .desc{
-		display:block;
+		/*display:block;*/
 		font-size: 12px;
 		text-align: left;
 		font-weight: bold;
@@ -1243,6 +1320,7 @@ h3{
 	}
 	.program table {
 		margin-top: 17px;
+		width: 74%;
 	}
 	.map {
 		max-height: 292px;
@@ -1472,6 +1550,9 @@ h3{
 	}
 	.content-items p, .content-items h4 {
 		width: 96%;
+	}
+	.program table {
+		width: 88%;
 	}
 	.map {
 		max-height: 327px;
