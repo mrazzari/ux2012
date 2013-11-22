@@ -211,6 +211,8 @@ h3{
 /*EVENT-PLACE*/
 .event-place{
 	background-color: #253036;
+	background: url(../../img/bg-hdr.jpg) no-repeat center 52px #253036;
+	height: 267px;
 }
 .event-place p{
 	color: #fff;
@@ -1230,6 +1232,10 @@ float: none;
 		line-height: 35px;
 		padding-top: 38px;
 		margin-bottom: 20px;
+	}
+	.event-place{
+		background-image: none;
+		height: auto;
 	}
 	.event-place p {
 		font-size: 16px;
