@@ -212,7 +212,7 @@ h3{
 .event-place{
 	background-color: #253036;
 	background: url(../../img/bg-hdr.jpg) no-repeat center 52px #253036;
-	height: 267px;
+	height: 269px;
 }
 .event-place p{
 	color: #fff;
@@ -477,7 +477,7 @@ float: none;
 	border-bottom: 2px solid #fff;
 	 vertical-align: top;
 	padding-top: 4px;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: right;
 }
 .program table .talks th{
@@ -486,7 +486,7 @@ float: none;
 	border-bottom: 2px solid #fff;
 	 vertical-align: top;
 	padding-top: 4px;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: right;
 }
 .program table .talks{
@@ -984,8 +984,8 @@ float: none;
 		padding-bottom: 17px;
 	}
 	.event-place p {
-		font-size: 18px;
-		line-height: 25px;
+		font-size: 17px;
+		line-height: 21px;
 	}
 	.call {
 		height: 340px;
@@ -1092,6 +1092,8 @@ float: none;
 	.program table .breaks th, 
 	.program table .talks .break-time{
 		border: none;
+		padding-left: 5px !important;
+		text-align: left;
 	} 
 	.program table tr {
 		border-bottom:none;
