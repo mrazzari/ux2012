@@ -4,10 +4,10 @@
 }
 
 
-h1, 
-h2, 
+h1,
+h2,
 h3,
-h4,  
+h4,
 p{
 	color: #253036;
 	font-family: "helveticaeue", helvetica, arial, sans-serif;
@@ -111,7 +111,7 @@ h3{
 .menu .dropdown .caret {
 	margin-left: 7px;
 }
-.menu .navbar .nav li.dropdown .dropdown-toggle .caret, 
+.menu .navbar .nav li.dropdown .dropdown-toggle .caret,
 .menu .navbar .nav li.dropdown.open .caret {
 	border-top-color: #253036;
 	border-bottom-color: #253036;
@@ -128,8 +128,8 @@ h3{
 .navbar .dropdown-menu:before {
 	top: -8px;
 }
-.menu .dropdown-menu li > a:hover, 
-.menu .dropdown-menu .active > a, 
+.menu .dropdown-menu li > a:hover,
+.menu .dropdown-menu .active > a,
 .menu .dropdown-menu .active > a:hover {
 	color: #daf6ff;
 	background:#5dbcd9;
@@ -259,11 +259,11 @@ h3{
 }
 .call a:hover .day {
 	background-color: #0F293A;
-	text-decoration:none;	
+	text-decoration:none;
 }
 .call a:hover .day p{
 	color: #D2F8FF;
-	text-decoration:none;	
+	text-decoration:none;
 }
 .call a:hover .day-place{
 	background-color: #182325;
@@ -282,13 +282,13 @@ h3{
 	border-radius: 0 0 5px 5px;
 	border-top: 1px solid #262d32;
 	border-left:1px solid #151d22;
-	border-bottom:1px solid #151d22; 
+	border-bottom:1px solid #151d22;
 	border-right:1px solid #151d22;
 	text-align: center;
 	vertical-align: middle;
 	padding: 8px 0;
 }
-.call .day-place p{ 
+.call .day-place p{
 	margin-bottom: 4px;
 	color: #f7f7f7;
 	font-size: 16px;
@@ -373,7 +373,7 @@ h3{
 }
 .workshop{
 	background: url(../../img/icon-workshop.png) no-repeat top left transparent;
-	padding-left:80px; 
+	padding-left:80px;
 }
 /*REGISTER*/
 .register{
@@ -410,7 +410,7 @@ h3{
 .program .tabbable .accent{
 		color:#49a9c7;
 		font-size:22px;
-		margin-bottom: 7px; 	
+		margin-bottom: 7px;
 }
 
 .program table{
@@ -521,6 +521,12 @@ float: none;
 }
 .program tbody .desc{
 	display: none;
+}
+.program .tabbable thead th span {
+	font-weight: normal;
+	line-height: 26px;
+	font-size: 14px;
+	color: #666;
 }
 /*MAPA*/
 .map{
@@ -653,7 +659,7 @@ float: none;
 	margin-bottom: 4px;
 	line-height: 20px;
 }
-.jobpostindex .item .itemctnt .who .name, 
+.jobpostindex .item .itemctnt .who .name,
 .jobpostindex .item .itemctnt .who .company {
 	color:#3C3C3C;
 	font-weight: bold;
@@ -712,7 +718,7 @@ float: none;
 	width: 185px;
 	display: inline-block;
 	margin: 0 8px;
-	float:left;	
+	float:left;
 }
 .sponsors .gold li {
 	width: 239px;
@@ -880,7 +886,7 @@ float: none;
 	.menu .nav-collapse .nav > li {
 		border-top: 1px solid #75B5C9;
 	}
-	.menu .navbar-fixed-top .navbar-inner, 
+	.menu .navbar-fixed-top .navbar-inner,
 	.menu .navbar-fixed-bottom .navbar-inner {
 		padding: 0px;
 	}
@@ -951,7 +957,7 @@ float: none;
 	}
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	body{
 		padding: 0 !important;
 	}
@@ -971,7 +977,7 @@ float: none;
 		margin-top: 33px;
 		margin-bottom: 24px;
 	}
-	.header a, 
+	.header a,
 	.register a {
 		width: 40%;
 	}
@@ -1004,7 +1010,7 @@ float: none;
 		float: left;
 		width: 73%;
 		border-radius:5px;
-		padding: 17px 0;	
+		padding: 17px 0;
 		float: none;
 		width: 100%
 	}
@@ -1026,7 +1032,7 @@ float: none;
 		margin: 0 auto;
 		width: 100%;
 	}
-	.menu .navbar-fixed-top .navbar-inner, 
+	.menu .navbar-fixed-top .navbar-inner,
 	.menu .navbar-fixed-bottom .navbar-inner {
 		width: auto;
 	}
@@ -1037,10 +1043,10 @@ float: none;
 		line-height: 27px;
 	}
 
-	.program table, 
-	.program tbody, 
-	.program th, 
-	.program td, 
+	.program table,
+	.program tbody,
+	.program th,
+	.program td,
 	.program tr {
 		display: block;
 	}
@@ -1089,12 +1095,12 @@ float: none;
 		margin-bottom: 0px;
 	}
 	.program table .talks th,
-	.program table .breaks th, 
+	.program table .breaks th,
 	.program table .talks .break-time{
 		border: none;
 		padding-left: 5px !important;
 		text-align: left;
-	} 
+	}
 	.program table tr {
 		border-bottom:none;
 	}
@@ -1210,7 +1216,7 @@ float: none;
 		margin: 3px 3px;
 		width:auto;
 	}
-	.jobpostindex .item .itemctnt .who .name, 
+	.jobpostindex .item .itemctnt .who .name,
 	.jobpostindex .item .itemctnt .who .company,
 	.jobpostindex .item .itemctnt .who  {
 		font-size: 14px;
@@ -1219,7 +1225,7 @@ float: none;
 		font-size: 15pt;
 	}
 }
- 
+
 @media (max-width: 480px) {
 	h1 {
 		font-size: 88px;
@@ -1249,7 +1255,7 @@ float: none;
 		margin-bottom: 18px;
 		margin-top: 20px;
 	}
-	.header a, 
+	.header a,
 	.register a {
 		width: 79%;
 	}
@@ -1319,7 +1325,7 @@ float: none;
 		display: block;
 		margin-top: 26px;
 	}
-	.program .tab-content > .tab-pane, 
+	.program .tab-content > .tab-pane,
 	.program .pill-content > .pill-pane {
 		display: block;
 	}
@@ -1433,7 +1439,7 @@ float: none;
 	.item-list li {
 		line-height: 27px !important;
 	}
-	.jobpostindex .item .itemctnt .who .name, 
+	.jobpostindex .item .itemctnt .who .name,
 	.jobpostindex .item .itemctnt .who .company,
 	.jobpostindex .item .itemctnt .who {
 		font-size: 13px;
@@ -1464,7 +1470,7 @@ float: none;
 		font-size: 23px;
 		text-align: center;
 	}
-	.header a, 
+	.header a,
 	.register a {
 		width: 79%;
 	}
