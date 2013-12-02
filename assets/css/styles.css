@@ -764,6 +764,10 @@ float: none;
 	width: 42%;
 	margin: 0 auto;
 }
+.sponsors .collaborate {
+	width: 83.8%;
+	margin: 0 auto;
+}
 
 /*MAIL SPONSOR*/
 .mail-sponsor {
@@ -982,6 +986,13 @@ float: none;
 		float: none;
 		display: block;
 	}
+	.sponsors .support {
+		width: 207px;
+	}
+	.sponsors .collaborate {
+		width: 198px;
+		min-height: 305px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -1146,7 +1157,7 @@ float: none;
 		font-size: 12px;
 		text-align: left;
 		font-weight: bold;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		color: #253036;
 	}
 	.table-title {
@@ -1376,6 +1387,9 @@ float: none;
 	}
 	.program table.borges {
 		margin: 15px auto 0 auto;
+	}
+	.sponsors .support {
+		width: 86%;
 	}
 	.map {
 		max-height: 292px;
