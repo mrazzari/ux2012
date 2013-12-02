@@ -861,6 +861,21 @@ float: none;
 	line-height: 30px !important;
 }
 
+/*oradores*/
+.urls-list{
+	width: 84%;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 30px !important;
+	color: #818181;
+}
+.urls-list li{
+	line-height: 30px !important;
+}
+.urls-list li i{
+	
+}
+
 /*RESPONSIVE*/
 
 @media (max-width: 979px){
