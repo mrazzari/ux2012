@@ -29,7 +29,7 @@ h3{
 	font-family: Arial, sans-serif;
 	font-size: 37px;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 60px;
 	margin-bottom: 40px;
 	font-weight: normal;
 }
@@ -310,7 +310,8 @@ h3{
 }
 
 .intro{
-	padding-bottom: 55px;
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 20px;
 }
 .intro p{
 	font-size: 16px;
@@ -977,7 +978,7 @@ float: none;
 		margin-right:auto;
 	}
 	.program table {
-		margin: 12px auto 30px auto;
+		margin: 40px auto 30px auto;
 		width: 55%;
 		float: none;
 		display: block;
