@@ -764,10 +764,6 @@ float: none;
 	width: 42%;
 	margin: 0 auto;
 }
-.sponsors .collaborate {
-	width: 83.8%;
-	margin: 0 auto;
- }
 
 /*MAIL SPONSOR*/
 .mail-sponsor {
@@ -866,6 +862,28 @@ float: none;
 	line-height: 30px !important;
 }
 
+/*oradores*/
+.oradorestitle{
+	color: #253036 !important;
+}
+.urls-list{
+	width: 84%;
+	margin: 0 auto !important;
+	font-size: 16px;
+	line-height: 30px !important;
+	color: #818181;
+}
+.urls-list li{
+	line-height: 30px !important;
+}
+
+.fa-ul.urls-list{
+	margin: 0 auto !important;	
+}
+.fa-ul.urls-list li i{
+	padding: 0.8% 0 0 0;
+}
+ 
 /*RESPONSIVE*/
 
 @media (max-width: 979px){
@@ -963,12 +981,6 @@ float: none;
 		width: 55%;
 		float: none;
 		display: block;
-	}
-	.sponsors .support {
-		width: 207px;
-	}
-	.sponsors .collaborate {
-		width: 198px;
 	}
 }
 
