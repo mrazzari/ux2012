@@ -858,6 +858,9 @@ float: none;
 }
 
 /*oradores*/
+.oradorestitle{
+	color: #253036 !important;
+}
 .urls-list{
 	width: 84%;
 	margin: 0 auto !important;
