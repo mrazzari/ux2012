@@ -759,6 +759,10 @@ float: none;
 	width: 42%;
 	margin: 0 auto;
 }
+.sponsors .collaborate {
+	width: 83.8%;
+	margin: 0 auto;
+ }
 
 /*MAIL SPONSOR*/
 .mail-sponsor {
@@ -954,6 +958,12 @@ float: none;
 		width: 55%;
 		float: none;
 		display: block;
+	}
+	.sponsors .support {
+		width: 207px;
+	}
+	.sponsors .collaborate {
+		width: 198px;
 	}
 }
 
