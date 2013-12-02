@@ -528,6 +528,11 @@ float: none;
 	font-size: 14px;
 	color: #666;
 }
+.table-title {
+	display: none;
+	width: 55%;
+	margin: 30px auto 10px auto;
+}
 /*MAPA*/
 .map{
 	overflow: hidden;
@@ -954,7 +959,7 @@ float: none;
 		margin-right:auto;
 	}
 	.program table {
-		margin: 40px auto 0 auto;
+		margin: 12px auto 30px auto;
 		width: 55%;
 		float: none;
 		display: block;
@@ -1125,12 +1130,15 @@ float: none;
 		margin-bottom: 6px;
 	}
 	.program tbody .desc{
-		/*display:block;*/
+		display:block;
 		font-size: 12px;
 		text-align: left;
 		font-weight: bold;
 		text-transform: capitalize;
 		color: #253036;
+	}
+	.table-title {
+		display: block;
 	}
 	.map {
 		background-image: none;
@@ -1325,6 +1333,9 @@ float: none;
 	.empleos .intro-txt h4 {
 		width: 90%;
 	}
+	.program {
+		margin-bottom: 25px;
+	}
 	.program .nav-tabs > li {
 		width: 100%;
 	}
@@ -1345,6 +1356,14 @@ float: none;
 	.program table {
 		margin-top: 17px;
 		width: 74%;
+	}
+	.table-title {
+		width: 100%;
+		margin: 30px auto 10px auto;
+		text-align: center;
+	}
+	.program table.borges {
+		margin: 15px auto 0 auto;
 	}
 	.map {
 		max-height: 292px;
