@@ -759,10 +759,6 @@ float: none;
 	width: 42%;
 	margin: 0 auto;
 }
-.sponsors .collaborate {
-	width: 83.8%;
-	margin: 0 auto;
- }
 
 /*MAIL SPONSOR*/
 .mail-sponsor {
@@ -864,7 +860,7 @@ float: none;
 /*oradores*/
 .urls-list{
 	width: 84%;
-	margin: 0 auto;
+	margin: 0 auto !important;
 	font-size: 16px;
 	line-height: 30px !important;
 	color: #818181;
@@ -872,10 +868,11 @@ float: none;
 .urls-list li{
 	line-height: 30px !important;
 }
-.urls-list li i{
-	
-}
 
+.fa-ul.urls-list{
+	margin: 0 auto !important;	
+}
+ 
 /*RESPONSIVE*/
 
 @media (max-width: 979px){
@@ -973,12 +970,6 @@ float: none;
 		width: 55%;
 		float: none;
 		display: block;
-	}
-	.sponsors .support {
-		width: 207px;
-	}
-	.sponsors .collaborate {
-		width: 198px;
 	}
 }
 
