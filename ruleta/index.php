@@ -1,15 +1,15 @@
 <html lang="es">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Sorteo UX2012</title>
+	<title>Sorteo UX2013</title>
 
 <style>
 BODY{
 	font-family: "helvetica neue", helvetica, arial, sans-serif;
-	background:#fff;
+	background-color: #81CFE7;(129,​ 207,​ 231)
 	font-size:12pt;
 	padding:0; margin:0; 
-	
+	cursor: pointer;	
 }
 
 #boxRandnames{
@@ -30,7 +30,7 @@ P.randname, P.randabove, P.randbelow{
 	/*border:1px solid magenta;*/
 
 /*	background:white;*/
-background: rgba(255, 255, 255, 0.5);
+background: rgba(129, 207, 231, 0.5);
 
 	/*height:226pt;	*/
 	opacity: 0;
@@ -106,20 +106,31 @@ P.randname.active{
 
 <div id="boxRandnames">
 	<?php
-	
-	include ('db.php');
-	
+
+	$txt = $_SERVER['QUERY_STRING'];
+	$txt = preg_replace('/[^a-z]/sim', '', $txt);
+	if ($txt) { $txt = "_" . $txt; }
+
+	$nombres = preg_split('/[\r\n]+/', file_get_contents("sorteo" . $txt . ".txt")); 
+	$winners = preg_split('/[\r\n]+/', file_get_contents("winners.txt")); 	
+	$nombres = array_diff($nombres, $winners);
+	shuffle($nombres);
+
+	$limit = min(300, count($nombres)); 
+	$winner = mt_rand(0, $limit);
+
 	?><?php
 	
-	$nombresShuffled = shuffle ( $nombres );
-	
-	for( $i=0; $i < 300; $i++ ){
-		$class2 = 'randname';
-			if ( $i>100){ $class2 = " randabove"; }
-			if ( $i>200){ $class2 = " randbelow"; }
-
-		echo '<p class="' . $class2 . '" id="rand'.$i.'">' . ( $nombres[ $i ] ) . '</p>';
+	for( $i=0; $i < $limit; $i++ ){
+		$class = 'randname';
+		if ( $i>100){ $class = " randabove"; }
+		if ( $i>200){ $class = " randbelow"; }
+		if ($i == $winner){
+			$class .= " winner";
+			file_put_contents('winners.txt', $nombres[$i] . "\n", FILE_APPEND);
 		}
+		echo '<p class="' . $class . '" id="rand' . $i . '">' . ( $nombres[$i] ) . '</p>';
+	}
 	
 	?>
 </div><!-- /randname -->
@@ -128,52 +139,31 @@ P.randname.active{
 
 
 
-	<?php /*
-		performance enhancement: put scripts at bottom.
-		http://developer.yahoo.com/performance/rules.html#js_bottom
-		*/ ?>
-
-	<?php /* JQuery Framework */ ?>
-	<script type="text/javascript" src="scripts/jquery-1.8.2.min.js"></script>
-	
-
+<script type="text/javascript" src="scripts/jquery-1.8.2.min.js"></script>
 
 <script type="text/javascript">
 
 globalix = 0;
 delayInicial = 500;
 
-	for( var i = 0 ; i < 20; i ++ ){
-		setTimeout(function () { 
-			$( '#rand'+globalix ).addClass ( "current" ) ;
-				$( '#rand'+(globalix + 100) ).addClass ( "current" ) ;
-				$( '#rand'+(globalix + 200) ).addClass ( "current" ) ;
-			globalix ++;
-			}, i*250 + delayInicial );	
-			
-		}
-	
-	// 5000 msecs pasaron
-		
-	for( var i = 0 ; i < 10; i ++ ){
-		setTimeout(function () { 
-			$( '#rand'+globalix ).addClass ( "current" ) ;
-			globalix ++;
-			}, (5500 + i*100  + delayInicial ) ); 
-		}
-	
-	// 6500 pasaron
+for( var i = 0 ; i < 20; i ++ ){
+	setTimeout(function () { 
+		$( '#rand'+globalix ).addClass ( "current" ) ;
+		$( '#rand'+(globalix + 100) ).addClass ( "current" ) ;
+		$( '#rand'+(globalix + 200) ).addClass ( "current" ) ;
+		globalix ++;
+	}, i*250 + delayInicial );			
+}
 
-globalix -= ( Math.floor ( Math.random() * 30 ) )
+setTimeout(function () { 
+	$( '.winner' ).removeClass( "randabove, randbelow" ) ;
+	$( '.winner' ).addClass ( "current randname" ) ;
+}, ( 4500  + delayInicial ) );
 
-		setTimeout(function () { 
-			$( '#rand'+globalix ).addClass ( "current" ) ;
-			}, ( 5000  + delayInicial ) );
+setTimeout(function () { 
+	$( '.winner' ).addClass ( "active" ) ;
+}, ( 5000  + delayInicial ) );
 
-		setTimeout(function () { 
-			$( '#rand'+globalix ).addClass ( "active" ) ;
-			}, ( 8000  + delayInicial ) );
-	
 
 $("BODY").click(function() {
 	location.reload();
