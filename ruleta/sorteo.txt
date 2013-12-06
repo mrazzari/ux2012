@@ -1,4 +1,17 @@
-Francisco Bozzano
+Magalí Amalla
+Matias Cabrera
+Hugo Sarti
+Fernando Silva
+Mariano Zárate
+Alejandro Spina
+Marcos Mendez Rago
+Fernando Reyes
+Luciana Mas
+Desiree Urban
+Desiree Urban
+Rodrigo Aristizabal
+Luciana Más
+Ignacio Fernández
 Uriel Rubilar
 Gustavo Bodner
 Javier Perez
@@ -44,7 +57,6 @@ Claudia Gutierrez
 Jesica Toledo
 Nancy Vara
 Mariana Simón
-JosÉ MarÍa LÓpez Romera
 Lautaro De Anta
 Guillermina Rosa
 Lucas Mourelle
@@ -255,7 +267,7 @@ Nicolas Casanova
 Florencia Bonforte
 Leila Micaela Rocca
 Matias Rodriguez
-Alejo Alejo.beltran.romano@accenture.com Romano
+Alejo Romano
 Erika Coradeghini
 Lucas Videla
 Eduardo López
