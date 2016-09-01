@@ -1,10 +1,9 @@
 /*
  *	jquery.form-validation-and-hints.js
- *	2009-2012, keikendo.com 
+ *	2009-2012, Santiago Bustelo
  *	Licensed under GPL license (http://www.opensource.org/licenses/gpl-license.php).
  *	@version 0.203
  *
- * http://www.keikendo.com/form-validation-and-hints/
  *  
  */
 

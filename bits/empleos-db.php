@@ -313,12 +313,12 @@ The founders and staff's experience gives us the ability to master complex web p
 
 //
 	
-	'keikendo-1' => array( 
-		'id' => 'keikendo-1',
+	'kambrica-1' => array( 
+		'id' => 'kambrica-1',
 		'imgsrc' => 'foto-sbustelo-1-48.jpg',
 		'name' => 'Santiago Bustelo',
-		'company' => 'Keikendo',
-		'companyURL' => 'http://www.keikendo.com/',
+		'company' => 'Kambrica',
+		'companyURL' => 'http://www.kambrica.com/',
 		'jobtitle'  => 'Diseñador gráfico y de Interfaces',
 		'jobkind'  => 'Full-time, Junior o Semisenior en Belgrano',
 		'post'  => 'Si tenés estudios de Diseño Gráfico (preferentemente FADU/UBA), 
@@ -327,16 +327,12 @@ conocimientos de inglés, y muchas ganas de aprender y crecer,
 te proponemos diseñar con nosotros sitios y aplicaciones, 
 con oportunidades y desafíos a medida que desarrolles tu potencial.
 
-Mandanos tu CV a <a href="mailto:jobs@keikendo.com">jobs@keikendo.com</a>.
+Mandanos tu CV a <a href="mailto:jobs@kambrica.com">jobs@kambrica.com</a>.
 
 
-<strong>Acerca de Keikendo</strong>
+<strong>Acerca de Kambrica</strong>
 
-En Keikendo diseñamos experiencias que mejoran los resultados del negocio. 
-
-Nuestro enfoque de solución de problemas está basado en las disciplinas de diseño centrado en el usuario y las metodologías ágiles. En el centro del proceso ubicamos los objetivos del negocio y los de los usuarios del producto.
-
-Tenemos un especial interés por hacer del mundo un lugar mejor para vivir. Nuestra filosofía de trabajo es abierta y buscamos contacto permanente con los equipos internos de los clientes, que es el lugar donde se nos necesita para liderar el cambio.'
+Somos una consultora de Experiencia de Usuario. Impulsamos y acompañamos la evolución de productos, servicios, procesos y equipos, para que empresas y organizaciones puedan responder a los nuevos desafíos de un mercado cada vez más exigente.'
 		),
 
 

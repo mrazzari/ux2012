@@ -1,38 +1,4 @@
 <div class="colEtc centrarLogos">
-			
-<?php
-/*
-	<ul class="logos">
-		<li><h4>Organizan:</h4>
-			<ul>
-				<li><p><img src="img/csm.gif" alt="" width="148" height="90" /></p></li>
-				<li><p><img src="img/ixda-ba.gif" alt="" width="114" height="47" /></p></li>
-			</ul>
-		</li>
-	
-		<li><h4>Auspician:</h4>
-			<ul>
-				<li><p><img src="img/avantrip.gif" alt="" width="121" height="120" /></p></li>
-			</ul>
-		</li>
-		
-		<li><h4>Apoyan:</h4>
-			<ul>
-				<li><p><img src="img/cvam.gif" alt="" width="148" height="72" /></p></li>
-				<li><p><img src="img/keikendo.gif" alt="" width="148" height="36" /></p></li>
-			</ul>
-		</li>
-	
-		<li><h4>Convocan:</h4>
-			<ul>
-				<li><p><img src="img/uxpa-ar.gif" alt="" width="148" height="69" /></p></li>
-				<li><p><img src="img/isoc-ar.gif" alt="" width="148" height="37" /></p></li>
-				<li><p><img src="img/mdi.gif" alt="" width="132" height="53" /></p></li>
-			</ul>
-		</li>
-	</ul>
-	*/
-	?>
 	
 	<ul class="logos">
 		<li><h4>Organizaron:</h4>
@@ -69,7 +35,7 @@
 			<ul>
 				<li><p><a href="http://www.resnonverba.org/"><img src="img/rnv148-32.gif" alt="Res Non Verba" width="148" height="65" /></a></p></li>
 				<li><p><a href="http://convistaalmar.com.ar/"><img src="img/cvam.gif" alt="Con Vista Al Mar" width="148" height="72" /></a></p></li>
-				<li><p><a href="http://keikendo.com/"><img src="img/keikendo.gif" alt="Keikendo" width="148" height="36" /></a></p></li>
+				<li><p><a href="http://kambrica.com/"><img src="img/kambrica124x17.png" alt="Kambrica" width="124" height="17" /></a></p></li>
 				<li><p style="margin-top:16pt;"><a href="http://www.accesibleyusable.com/"><img src="img/DIEAU.gif" alt="Diseño de interacción con estándares de accesibilidad y usabilidad" width="108" /></a></p></li>
 			</ul>
 		</li>
